@@ -1,0 +1,674 @@
+{
+  "_source": "MAGUS Fajok Kódexe – Kalandozok.hu",
+  "_version": "1.0",
+  "_note": "Zárójelben lévő érték az eszközökkel/fejlesztéssel elérhető maximum. Csillag (*) a kasztoknál különleges feltételt jelez.",
+
+  "stat_names": {
+    "ero":          "Erő",
+    "allokepesseg": "Állóképesség",
+    "gyorsasag":    "Gyorsaság",
+    "ugyesseg":     "Ügyesség",
+    "egeszseg":     "Egészség",
+    "szepseg":      "Szépség",
+    "intelligencia":"Intelligencia",
+    "akaraterő":    "Akaraterő",
+    "asztral":      "Asztrál"
+  },
+
+  "age_category_penalties": {
+    "description": "Fizikai képesség csökkenés korkategóriánként (minden fajra érvényes)",
+    "categories": {
+      "I_serdulőkor":   { "ero": -2, "allokepesseg": -1 },
+      "II_ifjukor":     {},
+      "III_kozepkor":   { "gyorsasag": -1, "ugyesseg": -1, "szepseg": -1 },
+      "IV_meglett_kor": { "ero": -1, "allokepesseg": -1, "gyorsasag": -3, "ugyesseg": -2, "egeszseg": -1, "szepseg": -3 },
+      "V_idos_kor":     { "ero": -3, "allokepesseg": -3, "gyorsasag": -5, "ugyesseg": -4, "egeszseg": -2, "szepseg": -3 },
+      "VI_aggastyankor":{ "ero": -5, "allokepesseg": -5, "gyorsasag": -7, "ugyesseg": -6, "egeszseg": -4, "szepseg": -4 }
+    }
+  },
+
+  "races": [
+    {
+      "name": "Ember",
+      "description": "Az Ynev világának legelterjedtebb faja. Nincs különleges képességük, de minden kasztot választhatnak.",
+      "personality": "Változatos, alkalmazkodó, ambiciózus.",
+      "pc_note": null,
+      "stat_modifiers": {},
+      "max_stats": {
+        "ero":          { "base": 18, "enhanced": 20 },
+        "allokepesseg": { "base": 18, "enhanced": 20 },
+        "gyorsasag":    { "base": 18, "enhanced": 20 },
+        "ugyesseg":     { "base": 18, "enhanced": 20 },
+        "egeszseg":     { "base": 18, "enhanced": 20 },
+        "szepseg":      { "base": 18, "enhanced": 20 },
+        "intelligencia":{ "base": 18, "enhanced": 20 },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 18, "enhanced": 20 }
+      },
+      "age_categories": {
+        "I":  { "range": [13, 16] },
+        "II": { "range": [17, 30] },
+        "III":{ "range": [31, 42] },
+        "IV": { "range": [43, 55] },
+        "V":  { "range": [56, 75] },
+        "VI": { "range": [76, null] }
+      },
+      "available_classes": [
+        { "name": "összes kaszt", "restricted": false }
+      ],
+      "special_abilities": []
+    },
+
+    {
+      "name": "Elf",
+      "description": "Négyezer éve még csak Dél-Yneven léteztek elfek. A krániak tevékenysége miatt onnan távozni kényszerültek. Az elf elzárkózásra hajlamos, a világot csöndes méltósággal szemlélő nép. Mérhetetlenül hosszú ideig élnek az embernéphez képest. A természet gyermekei, mindenkinél jobban ismerik az élővilágot. Az univerzum legkitűnőbb íjászai és lovagjai.",
+      "personality": "Türelmes, természetszerető, nyílt és egyenes. Hazugságon nem kaphatja őket még az ellenségük sem. Jellemük az Élet és a Rend értékeinek leghívebb tükre. Nehezen viselik a kővárosokat.",
+      "pc_note": "Igazi elfek nagyon ritkán – valószínűsége egy az ezerhez – indulnak kalandozni. A legtöbb elf kalandozó valamely emberbirodalomból származik.",
+      "stat_modifiers": {
+        "ero": -2, "allokepesseg": -1, "gyorsasag": 1, "ugyesseg": 1, "szepseg": 1
+      },
+      "max_stats": {
+        "ero":          { "base": 18, "enhanced": null },
+        "allokepesseg": { "base": 18, "enhanced": null },
+        "gyorsasag":    { "base": 19, "enhanced": 21 },
+        "ugyesseg":     { "base": 19, "enhanced": 21 },
+        "egeszseg":     { "base": 18, "enhanced": 20 },
+        "szepseg":      { "base": 19, "enhanced": 21 },
+        "intelligencia":{ "base": 18, "enhanced": 20 },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 18, "enhanced": 20 }
+      },
+      "age_categories": {
+        "I":  { "range": [30,  50]   },
+        "II": { "range": [50,  700]  },
+        "III":{ "range": [701, 800]  },
+        "IV": { "range": [801, 900]  },
+        "V":  { "range": [901, 950]  },
+        "VI": { "range": [951, null] }
+      },
+      "available_classes": [
+        { "name": "harcos",    "restricted": false },
+        { "name": "gladiátor", "restricted": true  },
+        { "name": "fejvadász", "restricted": true  },
+        { "name": "bárd",      "restricted": true  },
+        { "name": "varázsló",  "restricted": false }
+      ],
+      "special_abilities": [
+        { "name": "Hallás", "description": "2-szeres hallóképesség." },
+        { "name": "Látás",  "description": "2,5-szörös látóképesség." },
+        { "name": "Infralátás", "description": "50 méteres infralátás." },
+        { "name": "Alap CÉ", "description": "Kaszttól függetlenül +30 CÉ alappal rendelkezik." },
+        {
+          "name": "Születéstől meglévő képzettségek",
+          "description": "Minden elf rendelkezik az alábbi képzettségekkel születésétől: Lovaglás Mf; Erdőjárás Mf; Idomítás Mf; Futás Mf."
+        },
+        {
+          "name": "Nekromancia rezisztencia",
+          "description": "Nekromancia típusú varázslattal szemben –8 módosító járul a mágiaellenállásukhoz."
+        }
+      ]
+    },
+
+    {
+      "name": "Félelf",
+      "description": "Egyik szülőjük elf, míg a másik ember. Gondolkodásmódjukban inkább emberek, külsejük azonban magán viseli elf őseik örökségét. Könnyedebbek mint az emberek, vonásaik megnyerőek. Állandóan nyughatatlanok, így nagyon sok kalandozó kerül ki közülük.",
+      "personality": "Szeretik a természetet, jellemük általában Élet és Rend. Hazudni hamar megtanulnak, de a barátság szentségét még a leggonoszabbak sem törik meg.",
+      "pc_note": "Két félelf utóda is félelf; egy félelf és egy elf frigyéből is csak félelf születhet. Félelf és ember kapcsolatából mindig ember születik.",
+      "stat_modifiers": {
+        "ero": -1, "gyorsasag": 1
+      },
+      "max_stats": {
+        "ero":          { "base": 18, "enhanced": 20 },
+        "allokepesseg": { "base": 18, "enhanced": 20 },
+        "gyorsasag":    { "base": 19, "enhanced": 21 },
+        "ugyesseg":     { "base": 18, "enhanced": 20 },
+        "egeszseg":     { "base": 18, "enhanced": 20 },
+        "szepseg":      { "base": 19, "enhanced": 21 },
+        "intelligencia":{ "base": 18, "enhanced": 20 },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 18, "enhanced": 20 }
+      },
+      "age_categories": {
+        "I":  { "range": [16,  22]  },
+        "II": { "range": [23,  110] },
+        "III":{ "range": [111, 130] },
+        "IV": { "range": [131, 150] },
+        "V":  { "range": [151, 170] },
+        "VI": { "range": [171, null]}
+      },
+      "available_classes": [
+        { "name": "harcos",          "restricted": false },
+        { "name": "gladiátor",       "restricted": false },
+        { "name": "fejvadász",       "restricted": true  },
+        { "name": "lovag",           "restricted": true  },
+        { "name": "tolvaj",          "restricted": false },
+        { "name": "bárd",            "restricted": false },
+        { "name": "harcművész",      "restricted": false },
+        { "name": "kardművész",      "restricted": false },
+        { "name": "boszorkánymester","restricted": true  },
+        { "name": "varázsló",        "restricted": false }
+      ],
+      "special_abilities": [
+        { "name": "Hallás", "description": "1,5-szörös hallóképesség." },
+        { "name": "Látás",  "description": "2-szeres látóképesség." },
+        { "name": "Infralátás", "description": "10 méteres infralátás." },
+        { "name": "Alap CÉ", "description": "Kaszttól függetlenül +15 CÉ alappal rendelkezik." },
+        {
+          "name": "Születéstől meglévő képzettségek",
+          "description": "Lovaglás Mf; Idomítás Mf; Futás Mf."
+        },
+        {
+          "name": "Nekromancia rezisztencia",
+          "description": "Nekromancia típusú varázslattal szemben –6 módosító járul a mágiaellenállásukhoz."
+        }
+      ]
+    },
+
+    {
+      "name": "Törpe",
+      "description": "A törpék Beriquelről érkeztek, a P.sz. 1200-as években. Egész életükben az állandóságot keresik. Az építészetben kiemelkedő tudást fejlesztettek ki. Az Északi Szövetség seregének gyalogosainak derékhadát képezik. Sohasem adják meg magukat, utolsó emberig küzdenek. Átlagos magasságuk 130 cm, alkatuk tömbszerű. Az emberekkel ellentétben csak egyszer házasodnak, hűségük a sírig tart.",
+      "personality": "Makacs kitartás, hűség, becsület. Az állandóságot és a kiemelkedést keresik.",
+      "pc_note": null,
+      "stat_modifiers": {
+        "ero": 1, "allokepesseg": 1, "egeszseg": 1, "szepseg": -2, "intelligencia": -1, "asztral": -1
+      },
+      "max_stats": {
+        "ero":          { "base": 19, "enhanced": 21 },
+        "allokepesseg": { "base": 19, "enhanced": 21 },
+        "gyorsasag":    { "base": 18, "enhanced": 20 },
+        "ugyesseg":     { "base": 18, "enhanced": 20 },
+        "egeszseg":     { "base": 19, "enhanced": 21 },
+        "szepseg":      { "base": 15, "enhanced": null },
+        "intelligencia":{ "base": 18, "enhanced": null },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 16, "enhanced": null }
+      },
+      "age_categories": {
+        "I":  { "range": [25,  40]  },
+        "II": { "range": [41,  350] },
+        "III":{ "range": [351, 600] },
+        "IV": { "range": [601, 680] },
+        "V":  { "range": [681, 750] },
+        "VI": { "range": [751, null]}
+      },
+      "available_classes": [
+        { "name": "harcos",          "restricted": false },
+        { "name": "gladiátor",       "restricted": false },
+        { "name": "tolvaj",          "restricted": false },
+        { "name": "boszorkánymester","restricted": false },
+        { "name": "pap",             "restricted": true, "note": "csak saját isten" },
+        { "name": "varázsló",        "restricted": true  }
+      ],
+      "special_abilities": [
+        { "name": "Infralátás", "description": "30 méteres infralátás." },
+        {
+          "name": "Születéstől meglévő képzettségek",
+          "description": "Csapdafelfedezés +35%; Titkosajtó keresés +30%."
+        },
+        {
+          "name": "Napszak-érzékelés",
+          "description": "Föld alatt, teljes sötétben is tudják, hogy milyen napszak van."
+        },
+        {
+          "name": "Mélységbecslés",
+          "description": "Föld alatt, kiépített pincékben és labirintusokban is (2 m eltéréssel) meg tudják mondani, milyen mélységben járnak. Tisztán érzik, hogy az út lejt vagy emelkedik, és közelítőleg annak fokmértékét is meg tudják határozni."
+        },
+        {
+          "name": "Épületkor-becslés",
+          "description": "Képesek megmondani egy épületről (±5 év eltéréssel), hogy mikor építették."
+        }
+      ]
+    },
+
+    {
+      "name": "Udvari Ork",
+      "description": "Mágikus beavatkozás eredményeképpen létrejött faj. Az orkok legjobb tulajdonságait csillogtatják: makacsságig menő kitartást és vadságot. Az utóbbi évszázadban főnemesek a kiemelkedően teljesítő orkjaikat taníttatják, netán szélnek eresztik. Átlagos magasságuk 180 cm, szőrzetük világos. Szemük savószínű, ritkábban földbarna.",
+      "personality": "Alacsonyabb rendűnek érzik magukat az embereknél. Az ilyenek legtöbbször kalandozásra adják fejüket.",
+      "pc_note": null,
+      "stat_modifiers": {
+        "ero": 2, "allokepesseg": 1, "egeszseg": 2, "szepseg": -3, "intelligencia": -1, "asztral": -3
+      },
+      "max_stats": {
+        "ero":          { "base": 20, "enhanced": 22 },
+        "allokepesseg": { "base": 19, "enhanced": 21 },
+        "gyorsasag":    { "base": 18, "enhanced": 20 },
+        "ugyesseg":     { "base": 18, "enhanced": 20 },
+        "egeszseg":     { "base": 20, "enhanced": 22 },
+        "szepseg":      { "base": 13, "enhanced": null },
+        "intelligencia":{ "base": 16, "enhanced": null },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 13, "enhanced": null }
+      },
+      "age_categories": {
+        "I":  { "range": [15,  19]  },
+        "II": { "range": [20,  120] },
+        "III":{ "range": [121, 200] },
+        "IV": { "range": [201, 230] },
+        "V":  { "range": [231, 260] },
+        "VI": { "range": [261, null]}
+      },
+      "available_classes": [
+        { "name": "harcos",          "restricted": false },
+        { "name": "gladiátor",       "restricted": false },
+        { "name": "tolvaj",          "restricted": false },
+        { "name": "pap",             "restricted": true  },
+        { "name": "boszorkánymester","restricted": false }
+      ],
+      "special_abilities": [
+        { "name": "Infralátás", "description": "15 méteres infralátás." },
+        {
+          "name": "Születéstől meglévő képzettségek",
+          "description": "Csapdafelfedezés +35%; Titkosajtó keresés +30%."
+        },
+        {
+          "name": "Mélységbecslés",
+          "description": "Föld alatt, kiépített pincékben és labirintusokban is (4 m eltéréssel) meg tudják mondani, milyen mélységben járnak. Érzik, hogy az út lejt vagy emelkedik."
+        },
+        {
+          "name": "Szaglás és nyomkövetés",
+          "description": "5-szörös szaglóképesség.",
+          "tracking": {
+            "retry_modifier_pct": -10,
+            "tracks": [
+              { "max_age_hours": 2,  "success_chance_pct": 80 },
+              { "max_age_hours": 4,  "success_chance_pct": 60 },
+              { "max_age_hours": 8,  "success_chance_pct": 30 },
+              { "max_age_hours": 12, "success_chance_pct": 15 },
+              { "max_age_hours": 24, "success_chance_pct": 5  },
+              { "max_age_hours": null,"success_chance_pct": 0  }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Amund",
+      "description": "Az amund nép nem emberi faj. Más létsíkról érkeztek az idők kezdetén, s a mai napig megőrizték vérük tisztaságát. Ősi ellenségeikkel, a dzsennekkel már más síkokon is pusztító háborúkat vívtak. Az amundok a sivatag mélyén lévő titkos városaikba menekültek. Testük szoborszerűen szép, arcvonásaik lágyak, keskeny vágású szemükben mély kékség honol. Fekete egyenes szálú hajuk van.",
+      "personality": "Elvont módon gondolkodnak. Jellemük rosszindulatú, romlott – aki különbözik tőlük, azt lenézik, az embereket szinte állatként tartják számon, elsősorban rabszolgának és élelemnek tekintik őket.",
+      "pc_note": "JK csak kiszakadt amund lehet! A JK amund keveset tud népéről, inkább embernek számít, mint amundnak. Jellemében két vonást őriz: előszeretettel hallgat érzéseire, és sohasem tud tökéletesen azonosulni a jót hirdető eszmékkel.",
+      "stat_modifiers": {
+        "ero": 1, "allokepesseg": 1, "szepseg": 3, "asztral": -1
+      },
+      "max_stats": {
+        "ero":          { "base": 19, "enhanced": 21 },
+        "allokepesseg": { "base": 18, "enhanced": 20 },
+        "gyorsasag":    { "base": 18, "enhanced": 20 },
+        "ugyesseg":     { "base": 18, "enhanced": 20 },
+        "egeszseg":     { "base": 18, "enhanced": 20 },
+        "szepseg":      { "base": 20, "enhanced": 22 },
+        "intelligencia":{ "base": 18, "enhanced": 20 },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 17, "enhanced": null }
+      },
+      "age_categories": {
+        "I":  { "range": [15,  20]  },
+        "II": { "range": [21,  49]  },
+        "III":{ "range": [50,  75]  },
+        "IV": { "range": [76,  99]  },
+        "V":  { "range": [101, 119] },
+        "VI": { "range": [120, null]}
+      },
+      "available_classes": [
+        { "name": "harcos",    "restricted": false },
+        { "name": "gladiátor", "restricted": false },
+        { "name": "lovag",     "restricted": true  },
+        { "name": "tolvaj",    "restricted": false },
+        { "name": "pap",       "restricted": false },
+        { "name": "boszorkány","restricted": false }
+      ],
+      "special_abilities": [
+        {
+          "name": "Képesség-aktiválás",
+          "description": "Minden különleges képesség sikeres Intelligencia próbát igényel. Ha elvéti, le kell mondania róla, amíg egy tapasztalt amund ki nem tanítja. Ekkor minden gyakorlással töltött hónap végén újra próbát dobhat."
+        },
+        { "name": "Ψ tiltás", "description": "A Ψ-t nem tudják elsajátítani." },
+        {
+          "name": "Mágiai ellenállás",
+          "description": "Asztrális és mentális ME 4/szint."
+        },
+        {
+          "name": "Telekinézis",
+          "description": "Szintenként 10 kg súlyt képes mozgatni, 10 percig, naponta egyszer."
+        },
+        {
+          "name": "Telepátia",
+          "description": "Akit lát, bármikor, bármilyen hosszan tud telepatikusan üzenetet küldeni – elég összpontosítania."
+        },
+        {
+          "name": "Perzselő tekintet",
+          "description": "Egy kör alatt lángra lobbanthatja az éghető anyagokat."
+        }
+      ]
+    },
+
+    {
+      "name": "Dzsenn",
+      "description": "A dzsenn (jann) titokzatos nép. Nem emberek, de az emberek között élnek. Az ősidőkben önálló társadalmat alkottak az amundokkal. Elvegyültek az emberek között, létrehozták a dzsad népet, majd felismerték, hogy az utódok keveset örököltek ősi vérükből, így most már gondosan vigyáznak vérük tisztaságára. Bőrük barna, hajuk hullámos és fekete, orruk hajlott. Túlzott tisztaságigény jellemző rájuk.",
+      "personality": "Hűvös, könyörtelen logika. Sohasem jönnek ki sodrukból. Ha azonban valamely érzelem egyszer befészkelte magát a lelkükbe, többé nem távozik onnan. Megbízhatóak.",
+      "pc_note": "Jellegzetes fegyverük a jann szablya – nem dzsenn származásúaknak soha nem adnak ilyet.",
+      "stat_modifiers": {
+        "intelligencia": 2
+      },
+      "max_stats": {
+        "ero":          { "base": 18, "enhanced": 20 },
+        "allokepesseg": { "base": 18, "enhanced": 20 },
+        "gyorsasag":    { "base": 18, "enhanced": 20 },
+        "ugyesseg":     { "base": 18, "enhanced": 20 },
+        "egeszseg":     { "base": 18, "enhanced": 20 },
+        "szepseg":      { "base": 18, "enhanced": 20 },
+        "intelligencia":{ "base": 20, "enhanced": 22 },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 18, "enhanced": 20 }
+      },
+      "age_categories": {
+        "I":  { "range": [18,  24]  },
+        "II": { "range": [25,  114] },
+        "III":{ "range": [115, 160] },
+        "IV": { "range": [161, 199] },
+        "V":  { "range": [200, 229] },
+        "VI": { "range": [230, null]}
+      },
+      "available_classes": [
+        { "name": "harcos",    "restricted": false },
+        { "name": "gladiátor", "restricted": false },
+        { "name": "lovag",     "restricted": true  },
+        { "name": "tolvaj",    "restricted": false },
+        { "name": "bárd",      "restricted": false },
+        { "name": "varázsló",  "restricted": false }
+      ],
+      "special_abilities": [
+        {
+          "name": "Ψ pyarroni iskola",
+          "description": "Születésétől minden dzsenn rendelkezik a Ψ pyarroni iskola Mesterfokával. Ha másik pszi iskolát is ismer, azt is tudja alkalmazni, de minden szinten 1 Ψ-ponttal többet kap."
+        },
+        {
+          "name": "Varázsló mentál mozaikok",
+          "description": "Képes a varázslói mentál mozaikokat mint Ψ diszciplínákat alkalmazni (1 Mp = 1 Ψ pont)."
+        },
+        {
+          "name": "Dzsambia kétkezes harc",
+          "description": "Általában két dzsad dzsambiát (hajlított pengéjű tőr) használnak fegyverként. Ezekkel – és csak ezekkel – mesterfokon képesek a kétkezes harcra."
+        }
+      ]
+    },
+
+    {
+      "name": "Khál",
+      "description": "A khálok a titokzatos Démonikus Óbirodalom uralkodóinak elkorcsosult ivadékai. A Déli hegységben, a világtól elzárkózva él a khál nép. Jóval magasabbak az embernél (2 m felett), testsúlyuk 140-200 kg, barna bőrüket csillogó szőrzet fedi, sörényük hollófekete. Arcuk az emberi arc és a nagymacska pofájának harmonikus keveréke. Fogaik tűhegyes tépőfogak, szemük borostyánszínű, szőrös mancsuk kiereszthető karmokban végződik, farkuk az oroszlánéra emlékeztet.",
+      "personality": "Nagyon heves vérmérséklet. Virtus, ösztönök és becsület. A khál szava szent. Kétszer is meggondolja, mire adja a szavát, de ha megtette, azt sohasem szegi meg. Jellemük minden esetben Rend és Élet.",
+      "pc_note": "Mindig feltűnést keltenek. Kevesen ismerik fajtájukat, de akik igen, azok szerfelett elővigyázatosak velük szemben.",
+      "stat_modifiers": {
+        "ero": 3, "allokepesseg": 2, "gyorsasag": 2, "ugyesseg": 1, "egeszseg": 3, "asztral": -5, "intelligencia": -1
+      },
+      "max_stats": {
+        "ero":          { "base": 21, "enhanced": 22 },
+        "allokepesseg": { "base": 20, "enhanced": 22 },
+        "gyorsasag":    { "base": 20, "enhanced": 22 },
+        "ugyesseg":     { "base": 19, "enhanced": 21 },
+        "egeszseg":     { "base": 21, "enhanced": 23 },
+        "szepseg":      { "base": 18, "enhanced": 20 },
+        "intelligencia":{ "base": 17, "enhanced": null },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 13, "enhanced": null }
+      },
+      "age_categories": {
+        "I":  { "range": [5,  9]   },
+        "II": { "range": [10, 24]  },
+        "III":{ "range": [25, 32]  },
+        "IV": { "range": [33, 40]  },
+        "V":  { "range": [41, 49]  },
+        "VI": { "range": [50, null]}
+      },
+      "available_classes": [
+        { "name": "harcos",     "restricted": false },
+        { "name": "gladiátor",  "restricted": true  },
+        { "name": "fejvadász",  "restricted": true  },
+        { "name": "lovag",      "restricted": false },
+        { "name": "harcművész", "restricted": true  }
+      ],
+      "special_abilities": [
+        { "name": "Látás",  "description": "2-szeres látóképesség." },
+        { "name": "Hallás", "description": "2-szeres hallóképesség." },
+        {
+          "name": "Szaglás és nyomkövetés",
+          "description": "5-szörös szaglóképesség.",
+          "tracking": {
+            "retry_modifier_pct": -10,
+            "tracks": [
+              { "max_age_hours": 2,  "success_chance_pct": 80 },
+              { "max_age_hours": 4,  "success_chance_pct": 60 },
+              { "max_age_hours": 8,  "success_chance_pct": 30 },
+              { "max_age_hours": 12, "success_chance_pct": 15 },
+              { "max_age_hours": 24, "success_chance_pct": 5  },
+              { "max_age_hours": null,"success_chance_pct": 0  }
+            ]
+          }
+        },
+        {
+          "name": "Veszélyérzékelés",
+          "description": "Ösztönösen megérzik a veszélyt (20%), ha az életükre tör (40%)."
+        },
+        {
+          "name": "Mancscsapás",
+          "description": "Mancsuk sebzése: k6, TÉ: 20, VÉ: 20, KÉ: 10."
+        },
+        {
+          "name": "Kétkezes harc",
+          "description": "Képes két kézzel is harcolni, két egykezes fegyverrel (Kétkezes harc Mf)."
+        },
+        {
+          "name": "Ordítás",
+          "description": "Ordításával képes megvadítani az állatokat."
+        },
+        {
+          "name": "Születéstől meglévő képzettségek",
+          "description": "Erdőjárás Af; Vadászat/halászat Af; Időjóslás Af; Úszás Af; Futás Mf; Démonologia Af (ősi hagyományok szerint nevelt khálok); Lopakodás +30%; Rejtőzködés +30%; Esés +20%; Mászás +20%; Ugrás +20%; Zárnyitás –30%; Zsebmetszés –30%."
+        },
+        {
+          "name": "Asztrális érzékenység",
+          "description": "Minden asztrális varázslat és diszciplína 20-szal nagyobb erősséggel hat rájuk."
+        },
+        {
+          "name": "Ψ korlát",
+          "description": "Ψ-t csak alapfokon képes elsajátítani (ha az asztrál legalább 12). Mesterfokra csak fejvadász vagy lovag kasztú fejlesztheti, és csak a meghatározott szinten."
+        }
+      ],
+      "traditional_weapons": [
+        {
+          "name": "Ghon (szarvkard)",
+          "ke": 10, "te": 15, "ve": 25, "sebzes": "k6+3",
+          "note": "Kétkezes fegyver; –20 TÉ, VÉ-vel egy kézzel is használható."
+        },
+        {
+          "name": "Rakhar (tőrkarom)",
+          "ke": 8, "te": 12, "ve": 6, "sebzes": "k6",
+          "note": "Egymás mellé erősített görbe és egyenes tőrpengéből áll. Szúrásra és tépésre is jó."
+        },
+        {
+          "name": "Khrga (egykezes szarvkard)",
+          "ke": 7, "te": 15, "ve": 14, "sebzes": "k6+1",
+          "note": "Két egykezes fegyverből álló készlet."
+        }
+      ],
+      "traditional_armor": [
+        {
+          "name": "Harak",
+          "sfe": 4, "mgt": -1, "material": "acélbőr",
+          "note": "Csak csata előtt, ősi rítus keretében öltik magukra."
+        }
+      ]
+    },
+
+    {
+      "name": "Wier",
+      "description": "Bizonyos szempontból nem tekinthetőek külön fajnak; nincs társadalmuk, kultúrájuk. Emberként élnek, igazi kilétüket titkolva. Idővel megejtően szép férfivá vagy nővé serdülnek, és semmiben sem különböznek külsőre az emberektől, szemfogaik alig észrevehető különbségétől eltekintve. Sorsuk egy átkos szenvedéllyel verte meg őket: olthatatlanul szomjaznak a friss vérre.",
+      "personality": "Természetükhöz az uralkodás illik, a szolgasorsot nehezen viselik. Jellemük általában Halál, de ez nem jelent minden esetben velejéig romlott, gonosz lényt.",
+      "pc_note": null,
+      "stat_modifiers": {
+        "szepseg": 1, "intelligencia": 1
+      },
+      "max_stats": {
+        "ero":          { "base": 18, "enhanced": 20 },
+        "allokepesseg": { "base": 18, "enhanced": 20 },
+        "gyorsasag":    { "base": 18, "enhanced": 20 },
+        "ugyesseg":     { "base": 18, "enhanced": 20 },
+        "egeszseg":     { "base": 18, "enhanced": 20 },
+        "szepseg":      { "base": 19, "enhanced": 21 },
+        "intelligencia":{ "base": 19, "enhanced": 21 },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 18, "enhanced": 20 }
+      },
+      "age_categories": {
+        "I":  { "range": [13, 16] },
+        "II": { "range": [17, 30] },
+        "III":{ "range": [31, 42] },
+        "IV": { "range": [43, 55] },
+        "V":  { "range": [56, 75] },
+        "VI": { "range": [76, null], "note": "Vért ivó napon NEM öregszik!" }
+      },
+      "available_classes": [
+        { "name": "harcos",          "restricted": false },
+        { "name": "fejvadász",       "restricted": true  },
+        { "name": "lovag",           "restricted": false },
+        { "name": "tolvaj",          "restricted": true  },
+        { "name": "pap",             "restricted": true, "note": "csak halál jellemű isten papja" },
+        { "name": "paplovag",        "restricted": true, "note": "csak halál jellemű isten paplovagja" },
+        { "name": "boszorkány",      "restricted": false },
+        { "name": "boszorkánymester","restricted": false },
+        { "name": "varázsló",        "restricted": true  }
+      ],
+      "special_abilities": [
+        {
+          "name": "Vérmágia immunitás",
+          "description": "Vérmágiának, vérrel kapcsolatos varázslatnak nem esnek áldozatul. Az aktív vérmágiát 20 méteres körzetben megérzik."
+        },
+        {
+          "name": "Vérszomj",
+          "description": "Naponta szükségük van kb. 1 pohár állati vagy emberi vérre. Nélkülözés esetén: naponta Szépség –1, Intelligencia –1, Asztrál –1. Öt napig elviselhető; utána fizikai fájdalom és kábulat módosítói érvényesek. A vér szaga vagy látványa Akaraterő + Asztrál próbát igényel, különben ráveti magát a táplálékra. Saját vagy más vérivók vére, beteg vér nem oltja szomját; alvadt vértől megbetegszik."
+        },
+        {
+          "name": "Rendszeres vérivás jutalmak",
+          "description": "Infralátás 30 m; hallás és szaglás 2x; azon a napon nem öregszik."
+        },
+        {
+          "name": "Élet csókja",
+          "description": "Ép szívás gyógyításra, vagy elraktározza különleges szervébe (max. Egészsége 10 feletti része) hogy varázsoljon belőle, szomját oltsa, vagy gyógyítsa magát."
+        },
+        {
+          "name": "Varázslatai",
+          "description": "Minden varázslat: erőssége 5E, varázslási idő 1 szegmens, szint = wier szintje.",
+          "spells": [
+            { "ep_cost": 1, "spells": ["Árnyak", "Elkoppintás (Tűzgyújtás fordítottja)", "Rettegés"] },
+            { "ep_cost": 2, "spells": ["Bűbáj/Szerelemvarázs"] },
+            { "ep_cost": 3, "spells": ["Parancs", "Felejtés csókja"] },
+            { "ep_cost": 4, "spells": ["Halál csókja"] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Gnóm",
+      "description": "Az ősi népek közé tartoznak Yneven. Sohasem ártották bele magukat a 'nagyok' háborúskodásaiba. Falvaikat hegyvidéki barlangrendszerekbe építik. Kézművességben kiemelkedőek – ötvösmunkáikat, bonyolult mechanikájú szerkezeteiket szinte lehetetlen utánozni. Magasságuk kb. 120 cm, hatalmas szemű, horgas orrú, sötét hajuk van. Ötujjú kezeik hihetetlen ügyességgel forgatnak bármilyen szerszámot. Istenük Berzebaal, papjaik nincsenek.",
+      "personality": "Gyakorlatias, kézügyességre és tudásra büszke nép.",
+      "pc_note": null,
+      "stat_modifiers": {
+        "ero": -1, "ugyesseg": 1, "intelligencia": 1
+      },
+      "max_stats": {
+        "ero":          { "base": 16, "enhanced": 18 },
+        "allokepesseg": { "base": 18, "enhanced": null },
+        "gyorsasag":    { "base": 18, "enhanced": 20 },
+        "ugyesseg":     { "base": 19, "enhanced": 21 },
+        "egeszseg":     { "base": 20, "enhanced": null },
+        "szepseg":      { "base": 18, "enhanced": null },
+        "intelligencia":{ "base": 19, "enhanced": 21 },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 18, "enhanced": 20 }
+      },
+      "age_categories": {
+        "I":  { "range": [16,  20]  },
+        "II": { "range": [21,  124] },
+        "III":{ "range": [125, 170] },
+        "IV": { "range": [171, 200] },
+        "V":  { "range": [201, 210] },
+        "VI": { "range": [211, null]}
+      },
+      "available_classes": [
+        { "name": "harcos",   "restricted": false },
+        { "name": "tolvaj",   "restricted": false },
+        { "name": "varázsló", "restricted": false }
+      ],
+      "special_abilities": [
+        { "name": "Infralátás", "description": "25 méteres infralátás." },
+        {
+          "name": "Születéstől meglévő képzettségek",
+          "description": "Ötvös Af; Mechanika Af; Térképészet Af."
+        },
+        {
+          "name": "Tájékozódás emlékezetből",
+          "description": "Kiváló emlékezőtehetségük miatt nem valószínű, hogy eltévednek valahol. Ahol már többször jártak, ott egészen biztosan nem tévednek el."
+        },
+        {
+          "name": "Ψ képességek",
+          "description": "Érzékelés és Emlékolvasás diszciplínával minden gnóm rendelkezik; alapban MME-jük 12. Ψ-t képesek elsajátítani."
+        }
+      ]
+    },
+
+    {
+      "name": "Udvari Goblin",
+      "description": "Az udvari orkokhoz igen hasonló, mondhatni teljesen azonos módon létrejött faj. Nem harci, inkább szolgai és kémfeladatokat hivatottak ellátni. Termetük megegyezik vad rokonaikéval (legfeljebb 110 cm). Bőrük zöldes-narancssárga; hajuk és szemük változatos színeket ölthet. Sunyi és aljas fickók, de többnyire van bennük valamiféle tisztességérzet.",
+      "personality": "Sunyi, ravasz, aljas, de tisztességes alapból.",
+      "pc_note": null,
+      "stat_modifiers": {
+        "ero": -2, "allokepesseg": 1, "egeszseg": 1, "szepseg": -2, "intelligencia": -1, "asztral": -2
+      },
+      "max_stats": {
+        "ero":          { "base": 16, "enhanced": null },
+        "allokepesseg": { "base": 19, "enhanced": 21 },
+        "gyorsasag":    { "base": 18, "enhanced": 20 },
+        "ugyesseg":     { "base": 18, "enhanced": 20 },
+        "egeszseg":     { "base": 21, "enhanced": null },
+        "szepseg":      { "base": 14, "enhanced": null },
+        "intelligencia":{ "base": 16, "enhanced": null },
+        "akaraterő":    { "base": 18, "enhanced": 20 },
+        "asztral":      { "base": 15, "enhanced": null }
+      },
+      "age_categories": {
+        "I":  { "range": [16,  18]  },
+        "II": { "range": [19,  110] },
+        "III":{ "range": [111, 180] },
+        "IV": { "range": [181, 200] },
+        "V":  { "range": [201, 230] },
+        "VI": { "range": [231, null]}
+      },
+      "available_classes": [
+        { "name": "harcos", "restricted": false },
+        { "name": "tolvaj", "restricted": false },
+        { "name": "sámán",  "restricted": true  }
+      ],
+      "special_abilities": [
+        { "name": "Infralátás", "description": "20 méteres infralátás." },
+        { "name": "Mélységbecslés",  "description": "±5 m mélységbecslés föld alatt." },
+        { "name": "Lejtészögbecslés","description": "±10% lejtészögbecslés lejtőnél." },
+        {
+          "name": "Szaglás és nyomkövetés",
+          "description": "3-szoros szaglóképesség.",
+          "tracking": {
+            "retry_modifier_pct": -10,
+            "tracks": [
+              { "max_age_hours": 1,  "success_chance_pct": 95 },
+              { "max_age_hours": 2,  "success_chance_pct": 60 },
+              { "max_age_hours": 4,  "success_chance_pct": 30 },
+              { "max_age_hours": 8,  "success_chance_pct": 15 },
+              { "max_age_hours": 12, "success_chance_pct": 5  },
+              { "max_age_hours": null,"success_chance_pct": 0  }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

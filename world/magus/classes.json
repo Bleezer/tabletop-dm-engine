@@ -1,0 +1,5690 @@
+{
+  "_source": "MAGUS Adattábla",
+  "_version": "1.0",
+  "kasztok": [
+    {
+      "nev": "Harcos",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Amazon",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 186,
+        "3": 373,
+        "4": 745,
+        "5": 1489,
+        "6": 2977,
+        "7": 5953,
+        "8": 11901,
+        "9": 23801,
+        "10": 47601,
+        "11": 71401,
+        "12": 101001,
+        "13+": 151001
+      },
+      "harcertekek": {
+        "ke": 8,
+        "te": 22,
+        "ve": 73,
+        "ce": 10,
+        "hm": 10,
+        "hm_min_te": 0,
+        "hm_min_ve": 0
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 8,
+        "szintenként": 0,
+        "szazalek_szint": 0
+      },
+      "iker_tp": 151001,
+      "tulajdonsag_dobas": {
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+8",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Bajvivo",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 166,
+        "3": 331,
+        "4": 661,
+        "5": 1486,
+        "6": 2901,
+        "7": 5801,
+        "8": 11001,
+        "9": 22001,
+        "10": 45001,
+        "11": 67001,
+        "12": 90001,
+        "13+": 136001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 12,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 5,
+        "szintenként": 9
+      },
+      "kp": {
+        "alap": 4,
+        "szintenként": 6,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Af",
+      "iker_tp": 136001,
+      "tulajdonsag_dobas": {
+        "allokepesseg": "2k6+6",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+8",
+        "szepseg": "3k6",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "3k6(2x)",
+        "asztral": "3k6",
+        "erzekeles": "k6+12"
+      }
+    },
+    {
+      "nev": "Barbar",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 151,
+        "3": 311,
+        "4": 631,
+        "5": 1301,
+        "6": 2701,
+        "7": 5401,
+        "8": 10801,
+        "9": 21601,
+        "10": 42001,
+        "11": 65001,
+        "12": 90001,
+        "13+": 120001
+      },
+      "harcertekek": {
+        "ke": 10,
+        "te": 26,
+        "ve": 70,
+        "ce": 0,
+        "hm": 12,
+        "hm_min_te": 5,
+        "hm_min_ve": 0
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 7,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Egyedi",
+      "kepzettseg_bonuszok": {
+        "eses": 40,
+        "ugras": 25
+      },
+      "iker_tp": 120001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+14",
+        "allokepesseg": "k6+14",
+        "gyorsasag": "k10+8",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Abasziszi_Falanxharcos",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Dwoon_Vrtes_gyalogos",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Dwoon_Feher_lovas",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Ereni_Kekkopenyes",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 7,
+        "szintenként": 9,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 10,
+        "ugras": 20
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Erigowi_Szabad_Lovas",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Erigowi_Talpas",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "eses": 15,
+        "ugras": 5
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Erigowi_Ijasz",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 15,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Gianagi_Alabardos",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Haonwell_Alborne_Csillag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 8,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Af",
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Haonwell_Nerton",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 189,
+        "3": 377,
+        "4": 826,
+        "5": 1651,
+        "6": 3301,
+        "7": 7251,
+        "8": 12051,
+        "9": 24001,
+        "10": 48001,
+        "11": 68001,
+        "12": 93001,
+        "13+": 130001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 12,
+        "hm_min_te": 4,
+        "hm_min_ve": 4
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 6,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "eses": 30,
+        "ugras": 30
+      },
+      "iker_tp": 130001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k6+12",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "2k6+6",
+        "intelligencia": "3k6",
+        "akaraterő": "3k6",
+        "asztral": "3k6",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Ilanori_Vagtato",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 25,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 7,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Sirenari_Erdjaro",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 25,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 6,
+        "szazalek_szint": 20
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 35,
+        "eses": 25,
+        "ugras": 20,
+        "lopozas": 50,
+        "rejtőzködes": 50
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Torpe_Harcos",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Rackla_lovas",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 4,
+        "te": 15,
+        "ve": 70,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Tiadlani_Kardmester",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 10,
+        "te": 25,
+        "ve": 70,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 4,
+        "szintenként": 12,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Af",
+      "kepzettseg_bonuszok": {
+        "maszas": 10,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Toroni_Ezustkard_Bajnok",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "ugras": 20
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Toroni_Elitharcos",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 6,
+        "szazalek_szint": 20
+      },
+      "pszi_iskola": "Pyarroni Af",
+      "kepzettseg_bonuszok": {
+        "maszas": 35,
+        "eses": 25,
+        "ugras": 25,
+        "lopozas": 35,
+        "rejtőzködes": 35
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Predoci_Vrtes",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Edorli_Gyalogos",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 17,
+        "ve": 67,
+        "ce": 15,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Harcos_tengerszek",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 8,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "ugras": 10,
+        "koteltanc": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Praedarmon_Lobogoi",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Syburri_Vrtesgyalogos",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Nasti_konnyulovas",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 20,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Ordani_langro",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 7,
+        "szintenként": 7,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Af",
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Hadzsi",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 5,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 8,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Bahrada",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 189,
+        "3": 377,
+        "4": 826,
+        "5": 1651,
+        "6": 3301,
+        "7": 7251,
+        "8": 12051,
+        "9": 24001,
+        "10": 48001,
+        "11": 68001,
+        "12": 93001,
+        "13+": 130001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 12,
+        "hm_min_te": 4,
+        "hm_min_ve": 4
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 6,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "eses": 30,
+        "ugras": 20
+      },
+      "iker_tp": 130001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Birodalmi_zsoldosok",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Gorvik_Szabad_harcos",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Gorvik_Tengeri_vadasz",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Krani_Szabados",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 8,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Yllinori_Solyom",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 25,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 7,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 15,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Yllinori_Kopjas_Farkas",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Af",
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Yllinori_Vaslovas",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Af",
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Yllinori_Medve",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Af",
+      "kepzettseg_bonuszok": {
+        "maszas": 20,
+        "ugras": 10
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Yllinori_Sas",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 321,
+        "4": 641,
+        "5": 1441,
+        "6": 2801,
+        "7": 5601,
+        "8": 10001,
+        "9": 20001,
+        "10": 40001,
+        "11": 60001,
+        "12": 80001,
+        "13+": 112001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 25,
+        "hm": 11,
+        "hm_min_te": 2,
+        "hm_min_ve": 2
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 14,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Af",
+      "kepzettseg_bonuszok": {
+        "maszas": 20
+      },
+      "iker_tp": 112001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Gladiator",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 189,
+        "3": 377,
+        "4": 826,
+        "5": 1651,
+        "6": 3301,
+        "7": 7251,
+        "8": 12051,
+        "9": 24001,
+        "10": 48001,
+        "11": 68001,
+        "12": 93001,
+        "13+": 130001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 12,
+        "hm_min_te": 4,
+        "hm_min_ve": 4
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 6,
+        "szazalek_szint": 0
+      },
+      "kepzettseg_bonuszok": {
+        "eses": 30,
+        "ugras": 20
+      },
+      "iker_tp": 130001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k6+12",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "k10+10",
+        "szepseg": "2k6+6",
+        "intelligencia": "3k6",
+        "akaraterő": "3k6",
+        "asztral": "3k6",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Fejvadasz",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 191,
+        "3": 401,
+        "4": 901,
+        "5": 1801,
+        "6": 3501,
+        "7": 7501,
+        "8": 15001,
+        "9": 30001,
+        "10": 60001,
+        "11": 110001,
+        "12": 160001,
+        "13+": 220001
+      },
+      "harcertekek": {
+        "ke": 10,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 11,
+        "hm_min_te": 4,
+        "hm_min_ve": 4
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 5,
+        "szazalek_szint": 20
+      },
+      "pszi_iskola": "mas kaszt",
+      "kepzettseg_bonuszok": {
+        "maszas": 30,
+        "eses": 15,
+        "ugras": 15,
+        "lopozas": 20,
+        "rejtőzködes": 25,
+        "csapdafelfedezés": 10
+      },
+      "iker_tp": 220001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "k6+12",
+        "gyorsasag": "k6+12",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "3k6",
+        "intelligencia": "3k6(2x)",
+        "akaraterő": "k10+8",
+        "asztral": "2k6+6",
+        "erzekeles": "k6+12"
+      }
+    },
+    {
+      "nev": "Lovag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 151,
+        "3": 371,
+        "4": 801,
+        "5": 1651,
+        "6": 3201,
+        "7": 6401,
+        "8": 12001,
+        "9": 25001,
+        "10": 45001,
+        "11": 65001,
+        "12": 90001,
+        "13+": 110001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 12,
+        "hm_min_te": 5,
+        "hm_min_ve": 5
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 4,
+        "szintenként": 7,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "mas kaszt",
+      "iker_tp": 110001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "2k6+6",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "3k6(2x)",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Tolvaj",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 101,
+        "3": 203,
+        "4": 401,
+        "5": 803,
+        "6": 1701,
+        "7": 4501,
+        "8": 9001,
+        "9": 22001,
+        "10": 46501,
+        "11": 68501,
+        "12": 98001,
+        "13+": 131501
+      },
+      "harcertekek": {
+        "ke": 8,
+        "te": 17,
+        "ve": 72,
+        "ce": 10,
+        "hm": 6,
+        "hm_min_te": 1,
+        "hm_min_ve": 1
+      },
+      "ep": {
+        "alap": 5,
+        "szintenként": 9
+      },
+      "kp": {
+        "alap": 8,
+        "szintenként": 10,
+        "szazalek_szint": 62
+      },
+      "kepzettseg_bonuszok": {
+        "maszas": 45,
+        "eses": 15,
+        "ugras": 10,
+        "lopozas": 30,
+        "rejtőzködes": 15,
+        "koteltanc": 25,
+        "zsebmetszés": 35,
+        "csapdafelfedezés": 25,
+        "zarnyitas": 25,
+        "titkosajtő": 15
+      },
+      "iker_tp": 131501,
+      "tulajdonsag_dobas": {
+        "ero": "3k6(2x)",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "k10+8",
+        "ugyesseg": "k6+12",
+        "egeszseg": "3k6(2x)",
+        "szepseg": "2k6+6",
+        "intelligencia": "2k6+6",
+        "akaraterő": "3k6",
+        "asztral": "3k6(2x)",
+        "erzekeles": "k6+12"
+      }
+    },
+    {
+      "nev": "Bard",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 171,
+        "3": 351,
+        "4": 1001,
+        "5": 2201,
+        "6": 4401,
+        "7": 7501,
+        "8": 15001,
+        "9": 30001,
+        "10": 55001,
+        "11": 75001,
+        "12": 95001,
+        "13+": 145001
+      },
+      "harcertekek": {
+        "ke": 10,
+        "te": 20,
+        "ve": 75,
+        "ce": 10,
+        "hm": 9,
+        "hm_min_te": 2,
+        "hm_min_ve": 2
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 9
+      },
+      "kp": {
+        "alap": 4,
+        "szintenként": 6,
+        "szazalek_szint": 45
+      },
+      "pszi_iskola": "mas kaszt",
+      "kepzettseg_bonuszok": {
+        "maszas": 25,
+        "eses": 5,
+        "ugras": 10,
+        "lopozas": 20,
+        "rejtőzködes": 10,
+        "koteltanc": 5,
+        "zsebmetszés": 5,
+        "csapdafelfedezés": 10,
+        "titkosajtő": 5
+      },
+      "iker_tp": 145001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "2k6+6",
+        "gyorsasag": "k10+8",
+        "ugyesseg": "k10+8",
+        "egeszseg": "2k6+6",
+        "szepseg": "k6+12",
+        "intelligencia": "k10+8(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "k10+8",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Adron_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 231,
+        "3": 501,
+        "4": 1000,
+        "5": 2201,
+        "6": 5001,
+        "7": 10001,
+        "8": 18001,
+        "9": 35001,
+        "10": 70001,
+        "11": 150001,
+        "12": 200001,
+        "13+": 300001
+      },
+      "harcertekek": {
+        "ke": 4,
+        "te": 15,
+        "ve": 70,
+        "ce": 0,
+        "hm": 6,
+        "hm_min_te": 2,
+        "hm_min_ve": 2
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 300001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Alborne_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Antoh_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Arel_pap_Solyomsziv",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 18,
+        "ve": 73,
+        "hm": 9,
+        "hm_min_te": 4,
+        "hm_min_ve": 0
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Af",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "k6+14",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Arel_pap_Solyomcsor",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 18,
+        "ve": 73,
+        "hm": 9,
+        "hm_min_te": 4,
+        "hm_min_ve": 0
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Af",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k6+14",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Arel_pap_Solyomkarom",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 9,
+        "te": 18,
+        "ve": 73,
+        "hm": 9,
+        "hm_min_te": 4,
+        "hm_min_ve": 0
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Af",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "k6+14",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Darton_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Della_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 15,
+        "ve": 65,
+        "ce": 0,
+        "hm": 6,
+        "hm_min_te": 0,
+        "hm_min_ve": 0
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Doldzsah_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Domvik_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Dreina_pap_Pol",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Dreina_pap_Gazd",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Dreina_pap_Jog",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Dzsah_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 100,
+        "3": 200,
+        "4": 400,
+        "5": 800,
+        "6": 1600,
+        "7": 3200,
+        "8": 6400,
+        "9": 12800,
+        "10": 24800,
+        "11": 36800,
+        "12": 48800,
+        "13+": 60800
+      },
+      "harcertekek": {
+        "ke": 2,
+        "te": 13,
+        "ve": 69,
+        "ce": 0,
+        "hm": 4,
+        "hm_min_te": 0,
+        "hm_min_ve": 2
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 12,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 60800,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Ellana_papno",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 7,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k6+14",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Galradzsa_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Gilron_pap_Mernok",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "zarnyitas": 35,
+        "titkosajtő": 15
+      },
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Gilron_pap_Seged",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Krad_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "csapdafelfedezés": 10,
+        "titkosajtő": 10
+      },
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Kyel_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "eses": 15
+      },
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Morgena_pap_Angyal",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Morgena_pap_Farkas",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Noir_pap_Befogadott",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 16,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 0,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 5,
+        "szintenként": 7
+      },
+      "kp": {
+        "alap": 8,
+        "szintenként": 8,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Noir_pap_Balvanytagado",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 16,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 0,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 5,
+        "szintenként": 7
+      },
+      "kp": {
+        "alap": 8,
+        "szintenként": 8,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "lopozas": 15
+      },
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Orwella_Papno_ANH",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 4,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Orwella_Papno_PE",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 4,
+        "szintenként": 9,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Ranagol_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 9
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Ranil_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Saman_pap_Leutaril",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "eses": 30,
+        "ugras": 15
+      },
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+10",
+        "egeszseg": "k10+8",
+        "szepseg": "2k6+6",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Saman_pap_Ramkir",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "eses": 30,
+        "ugras": 15
+      },
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+10",
+        "egeszseg": "k10+8",
+        "szepseg": "2k6+6",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Saman_pap_Tomatis",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "maszas": 30,
+        "eses": 30,
+        "ugras": 15
+      },
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+10",
+        "egeszseg": "k10+8",
+        "szepseg": "2k6+6",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Sogron_pap_Langvihar",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "rejtőzködes": 15
+      },
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Sogron_pap_Urai",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Tharr_pap_Khotorr",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 8,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "lopozas": 10,
+        "zsebmetszés": 35
+      },
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Tharr_pap_Quessor",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "2k6+6",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+8",
+        "szepseg": "k10+10",
+        "intelligencia": "k10+8",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Tharr_pap_Sanquinator",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Kadal_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+8",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Tooma_pap",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 161,
+        "3": 331,
+        "4": 661,
+        "5": 1301,
+        "6": 2601,
+        "7": 5001,
+        "8": 9001,
+        "9": 23001,
+        "10": 50001,
+        "11": 90001,
+        "12": 130001,
+        "13+": 165001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 10,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 165001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "2k6+6",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+8",
+        "szepseg": "k10+10",
+        "intelligencia": "k10+8",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Paplovag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Darton_paplovag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "eses": 15
+      },
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Dervis",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 8,
+        "szintenként": 12
+      },
+      "kp": {
+        "alap": 10,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 5,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Domvik_bosz_vadasz",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 8,
+        "te": 18,
+        "ve": 73,
+        "ce": 5,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 2,
+        "szintenként": 6,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Domvik_paplovag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Dreina_paplovag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Krad_paplovag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Orwella_paplovag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Ranagol_paplovag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+10",
+        "egeszseg": "k10+8",
+        "szepseg": "2k6+6",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Ranil_paplovag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Uwel_paplovag",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 7,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "eses": 20
+      },
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Harcmuvesz",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 221,
+        "3": 443,
+        "4": 951,
+        "5": 2001,
+        "6": 4501,
+        "7": 9001,
+        "8": 16001,
+        "9": 32001,
+        "10": 65001,
+        "11": 120001,
+        "12": 170001,
+        "13+": 240001
+      },
+      "harcertekek": {
+        "ke": 10,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 8,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 4,
+        "szintenként": 5,
+        "szazalek_szint": 22
+      },
+      "pszi_iskola": "Slan-ut",
+      "kepzettseg_bonuszok": {
+        "maszas": 20,
+        "eses": 35,
+        "ugras": 30
+      },
+      "iker_tp": 240001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+14",
+        "allokepesseg": "k6+12",
+        "gyorsasag": "k10+10",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "3k6(2x)",
+        "szepseg": "k6+12",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12"
+      }
+    },
+    {
+      "nev": "Kardmuvesz",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 201,
+        "3": 401,
+        "4": 926,
+        "5": 1901,
+        "6": 4001,
+        "7": 8251,
+        "8": 15501,
+        "9": 31001,
+        "10": 62501,
+        "11": 115001,
+        "12": 165001,
+        "13+": 230001
+      },
+      "harcertekek": {
+        "ke": 10,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 8,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 4,
+        "szintenként": 5,
+        "szazalek_szint": 18
+      },
+      "pszi_iskola": "Slan-ut",
+      "kepzettseg_bonuszok": {
+        "maszas": 10,
+        "eses": 20,
+        "ugras": 10
+      },
+      "iker_tp": 230001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "k6+12",
+        "ugyesseg": "k6+14",
+        "egeszseg": "k10+8",
+        "szepseg": "3k6(2x)",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8",
+        "erzekeles": "k6+12"
+      }
+    },
+    {
+      "nev": "Boszorkany",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 151,
+        "3": 301,
+        "4": 601,
+        "5": 1001,
+        "6": 2001,
+        "7": 4001,
+        "8": 9001,
+        "9": 17001,
+        "10": 38501,
+        "11": 58501,
+        "12": 78501,
+        "13+": 108501
+      },
+      "harcertekek": {
+        "ke": 7,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 4,
+        "hm_min_te": 1,
+        "hm_min_ve": 1
+      },
+      "ep": {
+        "alap": 1,
+        "szintenként": 6
+      },
+      "kp": {
+        "alap": 8,
+        "szintenként": 12,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 108501,
+      "tulajdonsag_dobas": {
+        "ero": "3k6",
+        "allokepesseg": "3k6",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "k10+8",
+        "egeszseg": "2k6+6",
+        "szepseg": "k6+14",
+        "intelligencia": "2k6+6",
+        "akaraterő": "2k6+6",
+        "asztral": "k6+12",
+        "erzekeles": "2k6+6"
+      }
+    },
+    {
+      "nev": "Boszorkanymester",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 201,
+        "3": 401,
+        "4": 801,
+        "5": 1601,
+        "6": 4001,
+        "7": 8001,
+        "8": 16001,
+        "9": 32001,
+        "10": 59001,
+        "11": 90501,
+        "12": 140001,
+        "13+": 190001
+      },
+      "harcertekek": {
+        "ke": 7,
+        "te": 17,
+        "ve": 72,
+        "ce": 5,
+        "hm": 7,
+        "hm_min_te": 1,
+        "hm_min_ve": 1
+      },
+      "ep": {
+        "alap": 4,
+        "szintenként": 7
+      },
+      "kp": {
+        "alap": 7,
+        "szintenként": 8,
+        "szazalek_szint": 15
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "lopozas": 15,
+        "rejtőzködes": 15
+      },
+      "iker_tp": 190001,
+      "tulajdonsag_dobas": {
+        "ero": "3k6(2x)",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "k6+12",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "3k6",
+        "szepseg": "2k6+6",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k6+12",
+        "asztral": "2k6+6"
+      }
+    },
+    {
+      "nev": "Tuzvarazslo",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 171,
+        "3": 351,
+        "4": 701,
+        "5": 1501,
+        "6": 3001,
+        "7": 7001,
+        "8": 12001,
+        "9": 22001,
+        "10": 52501,
+        "11": 85501,
+        "12": 135001,
+        "13+": 175501
+      },
+      "harcertekek": {
+        "ke": 6,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 4,
+        "szintenként": 7
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 175501,
+      "tulajdonsag_dobas": {
+        "ero": "k6+14",
+        "allokepesseg": "k6+12",
+        "gyorsasag": "k10+10",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "3k6(2x)",
+        "szepseg": "k6+12",
+        "intelligencia": "k10+8",
+        "akaraterő": "k6+12"
+      }
+    },
+    {
+      "nev": "Pusztito_Tuz_utja",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 171,
+        "3": 351,
+        "4": 701,
+        "5": 1501,
+        "6": 3001,
+        "7": 7001,
+        "8": 12001,
+        "9": 22001,
+        "10": 52501,
+        "11": 85501,
+        "12": 135001,
+        "13+": 175501
+      },
+      "harcertekek": {
+        "ke": 6,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 9,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 4,
+        "szintenként": 7
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 175501,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "3k6",
+        "szepseg": "2k6+6",
+        "intelligencia": "2k6+6",
+        "akaraterő": "2k6+6",
+        "asztral": "2k6+6"
+      }
+    },
+    {
+      "nev": "Feny_osveny",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 171,
+        "3": 351,
+        "4": 701,
+        "5": 1501,
+        "6": 3001,
+        "7": 7001,
+        "8": 12001,
+        "9": 22001,
+        "10": 52501,
+        "11": 85501,
+        "12": 135001,
+        "13+": 175501
+      },
+      "harcertekek": {
+        "ke": 6,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 4,
+        "szintenként": 7
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 175501,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "3k6",
+        "szepseg": "2k6+6",
+        "intelligencia": "2k6+6",
+        "akaraterő": "2k6+6",
+        "asztral": "2k6+6"
+      }
+    },
+    {
+      "nev": "Sorgon_utja",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 171,
+        "3": 351,
+        "4": 701,
+        "5": 1501,
+        "6": 3001,
+        "7": 7001,
+        "8": 12001,
+        "9": 22001,
+        "10": 52501,
+        "11": 85501,
+        "12": 135001,
+        "13+": 175501
+      },
+      "harcertekek": {
+        "ke": 6,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 4,
+        "szintenként": 7
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 5,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 175501,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "3k6",
+        "szepseg": "2k6+6",
+        "intelligencia": "2k6+6",
+        "akaraterő": "2k6+6",
+        "asztral": "2k6+6"
+      }
+    },
+    {
+      "nev": "Fonix",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 176,
+        "3": 353,
+        "4": 721,
+        "5": 1501,
+        "6": 3501,
+        "7": 7001,
+        "8": 10501,
+        "9": 21001,
+        "10": 48001,
+        "11": 78001,
+        "12": 108001,
+        "13+": 138001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 20,
+        "ve": 75,
+        "ce": 0,
+        "hm": 10,
+        "hm_min_te": 4,
+        "hm_min_ve": 4
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 10
+      },
+      "kp": {
+        "alap": 1,
+        "szintenként": 3,
+        "szazalek_szint": 15
+      },
+      "pszi_iskola": "Pyarroni Mf",
+      "kepzettseg_bonuszok": {
+        "maszas": 20,
+        "eses": 25,
+        "ugras": 15
+      },
+      "iker_tp": 138001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "k10+8",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "k10+10",
+        "szepseg": "k10+8",
+        "intelligencia": "2k6+6",
+        "akaraterő": "k10+8",
+        "asztral": "k6+12",
+        "erzekeles": "k10+8"
+      }
+    },
+    {
+      "nev": "Tuz_Taplo",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 171,
+        "3": 351,
+        "4": 701,
+        "5": 1501,
+        "6": 3001,
+        "7": 7001,
+        "8": 12001,
+        "9": 22001,
+        "10": 52501,
+        "11": 85501,
+        "12": 135001,
+        "13+": 175501
+      },
+      "harcertekek": {
+        "ke": 6,
+        "te": 17,
+        "ve": 72,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 3,
+        "hm_min_ve": 3
+      },
+      "ep": {
+        "alap": 4,
+        "szintenként": 7
+      },
+      "kp": {
+        "alap": 6,
+        "szintenként": 10,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 175501,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "2k6+6",
+        "egeszseg": "3k6",
+        "szepseg": "2k6+6",
+        "intelligencia": "2k6+6",
+        "akaraterő": "2k6+6",
+        "asztral": "2k6+6"
+      }
+    },
+    {
+      "nev": "Varazslo",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 231,
+        "3": 501,
+        "4": 1001,
+        "5": 2201,
+        "6": 5001,
+        "7": 10001,
+        "8": 18001,
+        "9": 35001,
+        "10": 70001,
+        "11": 150001,
+        "12": 200001,
+        "13+": 300001
+      },
+      "harcertekek": {
+        "ke": 2,
+        "te": 15,
+        "ve": 70,
+        "ce": 0,
+        "hm": 4,
+        "hm_min_te": 1,
+        "hm_min_ve": 1
+      },
+      "ep": {
+        "alap": 2,
+        "szintenként": 6
+      },
+      "kp": {
+        "alap": 7,
+        "szintenként": 7,
+        "szazalek_szint": 0
+      },
+      "pszi_iskola": "Kyr modus",
+      "iker_tp": 300001,
+      "tulajdonsag_dobas": {
+        "ero": "3k6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "3k6",
+        "szepseg": "k6+12",
+        "intelligencia": "k6+12",
+        "akaraterő": "k6+12",
+        "asztral": "2k6+6"
+      }
+    },
+    {
+      "nev": "Nomad_saman",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 166,
+        "3": 341,
+        "4": 691,
+        "5": 1451,
+        "6": 3501,
+        "7": 7651,
+        "8": 13801,
+        "9": 27001,
+        "10": 50001,
+        "11": 97501,
+        "12": 147001,
+        "13+": 192001
+      },
+      "harcertekek": {
+        "ke": 4,
+        "te": 15,
+        "ve": 70,
+        "ce": 0,
+        "hm": 5,
+        "hm_min_te": 1,
+        "hm_min_ve": 1
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 8
+      },
+      "kp": {
+        "alap": 3,
+        "szintenként": 4,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 7,
+      "pszi_iskola": "Egyedi",
+      "iker_tp": 192001,
+      "tulajdonsag_dobas": {
+        "ero": "2k6+6",
+        "allokepesseg": "3k6(2x)",
+        "gyorsasag": "3k6(2x)",
+        "ugyesseg": "k10+6",
+        "egeszseg": "3k6",
+        "szepseg": "2k6+6",
+        "intelligencia": "k6+12",
+        "akaraterő": "k10+8",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Szerzetes",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 201,
+        "3": 401,
+        "4": 801,
+        "5": 1601,
+        "6": 4001,
+        "7": 8001,
+        "8": 16001,
+        "9": 32001,
+        "10": 59001,
+        "11": 90501,
+        "12": 140001,
+        "13+": 190001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 15,
+        "ve": 75,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 2,
+        "hm_min_ve": 4
+      },
+      "ep": {
+        "alap": 8,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 8,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 190001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "2k6+6",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "3k6(2x)",
+        "szepseg": "2k6+6",
+        "intelligencia": "k6+12",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Szerzetes_Benignus",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 201,
+        "3": 401,
+        "4": 801,
+        "5": 1601,
+        "6": 4001,
+        "7": 8001,
+        "8": 16001,
+        "9": 32001,
+        "10": 59001,
+        "11": 90501,
+        "12": 140001,
+        "13+": 190001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 15,
+        "ve": 75,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 2,
+        "hm_min_ve": 4
+      },
+      "ep": {
+        "alap": 8,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 8,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 190001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "2k6+6",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "3k6(2x)",
+        "szepseg": "2k6+6",
+        "intelligencia": "k6+12",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Szerzetes_Pyarronita",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 201,
+        "3": 401,
+        "4": 801,
+        "5": 1601,
+        "6": 4001,
+        "7": 8001,
+        "8": 16001,
+        "9": 32001,
+        "10": 59001,
+        "11": 90501,
+        "12": 140001,
+        "13+": 190001
+      },
+      "harcertekek": {
+        "ke": 5,
+        "te": 15,
+        "ve": 75,
+        "ce": 0,
+        "hm": 8,
+        "hm_min_te": 2,
+        "hm_min_ve": 4
+      },
+      "ep": {
+        "alap": 8,
+        "szintenként": 11
+      },
+      "kp": {
+        "alap": 5,
+        "szintenként": 8,
+        "szazalek_szint": 0
+      },
+      "mp_alap": 9,
+      "pszi_iskola": "Pyarroni Mf",
+      "iker_tp": 190001,
+      "tulajdonsag_dobas": {
+        "ero": "k6+12",
+        "allokepesseg": "2k6+6",
+        "gyorsasag": "2k6+6",
+        "ugyesseg": "3k6(2x)",
+        "egeszseg": "3k6(2x)",
+        "szepseg": "2k6+6",
+        "intelligencia": "k6+12",
+        "akaraterő": "k6+12",
+        "asztral": "k10+8"
+      }
+    },
+    {
+      "nev": "Sotet_Bard",
+      "xp_kuszob": {
+        "1": 0,
+        "2": 171,
+        "3": 351,
+        "4": 1001,
+        "5": 2201,
+        "6": 4401,
+        "7": 7501,
+        "8": 15001,
+        "9": 30001,
+        "10": 55001,
+        "11": 75001,
+        "12": 95001,
+        "13+": 145001
+      },
+      "harcertekek": {
+        "ke": 10,
+        "te": 20,
+        "ve": 75,
+        "ce": 10,
+        "hm": 9,
+        "hm_min_te": 2,
+        "hm_min_ve": 2
+      },
+      "ep": {
+        "alap": 6,
+        "szintenként": 9
+      },
+      "kp": {
+        "alap": 4,
+        "szintenként": 6,
+        "szazalek_szint": 45
+      },
+      "pszi_iskola": "mas kaszt",
+      "kepzettseg_bonuszok": {
+        "maszas": 25,
+        "lopozas": 5,
+        "rejtőzködes": 5,
+        "titkosajtő": 5
+      },
+      "iker_tp": 145001,
+      "tulajdonsag_dobas": {
+        "ero": "k10+8",
+        "allokepesseg": "2k6+6",
+        "gyorsasag": "k10+8",
+        "ugyesseg": "k10+8",
+        "egeszseg": "2k6+6",
+        "szepseg": "k6+12",
+        "intelligencia": "k10+8(2x)",
+        "akaraterő": "2k6+6",
+        "asztral": "k10+8",
+        "erzekeles": "k10+8"
+      }
+    }
+  ]
+}

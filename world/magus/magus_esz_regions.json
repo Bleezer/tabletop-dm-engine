@@ -1,0 +1,314 @@
+{
+  "_source": "MAGUS – Északi Szövetség országai",
+  "_version": "1.0",
+  "_note": "A 'jellemzők' szekció karaktergeneráláshoz használatos: domináns fajok, jellemző kasztok, tipikus fegyverek, kulturális értékek és kezdő képzettségek.",
+
+  "szovetseg": {
+    "nev": "Északi Szövetség",
+    "leiras": "Az északi kontinens emberi és nem-emberi népeinek védelmi és politikai szövetsége. Alapító tagjai az emberi hercegségek és királyságok, szövetséges tagjai közt törpék és elfek is szerepelnek.",
+    "fo_ellenfelek": ["Krániak", "Déli birodalmak"]
+  },
+
+  "tagallamok": [
+    {
+      "nev": "Erigow",
+      "tipus": "Hercegség",
+      "tag_kategoria": "alapító emberi tagország",
+      "leiras": "Az északi országok közül a leggazdagabb hercegség, amely stratégiai és gazdasági központként szolgál az egész szövetség számára.",
+      "kultura": "Kereskedői és arisztokrata kultúra keveredik egymással. A gazdagság presztízst jelent, de a katonai erény is megbecsült. Az erigowi polgár büszke, pragmatikus és kalkuláló.",
+      "hadsereg": {
+        "leiras": "Vegyes összetételű, de rendkívül jól felszerelt haderő.",
+        "egysegek": [
+          {
+            "nev": "Krad-rend lovagjai",
+            "tipus": "Lovagrendek",
+            "leiras": "A hercegség védelmének gerince, nehézvértezetű lovagok."
+          },
+          {
+            "nev": "Erigowi íjászok",
+            "tipus": "Íjász gyalogság",
+            "leiras": "Híresek pontosságukról és fegyelmükről."
+          },
+          {
+            "nev": "Nehézlovas bandériumok",
+            "tipus": "Nehézlovasság",
+            "leiras": "A sereg ütőereje, a főnemesek magánhadseregeiből áll."
+          }
+        ]
+      },
+      "szovetsegek": ["Tarin", "Gianag"],
+      "jellemzok": {
+        "domináns_fajok": ["ember"],
+        "jellemző_kasztok": ["harcos", "lovag", "kereskedő"],
+        "jellemző_fegyverek": ["lándzsa", "hosszúkard", "hosszúíj"],
+        "kulturális_értékek": ["gazdagság", "stratégiai gondolkodás", "katonai erény", "pragmatizmus"],
+        "kezdő_képzettségek": [
+          { "kepzettseg": "Kereskedelem", "bonus": "Af" },
+          { "kepzettseg": "Íjászat", "bonus": "+10%" }
+        ],
+        "jellem_irány": ["Rend és Élet", "Rend és Semleges"],
+        "megjegyzes": "Az innen származó karakterek általában jól felszereltek és taktikus szemléletűek."
+      }
+    },
+
+    {
+      "nev": "Eren",
+      "tipus": "Hercegség",
+      "tag_kategoria": "alapító emberi tagország",
+      "leiras": "A lovagok és vágtatók hazája, ahol a fegyverforgatás a becsület alapja. Eligor herceg az itteni akadémián képezte ki az Északi Szövetség leghíresebb elit egységeit.",
+      "kultura": "A becsület és a lovagiasság mindennél fontosabb. A gyávaságot és a szószegést a legsúlyosabb bűnnek tartják. A nemes és a paraszt között nagy a szakadék, de a vitézséggel bárki kitüntetést nyerhet.",
+      "hadsereg": {
+        "leiras": "Lovasnép kultúrájából táplálkozó, elit felderítőkre és lovasságra épülő haderő.",
+        "egysegek": [
+          {
+            "nev": "Kékköpenyesek",
+            "tipus": "Elit lovasok és felderítők",
+            "leiras": "Eligor herceg által alapított akadémián képzett elit egység. Lovascsapatok és felderítők vegyesen; az Északi Szövetség legjobb hírszerzői közé tartoznak."
+          }
+        ]
+      },
+      "szovetsegek": ["Sirenar", "Tiadlan"],
+      "jellemzok": {
+        "domináns_fajok": ["ember", "félelf"],
+        "jellemző_kasztok": ["harcos", "lovag", "fejvadász", "bárd"],
+        "jellemző_fegyverek": ["kard", "lándzsa", "rövid íj (lóhátról)"],
+        "kulturális_értékek": ["becsület", "lovagiasság", "vitézség", "hűség"],
+        "kezdő_képzettségek": [
+          { "kepzettseg": "Lovaglás", "bonus": "Mf" },
+          { "kepzettseg": "Kardforgatás", "bonus": "+10%" }
+        ],
+        "jellem_irány": ["Rend és Élet", "Élet és Rend"],
+        "megjegyzes": "Az innen származó karakterek lovaglásban kivételesek, és a személyes becsületre fogadalmat tesznek."
+      }
+    },
+
+    {
+      "nev": "Haonwell",
+      "tipus": "Városállamok szövetsége",
+      "tag_kategoria": "alapító emberi tagország",
+      "leiras": "Gazdag városállamok laza szövetsége, ahol a kultúra és a fegyveres képzés egyaránt magas szinten áll. Gladiátoriskoláikról az egész szövetségben ismertek.",
+      "kultura": "Kozmopolita, városi kultúra. A pénz, a tudás és a gladiátori dicsőség egyforma presztízzsel bír. A Nertonok iskolájának elvei – a védekezés és az intelligens harc – a mindennapi gondolkodásmódot is áthatják.",
+      "hadsereg": {
+        "leiras": "Képzett és sokszínű haderő, amelyet a városállamok gladiátoriskolái táplálnak.",
+        "egysegek": [
+          {
+            "nev": "Nertonok",
+            "tipus": "Gladiátor elit",
+            "leiras": "A haonwelli gladiátoriskolák legkiválóbb növendékei. Stílusuk a védekezésre és az intelligens, taktikus harcra épül – nem a nyers erőre."
+          }
+        ]
+      },
+      "szovetsegek": ["Erigow", "Dwyll Unió"],
+      "jellemzok": {
+        "domináns_fajok": ["ember", "félelf", "gnóm"],
+        "jellemző_kasztok": ["gladiátor", "harcos", "tolvaj", "varázsló", "bárd"],
+        "jellemző_fegyverek": ["rövid kard", "pajzs", "hálóvető fegyverek"],
+        "kulturális_értékek": ["intelligencia", "kultúra", "taktika", "városi életmód", "pénz"],
+        "kezdő_képzettségek": [
+          { "kepzettseg": "Gladiátori stílus (Nerton)", "bonus": "Af" },
+          { "kepzettseg": "Érzékelés", "bonus": "+10%" }
+        ],
+        "jellem_irány": ["Semleges", "Élet és Semleges", "Rend és Semleges"],
+        "megjegyzes": "Az innen származó karakterek védekezőharcban járatosak és taktikus szemléletűek. Gladiátor kasztú karakterek +1 kasztszinttel indulhatnak a Nerton-féle stílusban."
+      }
+    },
+
+    {
+      "nev": "Dwyll Unió",
+      "tipus": "Vallásos szövetségi állam",
+      "tag_kategoria": "alapító emberi tagország",
+      "leiras": "Vallásos lovagrendek irányítása alatt álló konzervatív állam. A hit és a rend szorosan összefonódik; a polgári és egyházi hatalom szinte elválaszthatatlan.",
+      "kultura": "Mélyen vallásos, konzervatív társadalom. A törvény és az isteni parancs egyenértékű. Az idegenekkel szemben gyanakvóak, de saját népeikkel szemben igazságosak és megbízhatóak.",
+      "hadsereg": {
+        "leiras": "Nehézvértezetű, vallási fegyelemre épülő haderő.",
+        "egysegek": [
+          {
+            "nev": "Dwoon vértesek",
+            "tipus": "Nehézvértezetű gyalogság",
+            "leiras": "A határok első védelmi vonala. Fegyelmük és kitartásuk páratlan; sohasem hátrálnak parancs nélkül."
+          },
+          {
+            "nev": "Fehér-lovasok rendje",
+            "tipus": "Vallásos lovagrend",
+            "leiras": "A határok mentén portyázó lovagok, akik egyszerre katonák és papok."
+          }
+        ]
+      },
+      "szovetsegek": ["Haonwell", "Gianag"],
+      "jellemzok": {
+        "domináns_fajok": ["ember"],
+        "jellemző_kasztok": ["pap", "paplovag", "harcos", "lovag"],
+        "jellemző_fegyverek": ["buzogány", "csatabárd", "pajzs", "nehéz páncél"],
+        "kulturális_értékek": ["hit", "rend", "konzervatizmus", "fegyelem", "közösség"],
+        "kezdő_képzettségek": [
+          { "kepzettseg": "Vallás és szertartás", "bonus": "Af" },
+          { "kepzettseg": "Pajzshasználat", "bonus": "+15%" }
+        ],
+        "jellem_irány": ["Rend és Élet"],
+        "megjegyzes": "Az innen származó karakterek erős vallási meggyőződéssel rendelkeznek. Pap és paplovag kasztú karakterek itt indulhatnak a legmagasabb kezdeti hívőszámmal."
+      }
+    },
+
+    {
+      "nev": "Gianag",
+      "tipus": "Királyság",
+      "tag_kategoria": "alapító emberi tagország",
+      "leiras": "A szövetség egyik legmegbízhatóbb és legstabilabb tagja. Szoros és régi kapcsolatot ápol Tarin törpéivel, ami hadseregére és kultúrájára egyaránt rányomta bélyegét.",
+      "kultura": "Munkás, kitartó és megbízható nép. A szövetséghűséget mindennél többre tartják. A törpék hatására a kézművesség és az építészet különösen fejlett.",
+      "hadsereg": {
+        "leiras": "Fegyelmezett, rendkívül kitartó gyalogos haderő.",
+        "egysegek": [
+          {
+            "nev": "Gianagi alabárdosok",
+            "tipus": "Nehézgyalogság",
+            "leiras": "A szövetség egyik legjobb gyalogsági egysége. Fegyelmük és szívósságuk a törpékével vetekszik; falangszerű alakzatban szinte áttörhetetlenek."
+          }
+        ]
+      },
+      "szovetsegek": ["Tarin", "Erigow", "Dwyll Unió"],
+      "jellemzok": {
+        "domináns_fajok": ["ember", "törpe"],
+        "jellemző_kasztok": ["harcos", "lovag", "pap"],
+        "jellemző_fegyverek": ["alabárd", "lándzsa", "pajzs", "rövid kard"],
+        "kulturális_értékek": ["megbízhatóság", "kitartás", "szövetséghűség", "kézművesség"],
+        "kezdő_képzettségek": [
+          { "kepzettseg": "Alakzatharc", "bonus": "Af" },
+          { "kepzettseg": "Kovácsművesség", "bonus": "Af" }
+        ],
+        "jellem_irány": ["Rend és Élet", "Rend és Semleges"],
+        "megjegyzes": "Az innen származó karakterek szívósak és megbízhatóak; csapatban harcolva +5% bónuszt kapnak az alakzatharchoz."
+      }
+    },
+
+    {
+      "nev": "Ilanor",
+      "tipus": "Sztyeppei királyság",
+      "tag_kategoria": "alapító emberi tagország",
+      "leiras": "Az egykori keleti pusztákról bevándorolt lovasnép hazája. A pyarroni istencsaládot tisztelik. Kultúrájukban a szabadság, a sebesség és a nomád hagyomány él tovább, még ha le is telepedtek.",
+      "kultura": "Büszke, szabadságszerető nép. A lovaglás és az íjászat mindkét nemre egyaránt vonatkozó alapképzettség. A klánhűség erős, de az idegeneket befogadják, ha bizonyítják értéküket.",
+      "hadsereg": {
+        "leiras": "Rendkívüli mozgékonyságra épülő könnyűlovas haderő.",
+        "egysegek": [
+          {
+            "nev": "Vágtatók",
+            "tipus": "Könnyűlovas íjászok",
+            "leiras": "Az ilanori hadsereg lelke. Villámgyors portyáikon megközelíthetetlen távolságból nyilaznak, majd visszavonulnak. A nyílt csata helyett a zaklatást és a fárasztást részesítik előnyben."
+          }
+        ]
+      },
+      "szovetsegek": ["Sirenar", "Eren"],
+      "jellemzok": {
+        "domináns_fajok": ["ember"],
+        "jellemző_kasztok": ["harcos", "fejvadász", "pap (pyarroni)"],
+        "jellemző_fegyverek": ["lovas rövid íj", "szablya", "dárda"],
+        "kulturális_értékek": ["szabadság", "mozgékonyság", "klánhűség", "pyarroni hit"],
+        "kezdő_képzettségek": [
+          { "kepzettseg": "Lovaglás", "bonus": "Mf" },
+          { "kepzettseg": "Íjászat (lóhátról)", "bonus": "Af" }
+        ],
+        "jellem_irány": ["Élet és Semleges", "Élet és Rend"],
+        "megjegyzes": "Az innen származó karakterek lóhátról harcolva nem szenvednek levonást az íjhasználathoz."
+      }
+    },
+
+    {
+      "nev": "Tiadlan",
+      "tipus": "Klánkirályság",
+      "tag_kategoria": "alapító emberi tagország",
+      "leiras": "A kardművészek hazája, ahol a harc és a művészet elválaszthatatlanul összefonódik. Belső berendezkedése klánokra és hűbéri birtokokra épül; a klánokon belül az öröklés és a párbaj egyformán rendez vitákat.",
+      "kultura": "A tiadlani harcos számára a kard nem csak fegyver, hanem a lélek tükre. A párbaj kultúrája mélyen gyökerezik. A klánok közötti rivalizálás mindennapos, de az ellenséggel szemben egységesen lépnek fel.",
+      "hadsereg": {
+        "leiras": "Egyéni harcosokra alapuló, magas technikai színvonalú haderő.",
+        "egysegek": [
+          {
+            "nev": "Tiadlani kardművészek",
+            "tipus": "Elit gyalogos harcosok",
+            "leiras": "Nincs szervezett egységnevük; minden kláni harcos kardművész. Technikájuk a szövetség legmagasabb szintje; egy tiadlani kardmester más harcosok közül kiemelkedik."
+          }
+        ]
+      },
+      "szovetsegek": ["Eren", "Sirenar"],
+      "jellemzok": {
+        "domináns_fajok": ["ember", "félelf"],
+        "jellemző_kasztok": ["kardművész", "harcos", "fejvadász", "bárd"],
+        "jellemző_fegyverek": ["egykezes kard", "hosszú kard", "parádés kard"],
+        "kulturális_értékek": ["becsület", "technikai tökéletesség", "párbajkultúra", "klánhűség", "harc mint művészet"],
+        "kezdő_képzettségek": [
+          { "kepzettseg": "Kardvívás", "bonus": "Mf" },
+          { "kepzettseg": "Párbaj-etikett", "bonus": "Af" }
+        ],
+        "jellem_irány": ["Rend és Élet", "Rend és Semleges"],
+        "megjegyzes": "Az innen származó kardművész kasztú karakterek a kasztjuk alaptechnikájában egy szinttel magasabban indulnak."
+      }
+    },
+
+    {
+      "nev": "Tarin",
+      "tipus": "Hegyi királyság",
+      "tag_kategoria": "szövetséges nép (törpék)",
+      "leiras": "A törpék hegyi királysága, a szövetség egyik legfontosabb bástyája. Beriquelről érkezett ősöktől öröklik kézművességüket és katonai fegyelmüket. Tarin városait legyőzhetetlen erődítmények és évezredes bányahálózatok veszik körül.",
+      "kultura": "Törpe kultúra: az állandóság, a kézművesség és a harci hűség hármassága. Egyszer házasodnak, szavukat tartják, és sohasem adják meg magukat élve. Gianaghoz különösen szoros kötelék fűzi őket – a két nép egymás gyerekein nevelkedett.",
+      "hadsereg": {
+        "leiras": "A szövetség legszilárdabb gyalogsága, kiegészítve egy egyedülálló lovas egységgel.",
+        "egysegek": [
+          {
+            "nev": "Tarini nehézvértesek",
+            "tipus": "Nehézgyalogság",
+            "leiras": "Páncélzatuk és kitartásuk páratlan. Sziklaszilárd falangokban harcolnak, és utolsó emberig kitartanak."
+          },
+          {
+            "nev": "Rackla-lovasok",
+            "tipus": "Különleges lovasság",
+            "leiras": "Barlangi lényeken (racklákon) nyargaló törpe lovasok. Szűk folyosókon és hegyoldalakban olyan terepen is harcolnak, ahol a hagyományos lovasság használhatatlan."
+          }
+        ]
+      },
+      "szovetsegek": ["Gianag", "Erigow"],
+      "jellemzok": {
+        "domináns_fajok": ["törpe"],
+        "jellemző_kasztok": ["harcos", "gladiátor", "tolvaj", "pap (saját isten)"],
+        "jellemző_fegyverek": ["csatabárd", "rövid kard", "pajzs", "nehéz páncél"],
+        "kulturális_értékek": ["kitartás", "hűség", "kézművesség", "becsület", "állandóság"],
+        "kezdő_képzettségek": [
+          { "kepzettseg": "Csapdafelfedezés", "bonus": "+35%" },
+          { "kepzettseg": "Titkosajtó keresés", "bonus": "+30%" },
+          { "kepzettseg": "Kovácsművesség", "bonus": "Mf" }
+        ],
+        "jellem_irány": ["Rend és Élet"],
+        "megjegyzes": "Az innen származó törpe karakterek a standard faji különleges képességeiken felül a Rackla-lovasok képzésére is jogosultak, ha harcos kasztot választanak."
+      }
+    },
+
+    {
+      "nev": "Sirenar",
+      "tipus": "Erdős birodalom",
+      "tag_kategoria": "szövetséges nép (elfek)",
+      "leiras": "Az elfek elzárkózó, komor erdőségekben élő birodalma, messze a civilizáció hatásaitól. A Sirenar Szövetség az északi elvándorlás után alakult meg; tagjai büszkék különállásukra és természetközeli életmódjukra.",
+      "kultura": "Az elf kultúra legtisztább változata az Északi Szövetségen belül: a természet tisztelete, a hosszú életből fakadó türelem és a rendíthetetlen becsület jellemzi őket. A Sirenari elfek különösen elzárkózóak; a szövetséggel is csak a közös ellenség miatt működnek együtt.",
+      "hadsereg": {
+        "leiras": "Kis létszámú, de messze a legjobb minőségű távolsági harci erő a szövetségben.",
+        "egysegek": [
+          {
+            "nev": "Sasok",
+            "tipus": "Elit íjász egység",
+            "leiras": "Ynev talán legjobb íjászai. Erdei harcban és felderítésben páratlanok. Kis csoportokban dolgoznak, inkább rajtaütésekre és pozícióvédelemre szakosodnak, mint nyílt ütközetre."
+          }
+        ]
+      },
+      "szovetsegek": ["Ilanor", "Eren", "Tiadlan"],
+      "jellemzok": {
+        "domináns_fajok": ["elf"],
+        "jellemző_kasztok": ["harcos", "varázsló", "fejvadász", "bárd"],
+        "jellemző_fegyverek": ["hosszúíj", "rövid kard", "tőr"],
+        "kulturális_értékek": ["természet tisztelete", "elzárkózás", "türelem", "becsület", "hosszú távú gondolkodás"],
+        "kezdő_képzettségek": [
+          { "kepzettseg": "Íjászat", "bonus": "+20%" },
+          { "kepzettseg": "Erdőjárás", "bonus": "Mf" },
+          { "kepzettseg": "Lopakodás", "bonus": "+15%" }
+        ],
+        "jellem_irány": ["Élet és Rend"],
+        "megjegyzes": "Az innen származó elf karakterek a standard faji íjász bónuszukon felül erdei körülmények között +10% extra bónuszt kapnak a lopakodáshoz és rejtőzéshez."
+      }
+    }
+  ]
+}

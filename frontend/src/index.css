@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Magus Theme ─────────────────────────────────────────────────── */
+[data-theme="magus"] {
+  --th-bg:          #0d0804;
+  --th-surface:     #1c0f08;
+  --th-surface2:    #2a1a0c;
+  --th-border:      #4a2812;
+  --th-text:        #e8d4b2;
+  --th-muted:       #8a6845;
+  --th-accent:      #8b1a1a;
+  --th-accent-lt:   #b52020;
+  --th-accent-glow: rgba(139, 26, 26, 0.35);
+  --th-paper:       #c8a97e;
+  --th-paper-dk:    #b49060;
+  --th-ink:         #1e0c05;
+  --th-ink-muted:   #5a3015;
+  --th-gold:        #c9950e;
+  --th-gold-lt:     #e8b020;
+  --th-gold-glow:   rgba(201, 149, 14, 0.4);
+  --font-display:   'Cinzel', Georgia, serif;
+  --font-body:      'Crimson Pro', Georgia, serif;
+}
+
+/* ─── Star Wars Theme ─────────────────────────────────────────────── */
+[data-theme="starwars"] {
+  --th-bg:          #000510;
+  --th-surface:     #05091a;
+  --th-surface2:    #0a1025;
+  --th-border:      #1a3060;
+  --th-text:        #e0f0ff;
+  --th-muted:       #5080a0;
+  --th-accent:      #ffe400;
+  --th-accent-lt:   #fff060;
+  --th-accent-glow: rgba(255, 228, 0, 0.3);
+  --th-paper:       #0d1a35;
+  --th-paper-dk:    #0a1528;
+  --th-ink:         #b0d0f0;
+  --th-ink-muted:   #607090;
+  --th-gold:        #ffe400;
+  --th-gold-lt:     #ffed60;
+  --th-gold-glow:   rgba(255, 228, 0, 0.4);
+  --font-display:   'Orbitron', sans-serif;
+  --font-body:      'Exo 2', sans-serif;
+}
+
+/* ─── Base ────────────────────────────────────────────────────────── */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--th-bg);
+  color: var(--th-text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+}
+
+/* ─── Scrollbar ───────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--th-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--th-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--th-muted);
+}
+
+/* ─── Typography ──────────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+/* ─── Paper Card ──────────────────────────────────────────────────── */
+.paper-card {
+  background: var(--th-paper);
+  color: var(--th-ink);
+  border: 1px solid var(--th-paper-dk);
+  border-radius: 2px;
+  position: relative;
+}
+
+[data-theme="magus"] .paper-card {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E"),
+    linear-gradient(135deg, var(--th-paper) 0%, var(--th-paper-dk) 100%);
+  box-shadow:
+    inset 0 0 30px rgba(101, 58, 10, 0.15),
+    0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* ─── Rune Divider ────────────────────────────────────────────────── */
+.rune-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--th-gold);
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+.rune-divider::before,
+.rune-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--th-border), transparent);
+}
+
+/* ─── DM Notes ────────────────────────────────────────────────────── */
+.dm-notes-block {
+  border-left: 3px solid var(--th-accent);
+  background: rgba(139, 26, 26, 0.08);
+}
+
+/* ─── Stat grid ───────────────────────────────────────────────────── */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+.stat-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 2px;
+  background: rgba(0,0,0,0.12);
+  border-radius: 2px;
+}
+
+/* ─── Sidebar ─────────────────────────────────────────────────────── */
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 1rem;
+  border-radius: 3px;
+  color: var(--th-muted);
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+.sidebar-link:hover {
+  color: var(--th-text);
+  background: rgba(255,255,255,0.05);
+}
+.sidebar-link.active {
+  color: var(--th-gold);
+  background: rgba(139, 26, 26, 0.2);
+  border-left: 2px solid var(--th-accent);
+  padding-left: calc(1rem - 2px);
+}
+
+/* ─── Input ───────────────────────────────────────────────────────── */
+.th-input {
+  width: 100%;
+  background: var(--th-bg);
+  color: var(--th-text);
+  border: 1px solid var(--th-border);
+  border-radius: 3px;
+  padding: 0.6rem 0.8rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.th-input::placeholder {
+  color: var(--th-muted);
+  font-style: italic;
+}
+.th-input:focus {
+  border-color: var(--th-accent);
+  box-shadow: 0 0 0 2px var(--th-accent-glow);
+}
+
+/* ─── Animations ──────────────────────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 8px var(--th-accent-glow); }
+  50%       { box-shadow: 0 0 20px var(--th-accent-glow); }
+}
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}

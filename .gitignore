@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# SQLite database (generated, not source)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment / secrets
+.env
+.env.*
+*.key
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.err
+backend.log
+backend.err
+frontend.log
+
+# Claude Code settings (local only)
+.claude/
+
+# IDE
+.vscode/
+.idea/
+*.swp

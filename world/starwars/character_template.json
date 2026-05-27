@@ -1,0 +1,147 @@
+{
+  "_template": "Star Wars: Edge of the Empire – Character Sheet",
+  "_version": "1.0",
+  "_note": "Use null for unknown values, omit optional list entries entirely.",
+
+  "identity": {
+    "name": "",
+    "species": "",
+    "career": "",
+    "specialization": "",
+    "player": ""
+  },
+
+  "experience": {
+    "total_xp": 0,
+    "available_xp": 0
+  },
+
+  "characteristics": {
+    "brawn": 1,
+    "agility": 1,
+    "intellect": 1,
+    "cunning": 1,
+    "willpower": 1,
+    "presence": 1
+  },
+
+  "derived_stats": {
+    "soak_value": 0,
+    "wounds": {
+      "threshold": 0,
+      "current": 0
+    },
+    "strain": {
+      "threshold": 0,
+      "current": 0
+    },
+    "defense": {
+      "ranged": 0,
+      "melee": 0
+    }
+  },
+
+  "skills": {
+    "general_skills": [
+      { "name": "Astrogation",    "characteristic": "Intellect",  "career": false, "rank": 0 },
+      { "name": "Athletics",      "characteristic": "Brawn",      "career": false, "rank": 0 },
+      { "name": "Charm",          "characteristic": "Presence",   "career": false, "rank": 0 },
+      { "name": "Coercion",       "characteristic": "Willpower",  "career": false, "rank": 0 },
+      { "name": "Computers",      "characteristic": "Intellect",  "career": false, "rank": 0 },
+      { "name": "Cool",           "characteristic": "Presence",   "career": false, "rank": 0 },
+      { "name": "Coordination",   "characteristic": "Agility",    "career": false, "rank": 0 },
+      { "name": "Deception",      "characteristic": "Cunning",    "career": false, "rank": 0 },
+      { "name": "Discipline",     "characteristic": "Willpower",  "career": false, "rank": 0 },
+      { "name": "Leadership",     "characteristic": "Presence",   "career": false, "rank": 0 },
+      { "name": "Mechanics",      "characteristic": "Intellect",  "career": false, "rank": 0 },
+      { "name": "Medicine",       "characteristic": "Intellect",  "career": false, "rank": 0 },
+      { "name": "Negotiation",    "characteristic": "Presence",   "career": false, "rank": 0 },
+      { "name": "Perception",     "characteristic": "Cunning",    "career": false, "rank": 0 },
+      { "name": "Piloting (Planetary)", "characteristic": "Agility", "career": false, "rank": 0 },
+      { "name": "Piloting (Space)",     "characteristic": "Agility", "career": false, "rank": 0 },
+      { "name": "Resilience",     "characteristic": "Brawn",      "career": false, "rank": 0 },
+      { "name": "Skullduggery",   "characteristic": "Cunning",    "career": false, "rank": 0 },
+      { "name": "Stealth",        "characteristic": "Agility",    "career": false, "rank": 0 },
+      { "name": "Streetwise",     "characteristic": "Cunning",    "career": false, "rank": 0 },
+      { "name": "Survival",       "characteristic": "Cunning",    "career": false, "rank": 0 },
+      { "name": "Vigilance",      "characteristic": "Willpower",  "career": false, "rank": 0 }
+    ],
+    "combat_skills": [
+      { "name": "Brawl",          "characteristic": "Brawn",      "career": false, "rank": 0 },
+      { "name": "Gunnery",        "characteristic": "Agility",    "career": false, "rank": 0 },
+      { "name": "Lightsaber",     "characteristic": "Brawn",      "career": false, "rank": 0 },
+      { "name": "Melee",          "characteristic": "Brawn",      "career": false, "rank": 0 },
+      { "name": "Ranged (Heavy)", "characteristic": "Agility",    "career": false, "rank": 0 },
+      { "name": "Ranged (Light)", "characteristic": "Agility",    "career": false, "rank": 0 }
+    ],
+    "knowledge_skills": [
+      { "name": "Core Worlds",    "characteristic": "Intellect",  "career": false, "rank": 0 },
+      { "name": "Education",      "characteristic": "Intellect",  "career": false, "rank": 0 },
+      { "name": "Lore",           "characteristic": "Intellect",  "career": false, "rank": 0 },
+      { "name": "Outer Rim",      "characteristic": "Intellect",  "career": false, "rank": 0 },
+      { "name": "Underworld",     "characteristic": "Intellect",  "career": false, "rank": 0 },
+      { "name": "Xenology",       "characteristic": "Intellect",  "career": false, "rank": 0 }
+    ],
+    "custom_skills": []
+  },
+
+  "weapons": [
+    {
+      "name": "",
+      "skill": "",
+      "damage": 0,
+      "range": "Engaged",
+      "crit": 0,
+      "special": []
+    }
+  ],
+
+  "description": {
+    "gender": "",
+    "age": null,
+    "height": "",
+    "build": "",
+    "hair": "",
+    "eyes": "",
+    "notable_features": ""
+  },
+
+  "motivations": [
+    {
+      "type": "",
+      "description": ""
+    }
+  ],
+
+  "obligations": {
+    "entries": [
+      {
+        "type": "",
+        "magnitude": 0,
+        "description": ""
+      }
+    ],
+    "group_contribution_rank": 0
+  },
+
+  "equipment": {
+    "credits": 0,
+    "weapons_and_armor": [],
+    "personal_gear": []
+  },
+
+  "talents": [
+    {
+      "name": "",
+      "page": "",
+      "ability_summary": ""
+    }
+  ],
+
+  "critical_injuries": [
+    {
+      "severity": "",
+      "result": ""
+    }
+  ]
+}

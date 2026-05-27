@@ -1,0 +1,239 @@
+{
+  "_source": "Erion helyszínei V8. – Magyar Gergely, Kronikak.hu (2019/2023)",
+  "_version": "1.0",
+  "_megjegyzes": "A 'tipus' és 'atmoszfera' mezők AI generáláshoz használatosak. A 'forras' az eredeti MAGUS kiadványra utal.",
+
+  "varos": "Erion",
+  "becenev": "Kalandozók Városa, Városok Városa",
+  "leiras": "Ynev legnagyobb és legfontosabb városa, egykori Godorai Birodalom fővárosa. Rengeteg negyedre osztott városóriás, ahol minden faj és kultúra megtalálható.",
+
+  "negyedek": [
+    { "nev": "Palotanegyed",   "szin": "arany",    "leiras": "A legelegánsabb negyed, a nemesség és a nagy rendek székháza. Sötétedés után csak vendég maradhat benne." },
+    { "nev": "Kereskedőnegyed","szin": "zöld",     "leiras": "A kikötő és a nagy kereskedelmi csarnokok negyede. Gorviki–dzsad feszültség jellemzi." },
+    { "nev": "Fogadónegyed",   "szin": "kék",      "leiras": "Az idegenek legforgalmasabb területe, közel kétezer szálláshely, a térkapuk és Torozon Tavernája is itt van." },
+    { "nev": "Szórakozónegyed","szin": "lila",     "leiras": "Arénák, színházak, játékbarlangok. Tehetős külhoniaknak épített negyed." },
+    { "nev": "Örömnegyed",     "szin": "rózsaszín","leiras": "A déli kapunál: bordélyházak, Ellana főtemploma, Minal kaszinó, Tharr és Noir szentélyei." },
+    { "nev": "Nekropolisz",    "szin": "szürke",   "leiras": "Más néven Temetőnegyed. Fal és védművek övezik. Dartonitók és élőholtak világa." },
+    { "nev": "Szegénynegyed",  "szin": "sárga",    "leiras": "A nyomor és az alvilág paradicsoma. Nyom nélkül el lehet tűnni, ha az ember nem vigyáz." },
+    { "nev": "Utazónegyed",    "szin": "narancs",  "leiras": "A keleti kapun belépve jobbra. Kereskedők, árusok, a rabszolgapiac negyede." },
+    { "nev": "Kikötő",         "szin": "türkiz",   "leiras": "Közigazgatásilag a Kereskedőnegyed része. Ynev legforgalmasabb kikötője, mágikus védelemmel." }
+  ],
+
+  "helyszinek": [
+
+    { "nev": "Felső Palota", "negyed": "Palotanegyed", "tipus": "palota", "leiras": "A godorai helytartók, ma erioni hercegek palotája. Kevert stílus, a kyr hanyatlás jelképe. Közkeletű neve: hercegi palota.", "npck": [], "frakcio": "Erioni Hercegi Ház", "atmoszfera": ["előkelő", "hatalmi", "diszkrét"] },
+
+    { "nev": "Godorai Függőkert", "negyed": "Palotanegyed", "tipus": "romterület/misztikus", "leiras": "Hatalmas alabástrompiramis rejti a psz. 850-ben emelt függőkertet, amelynek megnyitásakor mágikus katalizmus rázta meg Eriont. Bejáratát háromezred éve varázspecsét zárja, amelyet eddig senki sem tört fel.", "npck": [], "frakcio": null, "atmoszfera": ["titokzatos", "veszélyes", "törté-nelmi"] },
+
+    { "nev": "Főnixek Parkja", "negyed": "Palotanegyed", "tipus": "park", "leiras": "A kontinens legkülönösebb füvészkertje. Feketelunír kerítésén belül letűnt korok és más létsíkok növényei tenyésznek. Hat főnixéből kettő még él; az évi kettős hold ünnepén nyílik meg a nagyközönség előtt.", "npck": [], "frakcio": "Erioni Hercegi Ház", "atmoszfera": ["csodálatos", "ritka", "zarándokhely"] },
+
+    { "nev": "Hercegi Könyvtár", "negyed": "Palotanegyed", "tipus": "könyvtár/levéltár", "leiras": "Csontszínű épület a Főnixek Parkja mellett. Különösen történelmi és heraldikai gyűjteményéről ismert.", "npck": [], "frakcio": "Erioni Hercegi Ház", "atmoszfera": ["csendes", "tudományos", "zárt"] },
+
+    { "nev": "Inkvizítorok Szövetségének erioni rendháza", "negyed": "Palotanegyed", "tipus": "rendház/erőd", "leiras": "Tízemeletes gránitépület a tölgyesben. Abbit-acél főkapu, számos titkos bejárat. Bevehetetlennek mondják.", "npck": [], "frakcio": "Inkvizítorok Szövetsége", "atmoszfera": ["fenyegető", "titkos", "paranoid"] },
+
+    { "nev": "Famorïa (Hypraebor-palota)", "negyed": "Palotanegyed", "tipus": "nagykövetség/palota", "leiras": "Toron nagykövetsége Erionban. Nyolcszögletű ösvényű parkjában a hazájuktól távol elhalt toroni előkelők hamvait szórják szét. A legenda szerint a park földjében elveszett becsületet lehet visszanyerni.", "npck": [], "frakcio": "Toroni Birodalom", "atmoszfera": ["idegen", "méltóságteljes", "misztikus"] },
+
+    { "nev": "Dreina erioni főtemploma", "negyed": "Palotanegyed", "tipus": "főtemplom", "leiras": "A Dreina egyház pyarroni irányzatának erioni főtemploma.", "npck": [], "frakcio": "Dreina egyház", "atmoszfera": ["vallásos", "előkelő"] },
+
+    { "nev": "Krad Lovagrend erioni székháza", "negyed": "Palotanegyed", "tipus": "lovagrendház", "leiras": "A Krad Lovagrend erioni képviselőhelye.", "npck": [], "frakcio": "Krad Lovagrend", "atmoszfera": ["fegyelmezett", "katonai"] },
+
+    { "nev": "Fekete Torony rendház (Darton Ujja)", "negyed": "Palotanegyed", "tipus": "lovagrendház/torony", "leiras": "A szakadár Dartonita Lovagrend rendháza. Psz. 3687-ben emelték, az építési jog megszerzése politikai győzelem volt Pyarron ellenében. Százhúsz láb magas, ötven láb átmérőjű torony.", "npck": [], "frakcio": "Dartonita Lovagrend", "atmoszfera": ["sötét", "megfélemlítő", "politikailag terhes"] },
+
+    { "nev": "Égszínkék Pegazus", "negyed": "Palotanegyed", "tipus": "exkluzív fogadó", "leiras": "Kizárólag meghívott vendégek számára nyitva tartó fogadópalota a Palotanegyed szélén. A Tharkas család lakja.", "npck": [{ "nev": "Tharkas család", "szerep": "tulajdonos" }], "frakcio": null, "atmoszfera": ["exkluzív", "arisztokratikus", "zárt"] },
+
+    { "nev": "Északi kikötő (kyr kikötő)", "negyed": "Kikötő", "tipus": "kikötőrész", "leiras": "Erion kikötőjének legrégebbi, északi harmada. Külön kapuval védett, két hatalmas mólószigettel.", "npck": [], "frakcio": "Erioni Hercegi Ház", "atmoszfera": ["zsúfolt", "régi", "ipari"] },
+
+    { "nev": "Közép kikötő (közkikötő)", "negyed": "Kikötő", "tipus": "kikötőrész", "leiras": "A tengeri kereskedelem fő kiindulópontja. Zárható vízikapuval rendelkezik.", "npck": [], "frakcio": null, "atmoszfera": ["forgalmas", "kereskedelmi", "hangos"] },
+
+    { "nev": "Déli kikötő", "negyed": "Kikötő", "tipus": "kikötőrész", "leiras": "A kikötő déli harmada; magában foglalja a hadikikötőt is.", "npck": [], "frakcio": "Erioni Hercegi Ház", "atmoszfera": ["katonai", "zárt", "jól őrzött"] },
+
+    { "nev": "Hadikikötő", "negyed": "Kikötő", "tipus": "katonai kikötő", "leiras": "A déli kikötőn belüli zárt és kiválóan védhető egység. Külön fegyvertoronnyal, az erioni hercegi flotta állomáshelye.", "npck": [], "frakcio": "Erioni Hercegi Ház", "atmoszfera": ["katonai", "szigorú", "hozzáférhetetlen"] },
+
+    { "nev": "Ékes Tegzek Háza", "negyed": "Kereskedőnegyed", "alkerulet": "Kikötő", "tipus": "kocsma/fogadó", "leiras": "Kikötői kocsma és vendégház, amelynek tulajdonosa és törzsszemélyzete sokat próbált kalandozókból áll. Tevékenységük messze meghaladja egy egyszerű vendéglátóhely kereteit.", "npck": [], "frakcio": null, "atmoszfera": ["kalandozóbarát", "titkos ügyek", "hangos"] },
+
+    { "nev": "Hercegi kikötő és vámpalota", "negyed": "Kereskedőnegyed", "tipus": "hatósági épület", "leiras": "A hercegi hivatalnokok és kikötőtisztek igazgatási központja.", "npck": [], "frakcio": "Erioni Hercegi Ház", "atmoszfera": ["bürokratikus", "formális"] },
+
+    { "nev": "Matrózok Öröme", "negyed": "Kereskedőnegyed", "alkerulet": "Kikötő közelében", "tipus": "kocsma", "leiras": "Verekedéseiről ismert kikötői kocsma. Az összetűzéseket rendszerint egy Tret nevű asztalos provokálja, aki az újjáépítések haszonélvezője.", "npck": [{ "nev": "Tret", "szerep": "verekedés-provokatőr/asztalos" }], "frakcio": null, "atmoszfera": ["züllött", "hangos", "veszélyes"] },
+
+    { "nev": "Lélekvesztő", "negyed": "Kereskedőnegyed", "alkerulet": "Kikötő", "tipus": "kocsma", "leiras": "A kikötőnegyed hírhedt kocsmája, egy partra vont galeasszból alakítva ki.", "npck": [], "frakcio": null, "atmoszfera": ["hírhedt", "tengeri", "piszkos"] },
+
+    { "nev": "Félszemű Mala Ivója", "negyed": "Kereskedőnegyed", "alkerulet": "Kikötő", "tipus": "kocsma/fogadó", "leiras": "Egy kiöregedett hajóskapitány italmérése és szálláshelye az elsüllyedt egykori hajójával szemben. Az ide betérő matrózokat állítólag előszeretettel toborozzák más hajókra.", "npck": [{ "nev": "Félszemű Mala", "szerep": "tulajdonos, volt hajóskapitány" }], "frakcio": null, "atmoszfera": ["nosztalgiás", "tengeri", "gyanús"] },
+
+    { "nev": "Szent Celestius bazilika", "negyed": "Kereskedőnegyed", "alkerulet": "Shadoni negyed", "tipus": "főtemplom", "leiras": "Domvik főtemploma Erion shadoniak által lakott városrészében.", "npck": [], "frakcio": "Domvik egyház", "atmoszfera": ["vallásos", "shadoni közösség"] },
+
+    { "nev": "Erioni elf kolónia", "negyed": "Kereskedőnegyed", "tipus": "kolónia/negyed", "leiras": "Korok óta jelen lévő elf közösség. Pragmatikus gondolkodásmódjú elfek alkotják, akik részben elhagyták hagyományos értékrendjüket. Félig zárkózott, titokzatos életvitelű közösség. Vezetőjük egy luminatar (jelenkorban Ifar Rauminen).", "npck": [{ "nev": "Ifar Rauminen", "szerep": "luminatar, a kolónia hercege" }], "frakcio": "Erioni Elf Közösség", "atmoszfera": ["titokzatos", "zárt", "idegen"] },
+
+    { "nev": "Wilman Kedvencei", "negyed": "Kereskedőnegyed", "tipus": "exotikus állatkereskedés", "leiras": "Különleges lényekre szakosodott üzlet. Wilman Nerron lényvadász és kereskedő állítása szerint bármilyen állatot és szörnyet be tud szerezni. A pincében ritka bestiákat tart.", "npck": [{ "nev": "Wilman Nerron", "szerep": "tulajdonos, lényvadász" }], "frakcio": null, "atmoszfera": ["izgalmas", "egzotikus", "enyhén gyanús"] },
+
+    { "nev": "Erioni Hercegi Bankház", "negyed": "Kereskedőnegyed", "tipus": "bank", "leiras": "Erion és egész Ynev leghíresebb bankháza. Drágakövek terme, aranykamrák és titkok szobája (letéti tárgyak). Biztonságáról közismert.", "npck": [], "frakcio": "Erioni Hercegi Ház", "atmoszfera": ["előkelő", "biztonságos", "formális"] },
+
+    { "nev": "Kard Testvériségének erioni rendháza", "negyed": "Kereskedőnegyed", "alkerulet": "Északkeleti rész", "tipus": "lovagrendház", "leiras": "A Kard Testvérisége Lovagrend kisebb erődnyi erioni központja. Bonyolult politikai manőverekkel telepedtek meg itt. A rend hanyatlásával a rendház jelentősége is csökkent.", "npck": [], "frakcio": "Kard Testvérisége Lovagrend", "atmoszfera": ["hanyatló", "politikailag terhes"] },
+
+    { "nev": "Vasmarok kovácsat", "negyed": "Kereskedőnegyed", "tipus": "kovácsműhely", "leiras": "Erion nagyobb kovácsműhelyeinek egyike.", "npck": [{ "nev": "Birron Vazus", "szerep": "tulajdonos" }], "frakcio": null, "atmoszfera": ["ipari", "megbízható"] },
+
+    { "nev": "Vasmarok fegyverbolt", "negyed": "Kereskedőnegyed", "tipus": "fegyverbolt", "leiras": "A Vasmarok kovácsattal szemben álló fegyverkereskedés. Mindig a Vazus család vezeti. Kétszintes épület: felül lakrész, alul fegyverek.", "npck": [{ "nev": "Vazus család", "szerep": "tulajdonos" }], "frakcio": null, "atmoszfera": ["professzionális", "fegyveres"] },
+
+    { "nev": "Bagor Kalandozók Boltja", "negyed": "Kereskedőnegyed", "tipus": "kalandozóbolt", "leiras": "Egy kiöregedett ork kalandozó, Bagorr Mag Ogg boltja. Csak kalandozók számára kellő, ritka felszerelések.", "npck": [{ "nev": "Bagorr Mag Ogg", "szerep": "tulajdonos, kiöregedett ork kalandozó" }], "frakcio": null, "atmoszfera": ["kalandozóbarát", "különleges"] },
+
+    { "nev": "Nagy Bazár (Szúkh)", "negyed": "Kereskedőnegyed", "alkerulet": "Dzsad negyed", "tipus": "bazár/piac", "leiras": "Az erioni dzsad kolónia legnagyobb piaca. Alkudni kötelező. Mérete megközelíti a híres sobirai bazárét. A dzsad sivatagjárók 'Szúkh' néven emlegetik.", "npck": [], "frakcio": "Dzsad Közösség", "atmoszfera": ["nyüzsgő", "hangos", "egzotikus", "csapodár"] },
+
+    { "nev": "Salim szerája", "negyed": "Kereskedőnegyed", "alkerulet": "Dzsad negyed", "tipus": "karavánszeráj", "leiras": "A dzsad kolónia egyik szerája.", "npck": [], "frakcio": "Dzsad Közösség", "atmoszfera": ["keleti", "vendégszerető"] },
+
+    { "nev": "Csapzott Herceg", "negyed": "Kereskedőnegyed", "tipus": "fogadó", "leiras": "Gianagi tulajdonos üzemeltette középkategóriás fogadó. Kőépülethez fa felső szint és istálló tartozik. Vegyes közönség és hangulat.", "npck": [], "frakcio": null, "atmoszfera": ["átlagos", "vegyes", "északi stílus"] },
+
+    { "nev": "Ghulám", "negyed": "Kereskedőnegyed", "alkerulet": "Dzsad negyed", "tipus": "nagymecset/iskola", "leiras": "Dzsad nagymecset Erionban. Magas színvonalú oktatás mindenki számára, aki tanul dzsad nyelvet és megfizeti. Kb. 5000 fős diákság, amelynek fele nem dzsad területről érkezik. A manifesztációs háborúkor ide mentették a hit aranytábláit a Kuf'Raad mecsetből.", "npck": [], "frakcio": "Dzsad Vallási Közösség", "atmoszfera": ["vallásos", "tudományos", "kozmopolita"] },
+
+    { "nev": "Ködös Tengerek Háza", "negyed": "Kereskedőnegyed", "tipus": "toroni épület/Tharr-templom", "leiras": "Toroni stílusú épület, amely sokáig toroni nagykövetségként szolgált. Tharr egyik legnagyobb erioni temploma van benne berendezve.", "npck": [], "frakcio": "Tharr egyház", "atmoszfera": ["idegen stílus", "vallásos", "toroni"] },
+
+    { "nev": "Kővár", "negyed": "Kereskedőnegyed", "alkerulet": "Gorviki negyed", "tipus": "erőd/rezidencia", "leiras": "A Racchini család erioni székhelye, a gorviki kolónia egyik legfontosabb központja.", "npck": [{ "nev": "Racchini család", "szerep": "tulajdonos, gorviki kolónia vezető klánja" }], "frakcio": "Gorviki Klánok", "atmoszfera": ["erős", "klánhűség", "bűnös árnyalat"] },
+
+    { "nev": "Maszkok háza", "negyed": "Kereskedőnegyed", "alkerulet": "Enoszukei negyed közelében", "tipus": "játékterem", "leiras": "Játékterem az enoszukei negyed peremén. Jellegzetessége, hogy a játékosok egymás személyazonosságának ismerete nélkül, végig maszkokat viselve ülnek asztalhoz.", "npck": [], "frakcio": null, "atmoszfera": ["titokzatos", "anonimitás", "exkluzív"] },
+
+    { "nev": "Imeko torony", "negyed": "Kereskedőnegyed", "alkerulet": "Enoszukei negyed", "tipus": "kolónia-központ/torony", "leiras": "Erion enoszukei bevándorlóinak legfontosabb épülete, a Zöld Hullám Vándorai klán székhelye.", "npck": [], "frakcio": "Zöld Hullám Vándorai (enoszukei klán)", "atmoszfera": ["keleti", "titokzatos", "klánközpont"] },
+
+    { "nev": "Zofort Dalak fogadója", "negyed": "Kereskedőnegyed", "alkerulet": "Déli rész", "tipus": "fogadó", "leiras": "Törpe tulajdonos vezeti, tarini ételkülönlegességekről és törpe stílusáról ismert. Titkos földalatti járat köti össze a falakkal, ahol különleges alapanyagokat termesztenek. Az egykori Mithrillpikkelysek kalandozócsapat túlélőinek székhelye – ők mára csak információkkal kereskednek.", "npck": [{ "nev": "Zofort Dalak", "szerep": "tulajdonos, törpe" }], "frakcio": "Mithrillpikkelysek (volt kalandozócsapat)", "atmoszfera": ["törpe stílus", "titkos", "információs csomópont"] },
+
+    { "nev": "Fehér Holló fogadó", "negyed": "Kereskedőnegyed", "alkerulet": "Északi rész", "tipus": "fogadó", "leiras": "Kereskedőkre szakosodott, diszkrét fogadó tárgyalásokra alkalmas helyekkel. Psz. 3701-ben fejlesztették fogadóvá. Pincéjében titkos Morgena-szentély működik, ami a Lidércnővérek szektához köthető.", "npck": [], "frakcio": "Lidércnővérek szekta (titkos)", "atmoszfera": ["diszkrét", "üzleti", "titkos kultusz alatta"] },
+
+    { "nev": "Sárga Tenger kereskedőház", "negyed": "Kereskedőnegyed", "alkerulet": "Dzsad negyed", "tipus": "kereskedőház/palota", "leiras": "El Hamed-i dzsad kereskedőház erioni érdekeltséggel.", "npck": [], "frakcio": "Dzsad Kereskedők", "atmoszfera": ["gazdag", "keleti", "kereskedelmi"] },
+
+    { "nev": "Ut-Ász", "negyed": "Kereskedőnegyed", "alkerulet": "Kikötőrész", "tipus": "fogadó", "leiras": "Háromszintes fogadó különálló gőzfürdővel a kikötő közelében.", "npck": [], "frakcio": null, "atmoszfera": ["kikötői", "kényelmes"] },
+
+    { "nev": "Haresa-ház", "negyed": "Kereskedőnegyed", "alkerulet": "Dzserrak kerület", "tipus": "kereskedőcsalád/palota", "leiras": "Dzsad származású erioni kereskedőcsalád. Psz. 3496-ban vásárolták meg a Dzserrak kerületet. Főként drágakövekkel és bányászattal foglalkoznak (Sharal csúcsok). Szürke Kutyák orgyilkosklán finanszírozójaként emlegetik. Vallásuk: dzsiah-gat.", "npck": [{ "nev": "el-Haresa (nemesi előtag)", "szerep": "a kereskedőcsalád tagjai" }], "frakcio": "Haresa Kereskedőcsalád / Szürke Kutyák (közvetve)", "atmoszfera": ["gazdag", "politikailag aktív", "veszélyes háttér"] },
+
+    { "nev": "Sinfen fejvadászklán", "negyed": "Kereskedőnegyed", "alkerulet": "Dzsad negyed széle", "tipus": "fejvadászklán", "leiras": "Három kalandozó alapította: Ydal (Anat-Akhan fejvadász), Ronderfon (boszorkánymester) és Gaberius (yllinori Arel-pap). A dzsad Al-Haszid klán kiirtásával vetette meg lábát Erionban. Titkos kiképzőhelyük egy névtelen szigeten van.", "npck": [{ "nev": "Ydal", "szerep": "alapító fejvadász" }, { "nev": "Ronderfon", "szerep": "alapító boszorkánymester" }, { "nev": "Gaberius", "szerep": "alapító Arel-pap" }], "frakcio": "Sinfen Fejvadászklán", "atmoszfera": ["professzionális", "veszélyes", "titkos"] },
+
+    { "nev": "Tyran-ház", "negyed": "Kereskedőnegyed", "tipus": "toroni kereskedőház", "leiras": "Toroni kalmárház (sedulari rang). Könyvek és írott szövegek kereskedelmével foglalkozik – beleértve indexre tett, tiltott iratokat is. A Déli Magánosházzal szigorú kontraktusban áll. Erioni vezetője Psz. 3698-ban Derimar Tyran.", "npck": [{ "nev": "Derimar Tyran", "szerep": "erioni vezető" }], "frakcio": "Tyran-ház (toroni)", "atmoszfera": ["diszkrét", "tudományos árnyalat", "illegális vonalak"] },
+
+    { "nev": "Kalvert emporiuma", "negyed": "Kereskedőnegyed", "tipus": "kereskedelmi/kulturális központ", "leiras": "Kereskedelmi emporium, az erioni értelmiségiek egyik gyülekezőhelye.", "npck": [], "frakcio": null, "atmoszfera": ["kulturált", "polgári", "szellemi"] },
+
+    { "nev": "Khet kán teaháza", "negyed": "Kereskedőnegyed", "alkerulet": "Enoszukei rész", "tipus": "teaház", "leiras": "Enoszukei stílusú, hagyománytisztelő és elegáns teaház. A lakkfa asztalkák elég távol vannak ahhoz, hogy bizalmas beszélgetések helyeként keressék fel. Cégér: arany madárnyomok.", "npck": [], "frakcio": null, "atmoszfera": ["elegáns", "diszkrét", "keleti"] },
+
+    { "nev": "Al Mahira bankház", "negyed": "Kereskedőnegyed", "alkerulet": "Dzsad negyed", "tipus": "bank/teaház", "leiras": "Erioni dzsad bankház teaházzal. Közvetlenségéről, rugalmasságáról és diszkréciójáról ismert; leginkább a kevésbé tehetősek látogatják. Biztonságát a Vörös Sakálok biztosítják.", "npck": [], "frakcio": "Vörös Sakálok (biztonsági szerv)", "atmoszfera": ["barátságos", "dzsad", "megbízható"] },
+
+    { "nev": "Al Ratta Bankház", "negyed": "Kereskedőnegyed", "alkerulet": "Dzsad negyed", "tipus": "bank", "leiras": "Al Abadana-i dzsad bankház, amely a manifesztáció elől mentett ki vagyonokat. Mára az ynevi bankok jelentős tényezője. A fontosabb tisztségeket nők látják el; vezető: Estelle Al Ratta.", "npck": [{ "nev": "Estelle Al Ratta", "szerep": "bankház-vezető" }], "frakcio": "Al Ratta Bankház", "atmoszfera": ["üzleti", "nőközpontú szervezet", "pénzügyi hatalom"] },
+
+    { "nev": "Sánta Róka fogadó", "negyed": "Kereskedőnegyed", "alkerulet": "Keleti rész", "tipus": "fogadó", "leiras": "Négyszintes, középkategóriás fogadó. Árai szándékosan magasabbak, hogy megszűrjék a vendégeket. Tulajdonosa Sánta Arisztin, tapasztalt erioni felhajtó.", "npck": [{ "nev": "Sánta Arisztin", "szerep": "tulajdonos, felhajtó" }], "frakcio": null, "atmoszfera": ["szelektív", "kalandozóbarát", "gyanús"] },
+
+    { "nev": "Szabad tudományok és művészetek egyeteme", "negyed": "Kereskedőnegyed", "tipus": "főiskola/tanoda", "leiras": "I. Haressyr által psz. 1031-ben alapított erioni főiskola. Az alapító személyesen hozta el erigowi egykori mestere, Bertlan Sigranomo maradványait az alapzatba.", "npck": [], "frakcio": null, "atmoszfera": ["tudományos", "öreg falak", "akadémiai"] },
+
+    { "nev": "Lanen Kifőzdéje", "negyed": "Fogadónegyed", "tipus": "kocsma/iskola", "leiras": "Idős Krad-pap apró fogadója és iskolája. Szakterülete a kyr konyhaművészet; kizárólag ételkülönlegességeket kínál. Ígéretes tanítványokat nevel mindenféle bölcsességre.", "npck": [{ "nev": "Lenen Kiman", "szerep": "tulajdonos, Krad-pap, kyr konyha specialista" }], "frakcio": "Krad egyház", "atmoszfera": ["melegségteli", "tudományos", "bensőséges"] },
+
+    { "nev": "Fogadó a Három Sárkányfihoz", "negyed": "Fogadónegyed", "alkerulet": "Északnyugati sarok", "tipus": "fogadó", "leiras": "Erion egyik jól ismert, hagyományos fogadója.", "npck": [], "frakcio": null, "atmoszfera": ["kalandozóbarát", "hagyományos"] },
+
+    { "nev": "Gyógygödör borozó", "negyed": "Fogadónegyed", "tipus": "borozó", "leiras": "Évszázados pincéjében működő borozó. Titokzatos gyógyulások legendái övezik. Az italok mellett ilanori ételeket kínál.", "npck": [], "frakcio": null, "atmoszfera": ["misztikus", "melegségteli", "titkok"] },
+
+    { "nev": "Toranaka Hamaido Selyemvánkosai", "negyed": "Fogadónegyed", "alkerulet": "Északi rész", "tipus": "exkluzív fogadó", "leiras": "Magas falak mögött niarei stílusú pagoda és kert. Különlegessége az évi Halállal Szóló Pengék Viadala – Ynev kardművészeinek zártkörű, rangos összecsapása.", "npck": [{ "nev": "Toranaka Hamaido", "szerep": "tulajdonos" }], "frakcio": null, "atmoszfera": ["keleti", "exkluzív", "harcos kultúra"] },
+
+    { "nev": "Borok Palotája", "negyed": "Fogadónegyed", "tipus": "borház", "leiras": "Négyszintes, patinás borház, szintenként más-más tájegységek boraival. Az Arkante Den Shadlek familia befektetése.", "npck": [], "frakcio": "Arkante Den Shadlek", "atmoszfera": ["elegáns", "ínyenc", "drága"] },
+
+    { "nev": "Szegtorony (Kapuk Tornya)", "negyed": "Fogadónegyed", "alkerulet": "Kapuk Tere", "tipus": "torony/rend-székház", "leiras": "A Kapuk Terének karcsú tornya, a térkapukat felügyelő Őrzők rendjének lakhelye. Állítólag a föld alá is nyúlik, jóval mélyebbre, mint az épület fölötte.", "npck": [], "frakcio": "Őrzők Rendje", "atmoszfera": ["mágikus", "titokzatos", "hatalmas energiák"] },
+
+    { "nev": "Kapuk tere", "negyed": "Fogadónegyed", "tipus": "tér/portál", "leiras": "A Fogadónegyed egyik főterme. Fehérrel mintázott kőszürke nyolcszögön két félkaréjban elhelyezkedő boltívsor rejti a térkapukat, amelyek Ynev számos távoli pontjával kötik össze a várost. A Tydmarr emlékkő és a Szegtorony is itt áll.", "npck": [], "frakcio": "Őrzők Rendje", "atmoszfera": ["mágikus", "forgalmas", "legendás", "találkozóhely"] },
+
+    { "nev": "Tydmarr emlékkő", "negyed": "Fogadónegyed", "alkerulet": "Kapuk Tere", "tipus": "emlékmű/mana-fókusz", "leiras": "Fél száz láb magas, fémes sziklaujj. Psz. 1139-ben tört fel a tér kövezete alól egy teleportációs balesetnél. III. Auriol herceg megmintáztatta belőle I. Haressyr szobrát. Erős mana-fókusz; körülötte örökzöld mohasziget.", "npck": [], "frakcio": null, "atmoszfera": ["mágikus fókusz", "emlékező", "találkozóhely"] },
+
+    { "nev": "Godorához fogadó", "negyed": "Fogadónegyed", "tipus": "fogadó", "leiras": "Arról vált híressé, hogy sok kalandozó állandó szobát tart fenn benne. A szobát a kalandozók évek múltán is úgy találják, ahogy hátrahagyták.", "npck": [], "frakcio": null, "atmoszfera": ["kalandozóbarát", "hazatérés érzése", "legendás"] },
+
+    { "nev": "Tuskólábú fogadója", "negyed": "Fogadónegyed", "alkerulet": "Keleti fele", "tipus": "fogadó", "leiras": "Veterán udvari ork katona, Kőtörő Garogg alapította. Kiváló konyhájáról, olcsó árairól és biztonságosságáról ismert. Szobák és kurtizánok is rendelkezésre állnak.", "npck": [{ "nev": "Kőtörő Garogg (Tuskólábú)", "szerep": "tulajdonos, veterán ork katona" }], "frakcio": null, "atmoszfera": ["olcsó", "barátságos", "kalandozóbarát"] },
+
+    { "nev": "Shamiti kőház", "negyed": "Fogadónegyed", "tipus": "karavánszeráj/titkos főhadiszállás", "leiras": "Kobratanyaként is emlegetik, mivel a kobrák titkos erioni főhadiszállása. Látszólag egyszerű karavánszeráj – csak a jelszót ismerők léphetnek be.", "npck": [], "frakcio": "Kobrák (titkos szervezet)", "atmoszfera": ["látszólag közönséges", "titkos", "veszélyes"] },
+
+    { "nev": "Ank'Moor Tavernája", "negyed": "Fogadónegyed", "alkerulet": "Felejtés tere", "tipus": "taverna", "leiras": "Hatalmas, törpe kezek munkájából született háromszintes kőépület. Az első szint ivó, ahol a galériáról nézhetik a fogásokat, a nézők fogadásokat is kötnek rájuk. Legfelül a törpe tulajdonos, Taratuf Ank'Moor és személyzete lakik.", "npck": [{ "nev": "Taratuf Ank'Moor", "szerep": "tulajdonos, egykori törpe kalandozó" }], "frakcio": null, "atmoszfera": ["zajos", "harcias hangulat", "törpe stílus"] },
+
+    { "nev": "Milosz ispotály", "negyed": "Fogadónegyed", "alkerulet": "Felejtés tere", "tipus": "ispotály/gyógyítóhely", "leiras": "Kétszintes épület, tetején ritka gyógynövényekkel. Minimális ellenszolgáltatásért mindenkit ellát.", "npck": [], "frakcio": null, "atmoszfera": ["gondoskodó", "szerény", "gyógyítás"] },
+
+    { "nev": "Virigil park", "negyed": "Fogadónegyed", "tipus": "park/misztikus", "leiras": "Különleges park, amelynek gyógyító hatása van. Köré fogadók egész sora települt; a környék biztonságos. Ám a szóbeszéd szerint nem minden gyógyulni vágyó kerül elő belőle.", "npck": [], "frakcio": null, "atmoszfera": ["gyógyítás", "rejtelmes eltűnések", "természeti"] },
+
+    { "nev": "Halott Hangok Háza", "negyed": "Fogadónegyed", "alkerulet": "Virigil park közelében", "tipus": "fogadó/színház", "leiras": "Sötét múltú fogadó, amely egy régi boszorkánymester-szekta központja fölé épült. Tulajdonosa Serianthon Wellarai haonweilli gróf, aki szándékosan fenntartja a félelmetes hírt – a mélységből felszűrődő hangok és titkok vonzzák a látogatókat.", "npck": [{ "nev": "Serianthon Wellarai", "szerep": "tulajdonos, haonweilli gróf" }], "frakcio": null, "atmoszfera": ["hátborzongató", "titokzatos", "látványosság"] },
+
+    { "nev": "Ahmet Abu Sharja mecset", "negyed": "Fogadónegyed", "alkerulet": "Keleti vég", "tipus": "mecset", "leiras": "Galradzsa hitelveit hirdető mecset, folyamatosan nyitva – a Szegénynegyed lakói számára is. Dervisek látják el a rendfenntartást. Legismertebb látnivalója a külső fal, amelyen nappal és éjszaka is ezüst fényben izzanak Galradzsa igéi – varázserejű rajzolatok, amelyeket bármilyen nyelvet ismerő azonnal megért.", "npck": [], "frakcio": "Galradzsa egyház", "atmoszfera": ["vallásos", "befogadó", "mágikus szöveg", "csodálatos"] },
+
+    { "nev": "Torozon Tavernája", "negyed": "Fogadónegyed", "tipus": "fogadó/legenda", "leiras": "Ynev leghíresebb fogadója és a kalandozók közötti szóbeszéd szerint Erion közepe. Psz. 1747 óta a Torozon család tulajdona. Rendkívüli státusa révén 'Békesziget' és 'Farkaslakon' is nevezik – a hetedkor dereka óta megritkultak benne a halálos összecsapások. Négyemeletes, kaszárnyára emlékeztető épület, mágikus védelemmel, saját temetővel és kerttel. A nagyteremben álló híres faasztalba vésték: 'A világ közepe'. A legkeresettebb felhajtók székhelye.", "npck": [{ "nev": "Torozon család", "szerep": "tulajdonos, Ghell Torozon alapította" }], "frakcio": null, "atmoszfera": ["ikonikus", "semleges terület", "kalandozóközpont", "legendás"] },
+
+    { "nev": "Rattikani fogadója", "negyed": "Fogadónegyed", "tipus": "fogadó", "leiras": "A fogadónegyed egyik hírneves vendéglátóhelye. Tulajdonosa kiszolgált gorviki zsoldos. A tornyos fogadó valóságos sziklaerőd a kisebb fogadók gyűrűjében, bíbor és kék lobogókkal.", "npck": [], "frakcio": null, "atmoszfera": ["erős", "katonai megjelenés", "presztízsteljes"] },
+
+    { "nev": "Fakóliget", "negyed": "Fogadónegyed", "tipus": "misztikus park", "leiras": "Különleges park üvegszerű, fakó fákkal. A növények a liget szívétől távolodva szétmállanak. A liget lassan terjeszkedik. Éjszaka halvány derengésben usznak a fák, mágikus jelenségek kísérik. Egyes elbeszélések szerint farkasok és egyéb lények védelmezik. Eddig senkinek sem sikerült kisajátítani.", "npck": [], "frakcio": null, "atmoszfera": ["misztikus", "mágikus", "védett", "csodálatos"] },
+
+    { "nev": "Jégpalota", "negyed": "Fogadónegyed", "tipus": "épületlátványosság/bérelhető helyszín", "leiras": "Jégből készült palota, amelyet varázslók tartanak fenn és felügyelnek. Szabadon látogatható drága belépőért, és bérbe vehető különleges alkalmakra.", "npck": [{ "nev": "Isirio Fonaron", "szerep": "eredeti építő" }], "frakcio": null, "atmoszfera": ["látványos", "hideg", "mágikus"] },
+
+    { "nev": "Bőségszaru játékterem", "negyed": "Fogadónegyed", "alkerulet": "Déli rész", "tipus": "szerencseház", "leiras": "A Szürkecsuklyások egyik erioni központja. Biztonságos helynek számít – egészen addig, amíg a vendég szépen veszít.", "npck": [], "frakcio": "Szürkecsuklyások", "atmoszfera": ["látszólag ártatlan", "titkos szervezet", "szerencsejáték"] },
+
+    { "nev": "Holdlevél teaház", "negyed": "Fogadónegyed", "alkerulet": "Délkeleti rész", "tipus": "teaház/politikai bázis", "leiras": "Dzsad/dzsenn teaház, amely körül kis dzsad negyed bontakozott ki. A dzsenn tulajdonos menedéket kínált fajtársainak a manifesztációs háborúban. Titokban számos dzsenn lakja, és a Hirokin Birodalom elleni szervezkedések egyik fő erioni bázisa lett.", "npck": [], "frakcio": "Hirokin-ellenes Dzsenn Ellenállás", "atmoszfera": ["meleg", "titkos", "politikailag aktív"] },
+
+    { "nev": "Könyvesház", "negyed": "Fogadónegyed", "alkerulet": "Nyugati fele", "tipus": "mágusrend-székház (álcázott)", "leiras": "Az Onadori Varázslórend egyetlen városon kívül álló rendháza Erionban. Látszólag könyvek restaurálásával és másolásával foglalkoznak, valójában az egykor elveszett kyr tudásuk összegyűjtésén munkálkodnak.", "npck": [], "frakcio": "Onadori Varázslórend", "atmoszfera": ["tudományos álca", "titkos kutatás", "kyr örökség"] },
+
+    { "nev": "Cicafülű Bűbájüst", "negyed": "Fogadónegyed", "alkerulet": "Fakóliget északi pereme", "tipus": "boszorkányiparos céh", "leiras": "Pyarroni Inkvizíció felügyelete alatt működő kis céh, amelyet Tyllyel Ukuyala félelf Ellana-papnő alapított Psz. 3714-ben. Egyfajta javító- és átnevelőintézet a megmenthető boszorkányok számára.", "npck": [{ "nev": "Tyllyel Ukuyala", "szerep": "alapító, félelf Ellana-papnő" }], "frakcio": "Pyarroni Inkvizíció (felügyelet)", "atmoszfera": ["furcsa", "boszorkánykellékek", "átnevelés"] },
+
+    { "nev": "Éber Strázsa rendház", "negyed": "Fogadónegyed", "tipus": "lovagrendház", "leiras": "Viadomói fenntartású erioni rendház. A militáns Dreina-irányzat erioni képviselete, emellett több helyen vállal rendfenntartói feladatot.", "npck": [], "frakcio": "Viadomói Dreina / Oroszlánszív Lovagrend", "atmoszfera": ["katonai", "vallásos", "rendfenntartó"] },
+
+    { "nev": "Rőterőd", "negyed": "Fogadónegyed", "alkerulet": "Déli rész", "tipus": "zsoldosszázad-központ", "leiras": "A Rőtzubbonyosok zsoldoscsapatának udvarháza.", "npck": [], "frakcio": "Rőtzubbonyosok", "atmoszfera": ["katonai", "zsoldos", "pragmatikus"] },
+
+    { "nev": "Öreg Üllő fogadó", "negyed": "Fogadónegyed", "alkerulet": "Déli rész", "tipus": "kocsma/fogadó", "leiras": "Különösen biztonságos, botránymentes fogadó. Az alvilági körökben is ismert és kedvelt, egyfajta semleges terület. Tulajdonosa titokban műtárgykereskedőként is működik.", "npck": [], "frakcio": null, "atmoszfera": ["semleges terület", "biztonságos", "alvilági kapcsolatok"] },
+
+    { "nev": "Simenes Aréna", "negyed": "Szórakozónegyed", "tipus": "aréna (tengeri csaták)", "leiras": "Csatornákon keresztül feltölthető, hajócsaták rendezésére kialakított aréna. Hetente legalább egyszer tartanak benne viadalt; hajóval és legénységgel is lehet nevezni.", "npck": [], "frakcio": null, "atmoszfera": ["látványos", "vizes csaták", "izgalmas"] },
+
+    { "nev": "Atwarik Geraldini panoptikuma", "negyed": "Szórakozónegyed", "tipus": "panoptikum/anatómia iskola", "leiras": "Gorviki kalandor alapította; célja az volt, hogy Ynev minden létező lényéből felboncoljon egyet. Tanítványai részletes viaszszobrokat készítettek. Az alapító ükunokája vezeti hasonló megszállottsággal. A groteszk kiállítás komoly élettani iskolává vált.", "npck": [{ "nev": "Atwarik Geraldini ükunokája", "szerep": "jelenlegi vezető" }], "frakcio": null, "atmoszfera": ["groteszk", "tudományos", "kísérteties"] },
+
+    { "nev": "Critai tábla", "negyed": "Szórakozónegyed", "tipus": "misztikus tárgy/látványosság", "leiras": "Psz. 1934-ben egyik napról a másikra jelent meg egy kis téren. Százkilen alabástrom- és smaragdmező, közepén rubinlap 'Critai' felirattal. Harmincegy-harmincegy zafír- és alexandritfigura naponta lép egyet-egyet délben – a szabályaira kétezer év alatt senki sem jött rá. Erővel és mágiával sem mozdítható el egyetlen figura sem.", "npck": [], "frakcio": null, "atmoszfera": ["rejtélyes", "mágikus", "bölcsek vonzza", "megoldhatatlan titok"] },
+
+    { "nev": "Ankmari Aréna", "negyed": "Szórakozónegyed", "tipus": "aréna (élőholtak)", "leiras": "Különleges aréna, ahol a nevezők élőholtakkal küzdenek meg.", "npck": [], "frakcio": null, "atmoszfera": ["sötét", "veszélyes", "szörnyűséges szórakozás"] },
+
+    { "nev": "Rivini Aréna", "negyed": "Szórakozónegyed", "tipus": "nagyadréna", "leiras": "Erion leghíresebb és legnagyobb arénája. Fél millió nézőt képes befogadni; agyagkoronggal lehet belépni. Minden nap van gladiátorviadal. A Játékmesterek Céhe üzemelteti. Toroni rendszerű viadalokra is alkalmas.", "npck": [], "frakcio": "Játékmesterek Céhe", "atmoszfera": ["monumentális", "tömeg", "dicsőség és vér", "ikonikus"] },
+
+    { "nev": "Zeloner Fogadóház", "negyed": "Szórakozónegyed", "tipus": "szerencseház/fogadóiroda", "leiras": "Szinte mindenre lehet fogadásokat kötni. A háttérben állítólag az Árnyjárók klánja által szervezett titkos és halálos játék is folyik.", "npck": [], "frakcio": "Árnyjárók (titkos)", "atmoszfera": ["szerencsejáték", "titkos veszély", "exkluzív"] },
+
+    { "nev": "Semmitérők Kompániája", "negyed": "Szórakozónegyed", "alkerulet": "Rivini Aréna közelében", "tipus": "zsoldoskompánia", "leiras": "Psz. 3680-ban alapított kisebb zsoldosszervezet kiöregedett kalandozókból és leszerelt fegyveresekből. Szakterülete bestiák levadászása, arénáknak szállít. Jelenlegi vezető: Lirian (erv fattyú-leány). Létszám: ~50 fő.", "npck": [{ "nev": "Lirian", "szerep": "jelenlegi vezető, erv fattyú" }], "frakcio": "Semmitérők Kompániája", "atmoszfera": ["elnyűtt", "pragmatikus", "bármit elvállal"] },
+
+    { "nev": "Szelek Tornya", "negyed": "Szórakozónegyed", "tipus": "bordélyház/szórakozóhely", "leiras": "Messze földről ismert táncosokkal és kéjművészekkel. Az enoszukei bevándorlók felügyelete alatt áll.", "npck": [], "frakcio": "Enoszukei Bevándorlók", "atmoszfera": ["egzotikus", "érzéki", "keleti fény"] },
+
+    { "nev": "Malagor gladiátoriskola", "negyed": "Szórakozónegyed", "tipus": "gladiátoriskola", "leiras": "Fallal körülvett, egyszintes épületekből álló iskola, saját gyakorlótérrel és fürdővel.", "npck": [], "frakcio": null, "atmoszfera": ["edzett", "harc", "kemény"] },
+
+    { "nev": "Gólemek tere", "negyed": "Szórakozónegyed", "tipus": "tér/emlékhely", "leiras": "Ezen a téren áll az egyetlen ryeki ostromgólem, amelynek sikerült átverekednie magát a városfalon.", "npck": [], "frakcio": null, "atmoszfera": ["harctörténeti", "emlékezetes", "masszív"] },
+
+    { "nev": "Nimfák Háza", "negyed": "Szórakozónegyed", "tipus": "fürdő", "leiras": "A Szórakozónegyed egyik legnagyobb fürdője. Hófehér márványfalak és üvegkupolák. Szimmetrikusan kettéosztva: férfiak és hölgyek számára. Ellana papnőihez kötődik.", "npck": [], "frakcio": "Ellana egyház", "atmoszfera": ["luxus", "tisztaság", "nemes"] },
+
+    { "nev": "Csillagtorony", "negyed": "Örömnegyed", "alkerulet": "Arbet kerület/Fogadónegyed határa", "tipus": "csillagvizsgáló/torony", "leiras": "Az Örömnegyed egyik magasló épülete. Elforgatható kupolás tetején óriási teleszkópok. Belső térkapukkal is rendelkezik. Haranggal jelzi az órákat.", "npck": [], "frakcio": null, "atmoszfera": ["tudományos", "mágikus", "égi megfigyelés"] },
+
+    { "nev": "Minal kaszinó", "negyed": "Örömnegyed", "alkerulet": "Shíren kerület", "tipus": "kaszinó", "leiras": "Az enoszukei bevándorlók legismertebb szerencsejáték-barlangja. Ynev majd minden szerencsejátékával próbát lehet tenni. Hagymakupolás épület.", "npck": [], "frakcio": "Enoszukei Bevándorlók", "atmoszfera": ["fényes", "keleti", "szerencsejáték"] },
+
+    { "nev": "Orkvár", "negyed": "Örömnegyed", "alkerulet": "Déli fal tövében", "tipus": "iparos-negyed/kerület", "leiras": "Egy gnóm dinasztia irányítja – legalábbis hivatalosan. Kaotikus és sötét hely, mindenféle szerzet menedéke. A szóbeszéd szerint mindent elkészítenek és lemásolnak, amit a vevő meg tud fizetni; pénzt visszaadni nem szoktak.", "npck": [], "frakcio": "Gnóm Dinasztia (hivtalos)", "atmoszfera": ["kaotikus", "titokzatos műhelyek", "nem kérdeznek"] },
+
+    { "nev": "Baldus torony", "negyed": "Örömnegyed", "tipus": "alkimista műhely/herbalista bolt", "leiras": "Alkimista műhely és herbalista üzlet Baldus tején. Tulajdonosa Baldus, a bűvszeres, kiöregedett boszorkánymester.", "npck": [{ "nev": "Baldus, a bűvszeres", "szerep": "tulajdonos, kiöregedett boszorkánymester" }], "frakcio": null, "atmoszfera": ["gőzös", "bűzlő üvegcsék", "mágikus ingrediensek"] },
+
+    { "nev": "Ellana erioni főtemploma", "negyed": "Örömnegyed", "alkerulet": "Északkeleti csücskéken", "tipus": "főtemplom", "leiras": "Ellana egyházának legnagyobb erioni temploma.", "npck": [], "frakcio": "Ellana egyház", "atmoszfera": ["érzéki", "vallásos", "szépség kultusza"] },
+
+    { "nev": "Noir erioni nagytemploma", "negyed": "Örömnegyed", "tipus": "nagytemplom", "leiras": "Noir kevés templomának egyik legjelentősebbike.", "npck": [], "frakcio": "Noir egyház", "atmoszfera": ["sötét", "halál kultusza", "titokzatos"] },
+
+    { "nev": "Feneketlen kút", "negyed": "Nekropolisz", "tipus": "misztikus helyszín", "leiras": "Ismeretlen eredetű, mára használhatatlanná romolott kút. A legenda szerint, ha valaki saját vérében áztatott pénzérmét vet belé és elmondja a crantai varázsigét, a kút (esetleg egy megjelenő öregember) segít – de cserébe egyszer ő is kér majd valamit.", "npck": [], "frakcio": null, "atmoszfera": ["félelmetes", "baljós", "kötelező csere"] },
+
+    { "nev": "Enyl-völgy", "negyed": "Nekropolisz", "tipus": "természeti képződmény/sírkert", "leiras": "A Neszező-folyó által vágott kanyon, néhol száz láb mélyen. Partfalaiba vájt kyr sírok. A mai Nekropolisz ősének tekinthető. Egyes vélekedések szerint innen ered a temetőnegyedet átható romlás. Buja növényzet, évezredes vízmosások, barlangok és sziklapéződmények teszik a Nekropolisz legszebb helyévé.", "npck": [], "frakcio": null, "atmoszfera": ["kísérteties", "régmúlt", "szép és veszélyes"] },
+
+    { "nev": "Árny-zuhatag", "negyed": "Nekropolisz", "alkerulet": "Enyl-völgy eleje", "tipus": "vízesés/szakrális hely", "leiras": "Száz láb magas vízesés; a legenda szerint az első kyr sírhelyet ezen a helyen létesítették. Szentélyek, templomromok, kripták és szobrok állnak a víz közelében.", "npck": [], "frakcio": null, "atmoszfera": ["szakrális", "kísérteties szépség", "halott emlékek"] },
+
+    { "nev": "Varjúerőd", "negyed": "Nekropolisz", "alkerulet": "Nyugati kapu", "tipus": "kapuerőd", "leiras": "A Nekropolisz nyugati kapuerődjének közneve. A dartoniták az egyik toronyban csapdát hoztak létre, ahová beengedik az élőholtakat, majd elpusztítják azokat. A holttestek fölött nagy számban keringenek a varjak.", "npck": [], "frakcio": "Dartonita Lovagrend", "atmoszfera": ["nyomasztó", "holtak szaga", "varjak"] },
+
+    { "nev": "Lepratelep", "negyed": "Szegénynegyed", "tipus": "kocsmaerőd", "leiras": "Erős falú fogadó a Nekropolisz közelében.", "npck": [], "frakcio": null, "atmoszfera": ["lepusztult", "erős falak", "gyanús"] },
+
+    { "nev": "Skirava Hannu mindenesboltja", "negyed": "Szegénynegyed", "alkerulet": "Északnyugati fertály", "tipus": "bolt/orgazda", "leiras": "Enoszukei származású kereskedő hatalmas bolt- és raktárkomplexuma. Állítólag minden beszerezhető – a tulajdonos Erion egyik legnagyobb orgazdája is egyben. Klánvédelem alatt álló semleges terület; tolvajfelszerelést is árusít.", "npck": [{ "nev": "Skirava Hannu", "szerep": "tulajdonos, orgazda" }], "frakcio": "Enoszukei Klánok", "atmoszfera": ["zsúfolt", "gyanús áruk", "semleges zóna"] },
+
+    { "nev": "Gyógyító Fény kápolnája", "negyed": "Szegénynegyed", "tipus": "Domvik-szentély", "leiras": "Domvik papjai mindenkit és szinte bármiből felgyógyítanak – módszereik ugyan hazájukban nem mindig néznék jó szemmel.", "npck": [], "frakcio": "Domvik egyház", "atmoszfera": ["segítőkész", "szegények gyógyítása", "unortodox módszerek"] },
+
+    { "nev": "Dögverem", "negyed": "Szegénynegyed", "tipus": "vágóhíd/kráni bázis", "leiras": "Nyilvánosan vágóhíd – a szóbeszéd szerint nem csak állatokat vágnak. Tulajdonosai titokban kráni ügynökök, akik a föld alatti labirintusban ostromgólemekből és férclényekből álló sereget gyűjtenek.", "npck": [], "frakcio": "Kráni Ügynökök (titkos)", "atmoszfera": ["bűzlő", "baljós", "titkos inváziós bázis"] },
+
+    { "nev": "Vastemplom", "negyed": "Szegénynegyed", "alkerulet": "Keleti kapu közelében", "tipus": "Uwel-rendház", "leiras": "Uwel erioni rendházának neve. Legnagyobb része állítólag a föld alatt van, akár ezer hívőnek menedéket nyújthat. Állítólag itt őrzik az Uwel Ujja nevű ereklyét.", "npck": [], "frakcio": "Uwel egyház", "atmoszfera": ["titokzatos", "föld alatti", "ereklyeőrző"] },
+
+    { "nev": "Harmadik Hold fogadó", "negyed": "Utazónegyed", "tipus": "fogadó (álcázott fejvadászbázis)", "leiras": "Átlagos vendégváró hely – valójában a Néma Hang fejvadászklán fedetten működő transobsesi (kontraktuskötő) háza.", "npck": [], "frakcio": "Néma Hang Fejvadászklán", "atmoszfera": ["átlagos külső", "titkos szerződéskötés", "veszélyes mélység"] },
+
+    { "nev": "Betérő a nagy E-be", "negyed": "Utazónegyed", "tipus": "kocsma/informátor", "leiras": "Erion Utazónegyedének információs csomópontja. Szálláshelyek, jeles események, munkalehetőségek, induló karavánok és térkép – természetesen szép árért. Az információk alakításában sokan befektetési lehetőséget látnak.", "npck": [], "frakcio": null, "atmoszfera": ["nyüzsgő", "érkezők találkozóhelye", "megbízhatatlan infó"] },
+
+    { "nev": "Förgeteg Futárszolgálat", "negyed": "Utazónegyed", "alkerulet": "Keleti kapu mellett", "tipus": "futárszolgálat", "leiras": "Városra és Közép-Ynevre szakosodott futárszolgálat. Fennállásuk harminc éve alatt egyetlen üzenet sem veszett el – akár a futárok élete árán is teljesítik. Elesett bajtársaik neveit bronz emléktábla örökíti meg.", "npck": [], "frakcio": null, "atmoszfera": ["megbízható", "hősi elkötelezettség", "professzionális"] },
+
+    { "nev": "Fung Shu harci sikola", "negyed": "Utazónegyed", "tipus": "harcművésziskola", "leiras": "Parkszerű, bentlakásos harcművésziskola. Pusztakezes és botos harc niarei ismeretek alapján. A mester harcművész filozofiát is oktat, a béke jegyében.", "npck": [], "frakcio": null, "atmoszfera": ["békés", "niarei tradíció", "fegyelem"] },
+
+    { "nev": "Shangaron Anyó Óvó Karja", "negyed": "Fogadónegyed", "tipus": "fogadókomplexum (titkos kultuszbázis)", "leiras": "Kisebb falú méretű fogadókomplexum saját fürdőházzal, kovácsműhellyel, játékházzal. Titokban Orwella egyházának erioni szárnya üzemelteti, és a föld alatt labirintust építettek ki a szektának. A vendégek közül gondosan kiszemelt áldozatokat szednek.", "npck": [], "frakcio": "Orwella egyház (titkos)", "atmoszfera": ["látszólag kényelmes", "titkos rémület alatta", "ne maradj egyedül"] },
+
+    { "nev": "Rabszolgapiac", "negyed": "Utazónegyed", "tipus": "rabszolgapiac", "leiras": "Erion rabszolgapiaca, ahol mindenféle jószág beszerezhető.", "npck": [], "frakcio": null, "atmoszfera": ["nyomasztó", "kereskedelmi", "morálisan terhelő"] }
+
+  ]
+}

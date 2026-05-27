@@ -1,0 +1,228 @@
+{
+  "ruleset": "Star Wars RPG – Core Mechanics",
+  "version": "1.0",
+
+  "combat_structure": {
+    "description": "Combat is divided into rounds and turns.",
+    "round": {
+      "description": "During a round, every participant (player and NPC alike) acts once in their own turn. The round ends when everyone has taken their turn."
+    },
+    "turn": {
+      "description": "A single character's opportunity to act within a round."
+    }
+  },
+
+  "initiative": {
+    "description": "At the start of combat, every participant rolls a Simple (–) check.",
+    "skills": {
+      "Cool": "Used when the character anticipated the confrontation.",
+      "Vigilance": "Used when the character was caught by surprise."
+    },
+    "default_skill": "Vigilance",
+    "pool_building": "characteristic_skill",
+    "positive_die": "ability",
+    "upgrade_die": "proficiency",
+    "slot_assignment": {
+      "ordering": "Number of successes (#) determines initiative order. Advantages (O) break ties.",
+      "slot_control": "Slots belong to a side, not a specific character. When a player-side slot opens, the players decide who acts in it."
+    }
+  },
+
+  "turn_actions": {
+    "description": "A character may perform three categories of activity during their turn.",
+    "incidentals": {
+      "description": "Minor actions that take almost no time.",
+      "examples": ["speaking", "dropping an item", "adjusting a weapon setting"],
+      "limit": "Multiple allowed per turn at GM discretion."
+    },
+    "maneuvers": {
+      "description": "Take time but require no check.",
+      "examples": ["aiming", "moving between range bands", "taking cover", "standing up"],
+      "limit": {
+        "free_per_turn": 1,
+        "additional": {
+          "count": 1,
+          "cost": { "strain": 2 }
+        }
+      }
+    },
+    "actions": {
+      "description": "The primary activity of a turn; usually involves a dice roll.",
+      "examples": ["attacking", "providing medical aid", "slicing a computer"],
+      "limit": 1,
+      "trade_action_for_maneuver": {
+        "allowed": true,
+        "description": "A character may sacrifice their action to gain one additional maneuver."
+      }
+    }
+  },
+
+  "combat_check": {
+    "description": "An attack is a specialized skill check consisting of the following steps.",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Declare target and weapon",
+        "description": "Choose the target and the weapon to be used."
+      },
+      {
+        "step": 2,
+        "name": "Build dice pool",
+        "description": "Base pool comes from the character's characteristic and skill rating. Difficulty (purple dice) is set by range band and other circumstances."
+      },
+      {
+        "step": 3,
+        "name": "Resolve successes and damage",
+        "description": "If net successes (#) remain, the attack hits.",
+        "damage_formula": "weapon_base_damage + net_successes"
+      },
+      {
+        "step": 4,
+        "name": "Spend Advantages (O) and Triumphs ($)",
+        "description": "Used to inflict Critical Injuries or activate special weapon qualities.",
+        "examples": ["Critical hit", "Auto-fire activation", "Blast activation"]
+      },
+      {
+        "step": 5,
+        "name": "Resolve Threats (®) and Despairs (^)",
+        "description": "The GM may impose negative effects.",
+        "examples": ["weapon runs out of ammo", "character falls prone"]
+      }
+    ]
+  },
+
+  "range_bands": {
+    "description": "The game uses five range categories instead of metric distances.",
+    "bands": [
+      {
+        "name": "Engaged",
+        "label_hu": "Közvetlen közel",
+        "difficulty": {
+          "melee": "Average (♦♦)",
+          "ranged": "Harder or impossible depending on weapon"
+        }
+      },
+      {
+        "name": "Short",
+        "label_hu": "Közeli",
+        "difficulty": "Easy (♦)"
+      },
+      {
+        "name": "Medium",
+        "label_hu": "Közepes",
+        "difficulty": "Average (♦♦)"
+      },
+      {
+        "name": "Long",
+        "label_hu": "Távoli",
+        "difficulty": "Hard (♦♦♦)"
+      },
+      {
+        "name": "Extreme",
+        "label_hu": "Szélsőséges",
+        "difficulty": "Daunting (♦♦♦♦)"
+      }
+    ],
+    "difficulty_dice_counts": {
+      "Easy": 1,
+      "Average": 2,
+      "Hard": 3,
+      "Daunting": 4
+    }
+  },
+
+  "damage_and_resilience": {
+    "soak": {
+      "description": "Reduces incoming damage before it affects wounds.",
+      "formula": "brawn + armor_rating",
+      "effect": "Subtract soak from incoming damage; remainder reduces wounds."
+    },
+    "wound_threshold": {
+      "description": "Maximum wounds a character can sustain.",
+      "exceed_effect": "Character is incapacitated and immediately suffers one Critical Injury."
+    },
+    "strain_threshold": {
+      "description": "Maximum strain a character can sustain.",
+      "exceed_effect": "Character falls unconscious."
+    },
+    "critical_injuries": {
+      "description": "Rolled on a d100 table when triggered.",
+      "severity_escalation": {
+        "modifier_per_existing_critical": 10,
+        "description": "Each existing Critical Injury adds +10 to the next critical roll, producing increasingly severe results."
+      }
+    }
+  },
+
+  "dice_symbols": {
+    "success": "#",
+    "advantage": "O",
+    "triumph": "$",
+    "threat": "®",
+    "despair": "^",
+    "failure": "—"
+  },
+
+  "dice": {
+    "ability": {
+      "sides": 8,
+      "faces": [
+        ["blank"],
+        ["success"],
+        ["success"],
+        ["success", "success"],
+        ["advantage"],
+        ["advantage"],
+        ["success", "advantage"],
+        ["advantage", "advantage"]
+      ]
+    },
+    "proficiency": {
+      "sides": 12,
+      "faces": [
+        ["blank"],
+        ["success"],
+        ["success"],
+        ["success", "success"],
+        ["success", "success"],
+        ["advantage"],
+        ["success", "advantage"],
+        ["success", "advantage"],
+        ["success", "advantage"],
+        ["advantage", "advantage"],
+        ["advantage", "advantage"],
+        ["triumph"]
+      ]
+    },
+    "difficulty": {
+      "sides": 8,
+      "faces": [
+        ["blank"],
+        ["failure"],
+        ["failure"],
+        ["failure", "failure"],
+        ["threat"],
+        ["threat"],
+        ["threat"],
+        ["failure", "threat"]
+      ]
+    },
+    "challenge": {
+      "sides": 12,
+      "faces": [
+        ["blank"],
+        ["failure"],
+        ["failure"],
+        ["failure", "failure"],
+        ["failure", "failure"],
+        ["threat"],
+        ["threat"],
+        ["failure", "threat"],
+        ["failure", "threat"],
+        ["threat", "threat"],
+        ["threat", "threat"],
+        ["despair"]
+      ]
+    }
+  }
+}

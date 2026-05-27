@@ -1,0 +1,2580 @@
+{
+  "_source": "MAGUS Fegyverek",
+  "_version": "1.0",
+  "fegyverek": [
+    {
+      "nev": "Nev",
+      "kategoria": "Kategoria",
+      "harcertekek": {
+        "ke": "Ke",
+        "te": "Te/Ce",
+        "ve": "Ve/m"
+      },
+      "sebzes": "Sebzes",
+      "suly_kg": "Suly (Kg)",
+      "ar": "Ar",
+      "kezes": "Kezes",
+      "leiras": "Ismertetes"
+    },
+    {
+      "nev": "Aginkes",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "4",
+        "ve": "0"
+      },
+      "sebzes": "K3",
+      "suly_kg": "0,2",
+      "ar": "2",
+      "kezes": "1",
+      "leiras": "Az enoszukei kard kiegeszito kese"
+    },
+    {
+      "nev": "Aldozoköz",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "12",
+        "te": "9",
+        "ve": "2"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,3",
+      "ar": "5",
+      "kezes": "1",
+      "leiras": "Ranagol-papok kese"
+    },
+    {
+      "nev": "Aldozotor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "10",
+        "ve": "8"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,3",
+      "ar": "6e",
+      "kezes": "1",
+      "leiras": "Orwella-papnok gorbe, ketelü kese"
+    },
+    {
+      "nev": "Beltépo",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "8",
+        "ve": "2"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,3",
+      "ar": "5e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Bojtos kard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "16",
+        "ve": "14"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "1,2",
+      "ar": "1 gio",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Bozotvaго kes",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "12",
+        "ve": "10"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,8",
+      "ar": "1 e",
+      "kezes": "1",
+      "leiras": "0"
+    },
+    {
+      "nev": "Claor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "16",
+        "ve": "16"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "1,5",
+      "ar": "1a",
+      "kezes": "1",
+      "leiras": "yankari legiossszablya"
+    },
+    {
+      "nev": "Deneversarny",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "13",
+        "ve": "18"
+      },
+      "sebzes": "K6+2/K6",
+      "suly_kg": "1,1",
+      "ar": "2a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Dokan",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "12",
+        "ve": "10"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "1",
+      "ar": "5 me",
+      "kezes": "2",
+      "leiras": "enoszukei fakard"
+    },
+    {
+      "nev": "Dzsambia",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "11",
+        "te": "7",
+        "ve": "2"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,3",
+      "ar": "4e",
+      "kezes": "1",
+      "leiras": "dzsad tor"
+    },
+    {
+      "nev": "Dzsenn szablya",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "17",
+        "ve": "20"
+      },
+      "sebzes": "2K6+3",
+      "suly_kg": "0,5",
+      "ar": "120a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Egyeneskard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "15",
+        "ve": "12"
+      },
+      "sebzes": "K10",
+      "suly_kg": "1",
+      "ar": "1a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Egykezes Szarvkard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "15",
+        "ve": "14"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "1,4",
+      "ar": "nem kapható",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Enoszukei szeles kard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "6",
+        "te": "14",
+        "ve": "12"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "1,8",
+      "ar": "2 gio",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Fejvadászkard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "16",
+        "ve": "16"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,8",
+      "ar": "2a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Fogastor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "3",
+        "ve": "21"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,3",
+      "ar": "3a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Handzsar",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "6",
+        "te": "14",
+        "ve": "15"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "2",
+      "ar": "15e",
+      "kezes": "1",
+      "leiras": "Dzsad szablya"
+    },
+    {
+      "nev": "Haritótor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "4",
+        "ve": "19"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,3",
+      "ar": "2e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Haromagu harítótor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "3",
+        "ve": "20"
+      },
+      "sebzes": "K6-1",
+      "suly_kg": "0,3",
+      "ar": "2a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Hegyestor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "12",
+        "ve": "10"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "1,3",
+      "ar": "5a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Hiequar",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "6",
+        "te": "14",
+        "ve": "12"
+      },
+      "sebzes": "K6+4",
+      "suly_kg": "1",
+      "ar": "50a",
+      "kezes": "1",
+      "leiras": "krani elf kard"
+    },
+    {
+      "nev": "Holdsarlo",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "17",
+        "ve": "5"
+      },
+      "sebzes": "K5",
+      "suly_kg": "0,2",
+      "ar": "4e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Hollosarny",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "15",
+        "ve": "12"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "0,6",
+      "ar": "2e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Horgaskard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "4",
+        "te": "16",
+        "ve": "18"
+      },
+      "sebzes": "2K6+2",
+      "suly_kg": "1-1,3",
+      "ar": "8e",
+      "kezes": "1"
+    },
+    {
+      "nev": "Hosszukard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "6",
+        "te": "14",
+        "ve": "16"
+      },
+      "sebzes": "K10",
+      "suly_kg": "1,5",
+      "ar": "15e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Ivkard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "6",
+        "te": "14",
+        "ve": "16"
+      },
+      "sebzes": "K10",
+      "suly_kg": "1,3",
+      "ar": "1a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Jatagan",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "14",
+        "ve": "14"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,8",
+      "ar": "14e",
+      "kezes": "1",
+      "leiras": "kettosivü dzsad kard"
+    },
+    {
+      "nev": "Kagylóbonto",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "10",
+        "ve": "2"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "0,2",
+      "ar": "1e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Katana",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "1",
+        "te": "17",
+        "ve": "13"
+      },
+      "sebzes": "K10",
+      "suly_kg": "1,4",
+      "ar": "40a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Kes",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "4",
+        "ve": "0"
+      },
+      "sebzes": "K5",
+      "suly_kg": "0,2",
+      "ar": "50r",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Khiel",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "17",
+        "ve": "14"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "0,8",
+      "ar": "3a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Khossas",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "10",
+        "ve": "14"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,7",
+      "ar": "15a",
+      "kezes": "1",
+      "leiras": "elf kard"
+    },
+    {
+      "nev": "Kigyo kard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "6",
+        "te": "14",
+        "ve": "15"
+      },
+      "sebzes": "K10",
+      "suly_kg": "1,4",
+      "ar": "6a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Lagoss",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "14",
+        "ve": "14"
+      },
+      "sebzes": "K6+4",
+      "suly_kg": "1,5",
+      "ar": "5a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Lancos holdsarlo",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "18",
+        "ve": "5"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,2",
+      "ar": "5e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Levéltor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "9",
+        "ve": "2"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "0,2",
+      "ar": "5a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Lovagkard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "2",
+        "te": "10",
+        "ve": "7"
+      },
+      "sebzes": "2K6+2",
+      "suly_kg": "3,5",
+      "ar": "3a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Marena (angolnator)",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "8",
+        "ve": "5"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "0,4",
+      "ar": "2a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Mara sequor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "16",
+        "ve": "14"
+      },
+      "sebzes": "2K6+2",
+      "suly_kg": "1",
+      "ar": "2a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Masfelkezes kard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "4",
+        "te": "13",
+        "ve": "12"
+      },
+      "sebzes": "2K6",
+      "suly_kg": "2",
+      "ar": "25e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Mendra",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "13",
+        "ve": "16"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "1",
+      "ar": "5e",
+      "kezes": "1",
+      "leiras": "boszorkányvadászok rovid szablya"
+    },
+    {
+      "nev": "Meneth",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "1",
+        "te": "4",
+        "ve": "5"
+      },
+      "sebzes": "K6+5",
+      "suly_kg": "2,2",
+      "ar": "15a",
+      "kezes": "1",
+      "leiras": "amund kard"
+    },
+    {
+      "nev": "Meregfog",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "8",
+        "ve": "2"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,1",
+      "ar": "2a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Mesterkard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "16",
+        "ve": "14"
+      },
+      "sebzes": "K10",
+      "suly_kg": "1,4",
+      "ar": "8a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Nato",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "9",
+        "ve": "1"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,3",
+      "ar": "15 me",
+      "kezes": "1",
+      "leiras": "enoszukei tor"
+    },
+    {
+      "nev": "Niarei egyenes kard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "15",
+        "ve": "14"
+      },
+      "sebzes": "K10",
+      "suly_kg": "1,2",
+      "ar": "1,2 gio",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Nodaisi",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "0",
+        "te": "7",
+        "ve": "1"
+      },
+      "sebzes": "3K6+1",
+      "suly_kg": "7",
+      "ar": "8 gio",
+      "kezes": "2",
+      "leiras": "Enoszukei pallos"
+    },
+    {
+      "nev": "Nyilpuska szurony",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "3",
+        "te": "10",
+        "ve": "10"
+      },
+      "sebzes": "K6",
+      "suly_kg": "+0,2",
+      "ar": "+2e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Okeltor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "9",
+        "ve": "2"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,2",
+      "ar": "3e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Pallos",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "0",
+        "te": "6",
+        "ve": "2"
+      },
+      "sebzes": "3K6+2",
+      "suly_kg": "7",
+      "ar": "5a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Predoci egyeneskard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "16",
+        "ve": "15"
+      },
+      "sebzes": "K10",
+      "suly_kg": "1,2",
+      "ar": "2a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Pugoss",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "12",
+        "te": "6",
+        "ve": "4"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,5",
+      "ar": "1a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Ramiera",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "17",
+        "ve": "14"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "0,8",
+      "ar": "2a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Rovidkard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "12",
+        "ve": "14"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "1",
+      "ar": "1a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Sai",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "10",
+        "ve": "18"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,2",
+      "ar": "3e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Sarlokes",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "8",
+        "ve": "4"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,3",
+      "ar": "3e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Sequor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "13",
+        "ve": "16"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,4",
+      "ar": "13e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Slan kard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "20",
+        "ve": "12"
+      },
+      "sebzes": "K10+2",
+      "suly_kg": "1,4",
+      "ar": "100a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Slan tor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "14",
+        "ve": "6"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,8",
+      "ar": "70a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Soto",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "13",
+        "ve": "12"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "1",
+      "ar": "2 gio",
+      "kezes": "1",
+      "leiras": "enoszukei rovidkard"
+    },
+    {
+      "nev": "Sryn-tor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "14",
+        "ve": "6"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,2",
+      "ar": "3e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Szablya",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "7",
+        "te": "15",
+        "ve": "17"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "1,5",
+      "ar": "16e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Szarvkard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "15",
+        "ve": "25"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "2,2",
+      "ar": "nem kapható",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Szeleskard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "13",
+        "ve": "10"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "1,2",
+      "ar": "13e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Taito",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "6",
+        "te": "17",
+        "ve": "14"
+      },
+      "sebzes": "K10+1",
+      "suly_kg": "1,5",
+      "ar": "5 gio",
+      "kezes": "2",
+      "leiras": "enuszukei hosszukard"
+    },
+    {
+      "nev": "Tanto",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "12",
+        "ve": "7"
+      },
+      "sebzes": "K4+2",
+      "suly_kg": "0,6",
+      "ar": "1a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Thadzsi",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "11",
+        "ve": "14"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "1",
+      "ar": "1a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Tor",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "8",
+        "ve": "2"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,3",
+      "ar": "1e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Torkard",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "9",
+        "te": "12",
+        "ve": "14"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,8",
+      "ar": "2a",
+      "kezes": "1",
+      "leiras": "vívótor"
+    },
+    {
+      "nev": "Torkarom",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "12",
+        "ve": "6"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,9",
+      "ar": "nem kapható",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Triad",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "6",
+        "ve": "2"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,3",
+      "ar": "3e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Vadaszkes",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "10",
+        "te": "7",
+        "ve": "3"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "0,4",
+      "ar": "3a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Wakizasi",
+      "kategoria": "Szuro-vago",
+      "harcertekek": {
+        "ke": "8",
+        "te": "15",
+        "ve": "10"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "1",
+      "ar": "6a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Bola",
+      "kategoria": "Dobo",
+      "harcertekek": {
+        "ke": "2",
+        "te": "2",
+        "ve": "10"
+      },
+      "sebzes": "K5",
+      "suly_kg": "0,8",
+      "ar": "40r",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Dobohalo",
+      "kategoria": "Dobo",
+      "harcertekek": {
+        "ke": "1",
+        "te": "8",
+        "ve": "4"
+      },
+      "sebzes": "-",
+      "suly_kg": "1",
+      "ar": "3e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Dobotor",
+      "kategoria": "Dobo",
+      "harcertekek": {
+        "ke": "10",
+        "te": "11",
+        "ve": "2"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,5",
+      "ar": "150r",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Hajitobard",
+      "kategoria": "Dobo",
+      "harcertekek": {
+        "ke": "9",
+        "te": "10",
+        "ve": "4"
+      },
+      "sebzes": "K6",
+      "suly_kg": "1,2",
+      "ar": "1e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Hajitodarda",
+      "kategoria": "Dobo",
+      "harcertekek": {
+        "ke": "8",
+        "te": "13",
+        "ve": "5"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "1,5",
+      "ar": "5e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Kotar csillag",
+      "kategoria": "Dobo",
+      "harcertekek": {
+        "ke": "9",
+        "te": "5",
+        "ve": "0"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "1,2",
+      "ar": "60 r",
+      "kezes": "1",
+      "leiras": "0"
+    },
+    {
+      "nev": "Lasszo",
+      "kategoria": "Dobo",
+      "harcertekek": {
+        "ke": "0",
+        "te": "1",
+        "ve": "0"
+      },
+      "sebzes": "-",
+      "suly_kg": "0,6",
+      "ar": "80r",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Paldium",
+      "kategoria": "Dobo",
+      "harcertekek": {
+        "ke": "9",
+        "te": "12",
+        "ve": "3"
+      },
+      "sebzes": "K6",
+      "suly_kg": "1,2",
+      "ar": "4e",
+      "kezes": "1",
+      "leiras": "abasziszi pillum"
+    },
+    {
+      "nev": "Slan csillag",
+      "kategoria": "Dobo",
+      "harcertekek": {
+        "ke": "10",
+        "te": "4",
+        "ve": "0"
+      },
+      "sebzes": "K3",
+      "suly_kg": "0,1",
+      "ar": "40r",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Uja",
+      "kategoria": "Dobo",
+      "harcertekek": {
+        "ke": "9",
+        "te": "12",
+        "ve": "4"
+      },
+      "sebzes": "K5",
+      "suly_kg": "1",
+      "ar": "4 me",
+      "kezes": "1",
+      "leiras": "enoszukei hajitodarda"
+    },
+    {
+      "nev": "Acelkorbacs",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "4",
+        "te": "17",
+        "ve": "13"
+      },
+      "sebzes": "K6",
+      "suly_kg": "1,1",
+      "ar": "1e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Csatacsákány",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "5",
+        "te": "11",
+        "ve": "8"
+      },
+      "sebzes": "K10",
+      "suly_kg": "2,5",
+      "ar": "8e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Csatacsillag",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "4",
+        "te": "13",
+        "ve": "11"
+      },
+      "sebzes": "2K6+4",
+      "suly_kg": "2",
+      "ar": "3a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Csákány (munka)",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "5",
+        "te": "10",
+        "ve": "7"
+      },
+      "sebzes": "K10",
+      "suly_kg": "2,5",
+      "ar": "2e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Csephadaro",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "1",
+        "te": "6",
+        "ve": "5"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "2,5",
+      "ar": "7e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Egykezes buzogany",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "2",
+        "te": "7",
+        "ve": "14"
+      },
+      "sebzes": "K6",
+      "suly_kg": "2",
+      "ar": "8e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Egykezes csatabard",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "5",
+        "te": "12",
+        "ve": "11"
+      },
+      "sebzes": "K10",
+      "suly_kg": "2",
+      "ar": "6e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Furkosbot",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "2",
+        "te": "7",
+        "ve": "14"
+      },
+      "sebzes": "K6",
+      "suly_kg": "1,3",
+      "ar": "-",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Hadijogar",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "8",
+        "te": "11",
+        "ve": "12"
+      },
+      "sebzes": "K6",
+      "suly_kg": "2",
+      "ar": "nem kapható",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Harci kalapacs",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "8",
+        "te": "10",
+        "ve": "8"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "3",
+      "ar": "8e",
+      "kezes": "1,5",
+      "leiras": "-"
+    },
+    {
+      "nev": "Hosszubot",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "4",
+        "te": "10",
+        "ve": "16"
+      },
+      "sebzes": "K5",
+      "suly_kg": "1,2",
+      "ar": "50r",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Jegcsákány",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "7",
+        "te": "11",
+        "ve": "8"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "1,5",
+      "ar": "8 e",
+      "kezes": "1"
+    },
+    {
+      "nev": "Ket-haromreszes bot",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "3",
+        "te": "19",
+        "ve": "16"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "1",
+      "ar": "2e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Ketkezes buzogany",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "0",
+        "te": "7",
+        "ve": "6"
+      },
+      "sebzes": "2K6+4",
+      "suly_kg": "3",
+      "ar": "12e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Ketkezes csatabard",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "0",
+        "te": "8",
+        "ve": "6"
+      },
+      "sebzes": "2K6+6",
+      "suly_kg": "5",
+      "ar": "2a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Lancos buzogany",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "4",
+        "te": "13",
+        "ve": "11"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "2",
+      "ar": "12e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Nunchaku",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "9",
+        "te": "19",
+        "ve": "13"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,5",
+      "ar": "2e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Rovidbot",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "9",
+        "te": "9",
+        "ve": "17"
+      },
+      "sebzes": "K3",
+      "suly_kg": "0,7",
+      "ar": "30r",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Shadleki buzogany",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "8",
+        "te": "13",
+        "ve": "14"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "1,8",
+      "ar": "13e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Taglo",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "4",
+        "te": "10",
+        "ve": "8"
+      },
+      "sebzes": "2K6+1",
+      "suly_kg": "3",
+      "ar": "1e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Tollas buzogany",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "7",
+        "te": "12",
+        "ve": "14"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "2",
+      "ar": "11e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Tonfa",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "8",
+        "te": "12",
+        "ve": "19"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,4",
+      "ar": "2e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Tüskes balta",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "6",
+        "te": "15",
+        "ve": "13"
+      },
+      "sebzes": "K10",
+      "suly_kg": "2",
+      "ar": "4e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Tüskes buzogany",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "7",
+        "te": "12",
+        "ve": "13"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "2",
+      "ar": "1a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Vaskigyo",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "10",
+        "te": "18",
+        "ve": "3"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,4",
+      "ar": "1e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Vasmarok",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "8",
+        "te": "9",
+        "ve": "4"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,6",
+      "ar": "3e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Khast",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "0",
+        "te": "0",
+        "ve": "5"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "0,2",
+      "ar": "3e",
+      "kezes": "1",
+      "leiras": "torpe harci kesztyu"
+    },
+    {
+      "nev": "Enoszukei harci kalapacs",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "3",
+        "te": "7",
+        "ve": "6"
+      },
+      "sebzes": "3K6-2",
+      "suly_kg": "4",
+      "ar": "1 gio",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Usino",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "0",
+        "te": "8",
+        "ve": "6"
+      },
+      "sebzes": "3K6",
+      "suly_kg": "5",
+      "ar": "2 gio",
+      "kezes": "2",
+      "leiras": "enoszukei ketkezes csatabard"
+    },
+    {
+      "nev": "Szogarai",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "3",
+        "te": "8",
+        "ve": "10"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "3",
+      "ar": "4 gio",
+      "kezes": "2",
+      "leiras": "enoszukei harci gereblye"
+    },
+    {
+      "nev": "Tecudo",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "2",
+        "te": "11",
+        "ve": "8"
+      },
+      "sebzes": "2K6+2",
+      "suly_kg": "4",
+      "ar": "5 me",
+      "kezes": "2",
+      "leiras": "enoszukei szoges bunko"
+    },
+    {
+      "nev": "Do",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "4",
+        "te": "10",
+        "ve": "16"
+      },
+      "sebzes": "K5",
+      "suly_kg": "1,2",
+      "ar": "2 me",
+      "kezes": "2",
+      "leiras": "enoszukei hosszu bot"
+    },
+    {
+      "nev": "So",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "6",
+        "te": "10",
+        "ve": "15"
+      },
+      "sebzes": "K3+1",
+      "suly_kg": "1",
+      "ar": "1,5 me",
+      "kezes": "1",
+      "leiras": "enoszukei közepes bot"
+    },
+    {
+      "nev": "Hando",
+      "kategoria": "Zuzo",
+      "harcertekek": {
+        "ke": "9",
+        "te": "9",
+        "ve": "17"
+      },
+      "sebzes": "K3",
+      "suly_kg": "0,7",
+      "ar": "1,5 me",
+      "kezes": "1",
+      "leiras": "enoszukei rovid bot"
+    },
+    {
+      "nev": "Alabard",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "1",
+        "te": "14",
+        "ve": "15"
+      },
+      "sebzes": "2K6+6",
+      "suly_kg": "3",
+      "ar": "5a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Bambusznaги",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "5",
+        "te": "10",
+        "ve": "8"
+      },
+      "sebzes": "K5",
+      "suly_kg": "1,5",
+      "ar": "-",
+      "kezes": "2",
+      "leiras": "enoszukei bambuszlándzsa"
+    },
+    {
+      "nev": "Bokhan-to",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "2",
+        "te": "14",
+        "ve": "10"
+      },
+      "sebzes": "3K6-1",
+      "suly_kg": "6",
+      "ar": "8 gio",
+      "kezes": "2",
+      "leiras": "enoszukei nehéz lándzsakard"
+    },
+    {
+      "nev": "Dipada",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "5",
+        "te": "12",
+        "ve": "12"
+      },
+      "sebzes": "K10/K6+2",
+      "suly_kg": "2",
+      "ar": "1a",
+      "kezes": "2",
+      "leiras": "ketthegyü lándzsa"
+    },
+    {
+      "nev": "Glefe",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "4",
+        "te": "11",
+        "ve": "15"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "4",
+      "ar": "2a",
+      "kezes": "2",
+      "leiras": "felfoldi alabard"
+    },
+    {
+      "nev": "Hosszunyelü kard",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "3",
+        "te": "14",
+        "ve": "11"
+      },
+      "sebzes": "2K6",
+      "suly_kg": "3",
+      "ar": "6 gio",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Jahita",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "4",
+        "te": "13",
+        "ve": "11"
+      },
+      "sebzes": "2K6+1",
+      "suly_kg": "3",
+      "ar": "4 gio",
+      "kezes": "2",
+      "leiras": "enoszukei lándzsakard"
+    },
+    {
+      "nev": "Könnyü kopja",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "2",
+        "te": "11",
+        "ve": "12"
+      },
+      "sebzes": "K10",
+      "suly_kg": "2",
+      "ar": "9e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Könnyülovas kopja",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "1",
+        "te": "15",
+        "ve": "0"
+      },
+      "sebzes": "2K6",
+      "suly_kg": "3,5",
+      "ar": "1a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Landzsa",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "4",
+        "te": "12",
+        "ve": "12"
+      },
+      "sebzes": "K10",
+      "suly_kg": "2",
+      "ar": "8e",
+      "kezes": "1-2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Nagi",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "4",
+        "te": "12",
+        "ve": "12"
+      },
+      "sebzes": "K10",
+      "suly_kg": "2",
+      "ar": "8 me",
+      "kezes": "2",
+      "leiras": "enoszukei landzsa"
+    },
+    {
+      "nev": "Nehezlovas kopja",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "0",
+        "te": "16",
+        "ve": "0"
+      },
+      "sebzes": "2K10",
+      "suly_kg": "5",
+      "ar": "15e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Nyars",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "4",
+        "te": "12",
+        "ve": "13"
+      },
+      "sebzes": "K10",
+      "suly_kg": "2",
+      "ar": "1a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Ostromkasza",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "2",
+        "te": "8",
+        "ve": "10"
+      },
+      "sebzes": "2K10+2",
+      "suly_kg": "5",
+      "ar": "3a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Papi csákány",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "4",
+        "te": "14",
+        "ve": "14"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "2,5",
+      "ar": "3 gio",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Partizan",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "4",
+        "te": "13",
+        "ve": "12"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "2",
+      "ar": "1a",
+      "kezes": "2",
+      "leiras": "deli varosallamok lancsa"
+    },
+    {
+      "nev": "Pika",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "4",
+        "te": "14",
+        "ve": "10"
+      },
+      "sebzes": "K10",
+      "suly_kg": "2",
+      "ar": "4e",
+      "kezes": "2",
+      "leiras": "toroni nyárs"
+    },
+    {
+      "nev": "Runka",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "4",
+        "te": "13",
+        "ve": "12"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "2",
+      "ar": "1a",
+      "kezes": "2",
+      "leiras": "nyarsheqyü partizan"
+    },
+    {
+      "nev": "Shang kauw",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "10",
+        "te": "7",
+        "ve": "6"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "3",
+      "ar": "5e",
+      "kezes": "2",
+      "leiras": "Kesbard"
+    },
+    {
+      "nev": "Szigony",
+      "kategoria": "Szal",
+      "harcertekek": {
+        "ke": "4",
+        "te": "15",
+        "ve": "10"
+      },
+      "sebzes": "K10+1",
+      "suly_kg": "2",
+      "ar": "5e",
+      "kezes": "1-2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Anasako",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "9",
+        "te": "5",
+        "ve": "2"
+      },
+      "sebzes": "K3",
+      "suly_kg": "0,3",
+      "ar": "50 ban",
+      "kezes": "1",
+      "leiras": "enoszukei maszokarmok"
+    },
+    {
+      "nev": "Arugama",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "10",
+        "te": "18",
+        "ve": "5"
+      },
+      "sebzes": "K5",
+      "suly_kg": "0,7",
+      "ar": "nem.kaph.",
+      "kezes": "2",
+      "leiras": "enoszukei lancos sarlo"
+    },
+    {
+      "nev": "Dzsitte",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "10",
+        "te": "11",
+        "ve": "15"
+      },
+      "sebzes": "K5",
+      "suly_kg": "0,5",
+      "ar": "nem.kaph.",
+      "kezes": "2",
+      "leiras": "enoszukei varazslóbot"
+    },
+    {
+      "nev": "Enoszukei vaskigyo",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "10",
+        "te": "18",
+        "ve": "3"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "1,2",
+      "ar": "2 me",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Garott",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "0",
+        "te": "5",
+        "ve": "-20"
+      },
+      "sebzes": "K10",
+      "suly_kg": "0,1",
+      "ar": "1e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Hagai",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "8",
+        "te": "17",
+        "ve": "5"
+      },
+      "sebzes": "K5",
+      "suly_kg": "0,5",
+      "ar": "5 me",
+      "kezes": "2",
+      "leiras": "enoszukei holdsarló"
+    },
+    {
+      "nev": "Haromreszes csaku",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "3",
+        "te": "19",
+        "ve": "16"
+      },
+      "sebzes": "K6+3",
+      "suly_kg": "1,4",
+      "ar": "2 me",
+      "kezes": "2",
+      "leiras": "enoszukei haromreszes bot"
+    },
+    {
+      "nev": "Ketreszes csaku",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "9",
+        "te": "19",
+        "ve": "13"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,4",
+      "ar": "1,5 me",
+      "kezes": "1",
+      "leiras": "enoszukei ketreszes bot"
+    },
+    {
+      "nev": "Khal mancs",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "10",
+        "te": "20",
+        "ve": "20"
+      },
+      "sebzes": "K6",
+      "suly_kg": "-",
+      "ar": "-",
+      "kezes": "-",
+      "leiras": "-"
+    },
+    {
+      "nev": "Korbacs",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "4",
+        "te": "6",
+        "ve": "0"
+      },
+      "sebzes": "K3",
+      "suly_kg": "0,5",
+      "ar": "120r",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Kri'tul",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "10",
+        "te": "8",
+        "ve": "4"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,3",
+      "ar": "nem.kaph.",
+      "kezes": "1",
+      "leiras": "enoszukei sarlokes"
+    },
+    {
+      "nev": "Mori-mitari",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "8",
+        "te": "12",
+        "ve": "19"
+      },
+      "sebzes": "K5",
+      "suly_kg": "0,3",
+      "ar": "2 me",
+      "kezes": "1",
+      "leiras": "enoszukei tonfa"
+    },
+    {
+      "nev": "Nekode",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "9",
+        "te": "6",
+        "ve": "4"
+      },
+      "sebzes": "K3",
+      "suly_kg": "0,2",
+      "ar": "2 me",
+      "kezes": "1",
+      "leiras": "enoszukei harci kesztyu"
+    },
+    {
+      "nev": "Ostor",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "3",
+        "te": "6",
+        "ve": "0"
+      },
+      "sebzes": "K2",
+      "suly_kg": "0,6",
+      "ar": "1e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Okel",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "10",
+        "te": "4",
+        "ve": "1"
+      },
+      "sebzes": "K2",
+      "suly_kg": "-",
+      "ar": "-",
+      "kezes": "-",
+      "leiras": "-"
+    },
+    {
+      "nev": "Sinobi-to",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "8",
+        "te": "16",
+        "ve": "18"
+      },
+      "sebzes": "K6+2",
+      "suly_kg": "0,9",
+      "ar": "nem.kaph.",
+      "kezes": "1",
+      "leiras": "enoszukei ninjakard"
+    },
+    {
+      "nev": "Sogi-na",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "9",
+        "te": "16",
+        "ve": "4"
+      },
+      "sebzes": "K5",
+      "suly_kg": "0,6",
+      "ar": "nem.kaph.",
+      "kezes": "2",
+      "leiras": "enoszukei lancos sarló"
+    },
+    {
+      "nev": "Szaszai",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "9",
+        "te": "10",
+        "ve": "18"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,3",
+      "ar": "5 me",
+      "kezes": "1",
+      "leiras": "enoszukei sai"
+    },
+    {
+      "nev": "Tekiszen",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "9",
+        "te": "9",
+        "ve": "6"
+      },
+      "sebzes": "K6-1",
+      "suly_kg": "0,7",
+      "ar": "5 me",
+      "kezes": "1",
+      "leiras": "enoszukei harci legyezo"
+    },
+    {
+      "nev": "Tügyürü",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "10",
+        "te": "4",
+        "ve": "1"
+      },
+      "sebzes": "tü",
+      "suly_kg": "0,02",
+      "ar": "2e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Vasokel",
+      "kategoria": "Kulonleges",
+      "harcertekek": {
+        "ke": "9",
+        "te": "5",
+        "ve": "2"
+      },
+      "sebzes": "K3",
+      "suly_kg": "0,2",
+      "ar": "1e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Aquir nyilpuska",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "5",
+        "te": "18",
+        "ve": "35"
+      },
+      "sebzes": "K5",
+      "suly_kg": "2",
+      "ar": "1000a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Arbalet",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "4",
+        "te": "10",
+        "ve": "30"
+      },
+      "sebzes": "K5",
+      "suly_kg": "2",
+      "ar": "30r",
+      "kezes": "2",
+      "leiras": "parittyaij"
+    },
+    {
+      "nev": "Elf ij",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "3",
+        "te": "4",
+        "ve": "100"
+      },
+      "sebzes": "k6+2",
+      "suly_kg": "0,7",
+      "ar": "120a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Ferdeij",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "4",
+        "te": "5",
+        "ve": "110"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "0,7",
+      "ar": "1 gio",
+      "kezes": "2",
+      "leiras": "enoszukei ij"
+    },
+    {
+      "nev": "Fusaa",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "8",
+        "te": "7",
+        "ve": "30"
+      },
+      "sebzes": "K6",
+      "suly_kg": "0,2",
+      "ar": "5 me",
+      "kezes": "2",
+      "leiras": "enoszukei fuvocso"
+    },
+    {
+      "nev": "Fuvocso",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "8",
+        "te": "9",
+        "ve": "30"
+      },
+      "sebzes": "tü",
+      "suly_kg": "0.2",
+      "ar": "6e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Goblin ij",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "5",
+        "te": "6",
+        "ve": "60"
+      },
+      "sebzes": "K5",
+      "suly_kg": "0,5",
+      "ar": "3e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Hosszu ij",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "4",
+        "te": "11",
+        "ve": "110"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "0,7",
+      "ar": "15e",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Kezi nyilpuska",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "3",
+        "te": "14",
+        "ve": "30"
+      },
+      "sebzes": "K3",
+      "suly_kg": "2",
+      "ar": "20a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Kharei nyilpuska",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "9",
+        "te": "13",
+        "ve": "30"
+      },
+      "sebzes": "K3",
+      "suly_kg": "3",
+      "ar": "80a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Könnyü nyilpuska",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "2",
+        "te": "16",
+        "ve": "50"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "3,5",
+      "ar": "8a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Mirako",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "4",
+        "te": "12",
+        "ve": "120"
+      },
+      "sebzes": "K10+2",
+      "suly_kg": "0,8",
+      "ar": "20a",
+      "kezes": "2",
+      "leiras": "Elar ij"
+    },
+    {
+      "nev": "Nehéz nyilpuska",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "0",
+        "te": "15",
+        "ve": "60"
+      },
+      "sebzes": "K10+2",
+      "suly_kg": "6",
+      "ar": "12a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Niarei ij",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "2",
+        "te": "17",
+        "ve": "50"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "3,5",
+      "ar": "8 gio",
+      "kezes": "2",
+      "leiras": "enoszukei nyilpuska"
+    },
+    {
+      "nev": "Parittya",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "2",
+        "te": "9",
+        "ve": "50"
+      },
+      "sebzes": "K5",
+      "suly_kg": "0,1",
+      "ar": "30r",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Rovid ij",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "5",
+        "te": "9",
+        "ve": "90"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "0,6",
+      "ar": "3a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Shadoni panceltoro",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "0",
+        "te": "17",
+        "ve": "80"
+      },
+      "sebzes": "2K10",
+      "suly_kg": "8",
+      "ar": "40a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Tüveto",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "10",
+        "te": "6",
+        "ve": "3"
+      },
+      "sebzes": "tü",
+      "suly_kg": "0,5",
+      "ar": "2a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Visszacsapo ij",
+      "kategoria": "Celzo",
+      "harcertekek": {
+        "ke": "3",
+        "te": "8",
+        "ve": "180"
+      },
+      "sebzes": "K10",
+      "suly_kg": "0,8",
+      "ar": "25a",
+      "kezes": "2",
+      "leiras": "-"
+    },
+    {
+      "nev": "Arshuri pajzs",
+      "kategoria": "Pajzs",
+      "harcertekek": {
+        "ke": "2",
+        "te": "8",
+        "ve": "25"
+      },
+      "sebzes": "2K6+2",
+      "suly_kg": "2",
+      "ar": "1a",
+      "kezes": "1",
+      "leiras": "penges pajzs"
+    },
+    {
+      "nev": "Kis pajzs",
+      "kategoria": "Pajzs",
+      "harcertekek": {
+        "ke": "1",
+        "te": "0",
+        "ve": "20"
+      },
+      "sebzes": "K6",
+      "suly_kg": "1",
+      "ar": "6e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Közepes pajzs",
+      "kategoria": "Pajzs",
+      "harcertekek": {
+        "ke": "0",
+        "te": "0",
+        "ve": "35"
+      },
+      "sebzes": "K6",
+      "suly_kg": "3",
+      "ar": "16e",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Nagy pajzs",
+      "kategoria": "Pajzs",
+      "harcertekek": {
+        "ke": "0",
+        "te": "0",
+        "ve": "50"
+      },
+      "sebzes": "K6",
+      "suly_kg": "6",
+      "ar": "6a",
+      "kezes": "1",
+      "leiras": "-"
+    },
+    {
+      "nev": "Paveze pajzs",
+      "kategoria": "Pajzs",
+      "harcertekek": {
+        "ke": "0",
+        "te": "0",
+        "ve": "40"
+      },
+      "sebzes": "0",
+      "suly_kg": "12",
+      "ar": "8a",
+      "kezes": "2",
+      "leiras": "ijász fedezek"
+    },
+    {
+      "nev": "Zuzopajzs",
+      "kategoria": "Pajzs",
+      "harcertekek": {
+        "ke": "5",
+        "te": "9",
+        "ve": "11"
+      },
+      "sebzes": "K6+1",
+      "suly_kg": "6",
+      "ar": "4e",
+      "kezes": "1",
+      "leiras": "-"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_template": "D&D 5e – Character Sheet",
+  "_version": "1.0",
+  "_note": "Use null for unknown values, omit optional list entries entirely.",
+
+  "identity": {
+    "name": "",
+    "race": "",
+    "subrace": "",
+    "class": "",
+    "subclass": "",
+    "level": 1,
+    "background": "",
+    "alignment": "",
+    "player": "",
+    "experience_points": 0
+  },
+
+  "ability_scores": {
+    "strength":     { "score": 10, "modifier": 0 },
+    "dexterity":    { "score": 10, "modifier": 0 },
+    "constitution": { "score": 10, "modifier": 0 },
+    "intelligence": { "score": 10, "modifier": 0 },
+    "wisdom":       { "score": 10, "modifier": 0 },
+    "charisma":     { "score": 10, "modifier": 0 }
+  },
+
+  "derived_stats": {
+    "proficiency_bonus": 2,
+    "armor_class": 10,
+    "initiative": 0,
+    "speed_ft": 30,
+    "hp": {
+      "maximum": 0,
+      "current": 0,
+      "temporary": 0
+    },
+    "hit_dice": {
+      "total": "1d8",
+      "remaining": "1d8"
+    },
+    "death_saves": {
+      "successes": 0,
+      "failures": 0
+    }
+  },
+
+  "saving_throws": {
+    "strength":     { "proficient": false, "modifier": 0 },
+    "dexterity":    { "proficient": false, "modifier": 0 },
+    "constitution": { "proficient": false, "modifier": 0 },
+    "intelligence": { "proficient": false, "modifier": 0 },
+    "wisdom":       { "proficient": false, "modifier": 0 },
+    "charisma":     { "proficient": false, "modifier": 0 }
+  },
+
+  "skills": {
+    "acrobatics":       { "ability": "dexterity",    "proficient": false, "expertise": false, "modifier": 0 },
+    "animal_handling":  { "ability": "wisdom",       "proficient": false, "expertise": false, "modifier": 0 },
+    "arcana":           { "ability": "intelligence", "proficient": false, "expertise": false, "modifier": 0 },
+    "athletics":        { "ability": "strength",     "proficient": false, "expertise": false, "modifier": 0 },
+    "deception":        { "ability": "charisma",     "proficient": false, "expertise": false, "modifier": 0 },
+    "history":          { "ability": "intelligence", "proficient": false, "expertise": false, "modifier": 0 },
+    "insight":          { "ability": "wisdom",       "proficient": false, "expertise": false, "modifier": 0 },
+    "intimidation":     { "ability": "charisma",     "proficient": false, "expertise": false, "modifier": 0 },
+    "investigation":    { "ability": "intelligence", "proficient": false, "expertise": false, "modifier": 0 },
+    "medicine":         { "ability": "wisdom",       "proficient": false, "expertise": false, "modifier": 0 },
+    "nature":           { "ability": "intelligence", "proficient": false, "expertise": false, "modifier": 0 },
+    "perception":       { "ability": "wisdom",       "proficient": false, "expertise": false, "modifier": 0 },
+    "performance":      { "ability": "charisma",     "proficient": false, "expertise": false, "modifier": 0 },
+    "persuasion":       { "ability": "charisma",     "proficient": false, "expertise": false, "modifier": 0 },
+    "religion":         { "ability": "intelligence", "proficient": false, "expertise": false, "modifier": 0 },
+    "sleight_of_hand":  { "ability": "dexterity",    "proficient": false, "expertise": false, "modifier": 0 },
+    "stealth":          { "ability": "dexterity",    "proficient": false, "expertise": false, "modifier": 0 },
+    "survival":         { "ability": "wisdom",       "proficient": false, "expertise": false, "modifier": 0 }
+  },
+
+  "attacks": [
+    {
+      "name": "",
+      "attack_bonus": 0,
+      "damage_dice": "",
+      "damage_bonus": 0,
+      "damage_type": "",
+      "range": "",
+      "properties": []
+    }
+  ],
+
+  "spellcasting": {
+    "enabled": false,
+    "ability": "",
+    "spell_save_dc": 0,
+    "spell_attack_bonus": 0,
+    "slots": {
+      "1": { "total": 0, "used": 0 },
+      "2": { "total": 0, "used": 0 },
+      "3": { "total": 0, "used": 0 },
+      "4": { "total": 0, "used": 0 },
+      "5": { "total": 0, "used": 0 },
+      "6": { "total": 0, "used": 0 },
+      "7": { "total": 0, "used": 0 },
+      "8": { "total": 0, "used": 0 },
+      "9": { "total": 0, "used": 0 }
+    },
+    "cantrips": [],
+    "spells_prepared": []
+  },
+
+  "equipment": {
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    },
+    "items": []
+  },
+
+  "features_and_traits": [
+    {
+      "name": "",
+      "source": "",
+      "description": ""
+    }
+  ],
+
+  "conditions": [],
+
+  "description": {
+    "age": null,
+    "height": "",
+    "weight": "",
+    "eyes": "",
+    "skin": "",
+    "hair": "",
+    "appearance_notes": ""
+  },
+
+  "personality": {
+    "traits": "",
+    "ideals": "",
+    "bonds": "",
+    "flaws": ""
+  },
+
+  "backstory": "",
+  "allies_and_organizations": "",
+  "additional_notes": ""
+}
