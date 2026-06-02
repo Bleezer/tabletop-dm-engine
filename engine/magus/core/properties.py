@@ -10,8 +10,8 @@ import random
 import sqlite3
 from pathlib import Path
 
-from engine.magus.db import DB_PATH, get_connection
-from engine.magus.dice import DEFAULT_FORMULA, roll_formula
+from engine.magus.core.db import DB_PATH, get_connection
+from engine.magus.core.dice import DEFAULT_FORMULA, roll_formula
 
 # Canonical property names — must match kaszt_tulajdonsag_dobas.tulajdonsag
 TULAJDONSAGOK: list[str] = [

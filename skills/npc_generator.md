@@ -8,6 +8,8 @@ Az NPC fizikai megjelenését mindig kösd össze a kiszámított statisztikákk
 - **Alacsony Erő (8-)**: Vékony, törékeny alkat, karcsú végtagok; esetleg betegségre, alultápláltságra vagy hosszú bezártságra utaló jellegzetességek
 - **Magas Ész (15+)**: Figyelmes, éles tekintet, tanult ember benyomása — könyvek, iratok közelében; apró részletekre figyelő szemmozgás, gondolkodó arckifejezés
 - **Alacsony Ész (8-)**: Álmos vagy zavaros tekintet, lassú reakciók, egyszerű, direkt vonások
+- **Magas Asztrál (15+)**: Lelkileg stabil, erős, magabiztos személyiség
+- **Alacsony Asztrál (8-)**: Emócionálisan ingadozó, hirtelen érzelmi reakciókat adó személyiség, bizonytalan
 - **Magas Ügyesség (15+)**: Kecses mozgás, alig hallható léptek, gyors reflexek, fürge kezek
 - **Kaszt és szint nyomai**: Egy magas szintű harcos viseli a csaták emlékeit; egy mágus ruháján mágikus szimbólumok vagy égési nyomok; egy tolvaj észrevétlenül olvad be a háttérbe
 
@@ -21,7 +23,7 @@ Dolgozz ki 2–3 mondatos személyiségrajzot, amely:
 
 ## Háttértörténet
 
-Rövid, de gazdag háttértörténet 1–2 mondatban:
+Rövid, de gazdag háttértörténet 6-8 mondatban:
 - Magyarázza meg, hogyan került a karakter jelenlegi helyzetébe
 - Utaljon a múltra anélkül, hogy mindent elmondana — a titkolózás vonzó
 - Legyen benne valami váratlan vagy meglepő fordulat, ami árnyalja az első benyomást

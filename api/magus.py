@@ -15,15 +15,16 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
 from engine.magus.pipeline import generate
-from engine.magus.npc_generator import generate_npc
+from engine.magus.agents.npc_generator import generate_npc
 from engine.magus.pipeline import _load_json, _RACES_FILE, _CLASSES_FILE
-from engine.magus.karakter import (
+from engine.magus.core.karakter import (
     save_from_npc_result,
     load_karakter,
     list_karakterek,
     row_to_npc,
     update_karakter,
     delete_karakter,
+    get_kepzettsegek,
 )
 
 import anthropic
@@ -126,7 +127,9 @@ async def get_endpoint(karakter_id: int) -> dict:
         raise HTTPException(status_code=404, detail=f"Karakter nem található: {karakter_id}")
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc))
-    return row_to_npc(row)
+    result = row_to_npc(row)
+    result["kepzettsegek"] = get_kepzettsegek(row["kaszt"], row["szint"])
+    return result
 
 
 @router.patch("/karakterek/{karakter_id}")

@@ -14,7 +14,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from engine.magus.db import DB_PATH, get_connection
+from engine.magus.core.db import DB_PATH, get_connection
 
 # JSON columns that hold lists — auto-serialised/deserialised
 _JSON_COLS = {"tulajdonsagok", "harci_ertekek", "felszereles", "celok"}
@@ -252,6 +252,28 @@ def list_karakterek(db_path: Path = DB_PATH) -> list[dict]:
             },
         })
     return result
+
+
+def get_kepzettsegek(kaszt_nev: str, szint: int, db_path: Path = DB_PATH) -> list[dict]:
+    """Return skills granted to a class up to the given level, ordered by szint_tol then name."""
+    conn = get_connection(db_path)
+    try:
+        rows = conn.execute(
+            """
+            SELECT ke.nev, ke.tipus, ke.kategoria,
+                   kk.fok, kk.szazalek, kk.szint_tol,
+                   ke.ar_alapfok, ke.ar_mesterfok
+            FROM kaszt_kepzettsegek kk
+            JOIN kepzettsegek ke ON ke.id = kk.kepzettseg_id
+            JOIN kasztok ka    ON ka.id = kk.kaszt_id
+            WHERE ka.nev = ? AND kk.szint_tol <= ?
+            ORDER BY kk.szint_tol, ke.nev
+            """,
+            (kaszt_nev, szint),
+        ).fetchall()
+        return [dict(r) for r in rows]
+    finally:
+        conn.close()
 
 
 def delete_karakter(karakter_id: int, db_path: Path = DB_PATH) -> bool:

@@ -9,11 +9,11 @@ Imports and re-exports from the four focused modules:
 """
 from __future__ import annotations
 
-from engine.magus.dice       import roll_formula, DEFAULT_FORMULA
-from engine.magus.properties import TULAJDONSAGOK, TULAJDONSAG_NEVEK, generate_npc_properties
-from engine.magus.combat     import calculate_combat_stats
-from engine.magus.formatters import format_result, format_combat_stats
-from engine.magus.karakter   import save_karakter, load_karakter, update_karakter
+from engine.magus.core.dice       import roll_formula, DEFAULT_FORMULA
+from engine.magus.core.properties import TULAJDONSAGOK, TULAJDONSAG_NEVEK, generate_npc_properties
+from engine.magus.core.combat     import calculate_combat_stats
+from engine.magus.core.formatters import format_result, format_combat_stats
+from engine.magus.core.karakter   import save_karakter, load_karakter, update_karakter
 
 __all__ = [
     "roll_formula",

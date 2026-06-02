@@ -15,7 +15,10 @@ from pathlib import Path
 
 import anthropic
 
-from engine.magus.location_generator import generate_location
+from engine.magus.agents.location_generator import generate_location
+from engine.magus.core.logger import get_logger
+
+logger = get_logger("pipeline")
 
 ROOT = Path(__file__).parent.parent.parent
 
@@ -124,16 +127,20 @@ def generate(location_name: str) -> dict:
     if not api_key:
         raise EnvironmentError("ANTHROPIC_API_KEY environment variable is not set")
 
+    logger.info("Pipeline start — location={loc}", loc=location_name)
     races_data   = _load_json(_RACES_FILE)
     classes_data = _load_json(_CLASSES_FILE)
     client       = anthropic.Anthropic(api_key=api_key)
 
-    return generate_location(
+    result = generate_location(
         location_name = location_name,
         races_data    = races_data,
         classes_data  = classes_data,
         client        = client,
     )
+    npc_count = len(result.get("npcs", []))
+    logger.info("Pipeline done — location={loc} npcs={n}", loc=location_name, n=npc_count)
+    return result
 
 
 # ---------------------------------------------------------------------------

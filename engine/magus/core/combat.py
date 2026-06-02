@@ -9,8 +9,9 @@ from __future__ import annotations
 import sqlite3
 from pathlib import Path
 
-from engine.magus.db import DB_PATH, get_connection
-from engine.magus.dice import roll_formula
+from engine.magus.core.db import DB_PATH, get_connection
+from engine.magus.core.dice import roll_formula
+from engine.magus.core.logger import log_stat_calc
 
 
 # ---------------------------------------------------------------------------
@@ -139,7 +140,7 @@ def calculate_combat_stats(
             fp_rolls.append(r)
             fp += r
 
-    return {
+    result = {
         "kaszt":               kaszt_nev,
         "szint":               szint,
         "ke":                  ke,
@@ -170,3 +171,18 @@ def calculate_combat_stats(
         "hm_free_ve":          hm_free_ve,
         "hm_free_ce":          hm_free_ce,
     }
+    log_stat_calc(
+        kaszt=kaszt_nev,
+        szint=szint,
+        props=props,
+        result=result,
+        details={
+            "gy": gy, "ue": ue, "er": er, "eg": eg,
+            "int_bonus": int_bonus,
+            "ke_bonus": ke_bonus,
+            "alap_ep": c["alap_ep"],
+            "alap_fp": c["alap_fp"],
+            "hm_per_szint": c["hm_per_szint"],
+        },
+    )
+    return result

@@ -14,9 +14,12 @@ from typing import Any
 
 import anthropic
 
-from engine.magus.npc_generator import generate_npc, _world_system_blocks
+from engine.magus.agents.npc_generator import generate_npc, _world_system_blocks
+from engine.magus.core.logger import get_logger, log_claude_call
 
-ROOT  = Path(__file__).parent.parent.parent
+logger = get_logger("location_generator")
+
+ROOT  = Path(__file__).parent.parent.parent.parent
 MODEL = "claude-sonnet-4-6"
 
 _LOCATIONS_FILE = ROOT / "world" / "magus" / "erion" / "locations.json"
@@ -151,23 +154,27 @@ def _generate_description(
     system_blocks: list[dict],
     client: anthropic.Anthropic,
 ) -> dict:
+    user_msg = (
+        f"{location_context}\n\n"
+        "Generáld le a helyszín részletes leírását és döntsd el, "
+        "kik tartózkodnak most itt. A hangulat és NPC-k legyenek "
+        "összhangban a helyszín jellegével."
+    )
+    logger.info("Location description call — context_len={n}", n=len(location_context))
     response = client.messages.create(
         model=MODEL,
         max_tokens=1024,
         system=system_blocks,
         tools=[_LOCATION_TOOL],
         tool_choice={"type": "tool", "name": "describe_location"},
-        messages=[
-            {
-                "role": "user",
-                "content": (
-                    f"{location_context}\n\n"
-                    "Generáld le a helyszín részletes leírását és döntsd el, "
-                    "kik tartózkodnak most itt. A hangulat és NPC-k legyenek "
-                    "összhangban a helyszín jellegével."
-                ),
-            }
-        ],
+        messages=[{"role": "user", "content": user_msg}],
+    )
+    log_claude_call(
+        stage="location_desc",
+        model=MODEL,
+        system_blocks=system_blocks,
+        messages=[{"role": "user", "content": user_msg}],
+        response=response,
     )
 
     for block in response.content:

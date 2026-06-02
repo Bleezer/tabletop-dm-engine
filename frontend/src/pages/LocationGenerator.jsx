@@ -123,18 +123,38 @@ function NpcCard({ npc }) {
           <button
             onClick={() => setShowSecret(s => !s)}
             style={{
-              background: 'none', border: 'none', cursor: 'pointer',
-              fontFamily: 'var(--font-display)', fontSize: '0.72rem',
-              textTransform: 'uppercase', letterSpacing: '0.06em',
-              color: 'var(--th-accent)', padding: 0,
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              fontFamily: 'var(--font-display)',
+              fontSize: '0.65rem',
+              textTransform: 'uppercase',
+              letterSpacing: '0.1em',
+              color: 'var(--th-accent-lt)',
+              padding: 0,
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.4rem',
             }}
           >
-            {showSecret ? '▲ Titok elrejtése' : '▼ Titok megjelenítése'}
+            <span>{showSecret ? '▲' : '▼'}</span>
+            <span>Mesélői titok</span>
           </button>
           {showSecret && (
-            <p style={{ fontSize: '0.85rem', color: 'var(--th-ink)', fontStyle: 'italic', marginTop: '0.4rem', padding: '0.5rem', background: 'rgba(139,26,26,0.1)', borderRadius: '2px', borderLeft: '2px solid var(--th-accent)' }}>
-              {char.secret}
-            </p>
+            <div className="secret-block" style={{ marginTop: '0.4rem' }}>
+              <p
+                style={{
+                  fontSize: '0.85rem',
+                  color: 'var(--th-ink)',
+                  fontFamily: 'var(--font-lore)',
+                  fontStyle: 'italic',
+                  margin: 0,
+                  lineHeight: 1.55,
+                }}
+              >
+                {char.secret}
+              </p>
+            </div>
           )}
         </div>
       )}

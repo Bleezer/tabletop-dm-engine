@@ -284,7 +284,7 @@ function Page1({ char, sb, combat }) {
 
 // ── Page 2 ────────────────────────────────────────────────────────────────────
 
-function Page2({ char, sb, combat, karakter }) {
+function Page2({ char, sb, combat, karakter, kepzettsegek = [] }) {
   const leiras = [
     char.appearance  && `Megjelenés: ${char.appearance}`,
     char.personality && `Személyiség: ${char.personality}`,
@@ -294,8 +294,10 @@ function Page2({ char, sb, combat, karakter }) {
     char.secret      && `Titok: ${char.secret}`,
   ].filter(Boolean).join('\n\n')
 
-  const felszereles = karakter.felszereles || []
-  const celok       = karakter.celok || []
+  const felszereles  = karakter.felszereles || []
+  const celok        = karakter.celok || []
+  const manySkills   = kepzettsegek.length > 28
+  const equipRows    = manySkills ? 7 : 14
 
   return (
     <div>
@@ -312,32 +314,66 @@ function Page2({ char, sb, combat, karakter }) {
         </div>
       </div>
 
-      {/* Skills table — two columns */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 4, marginBottom: 4 }}>
-        {[0, 1].map(col => (
-          <table key={col} style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.7rem', ...SF }}>
-            <thead>
-              <tr>
-                {['Képzettség', 'Kp', 'Fok-%'].map(h => (
-                  <th key={h} style={{
-                    border: BD, padding: '2px 4px', ...SFB, fontSize: '0.6rem',
-                    textAlign: 'center', background: '#f5f0eb',
-                  }}>{h}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {Array.from({ length: 14 }, (_, i) => (
-                <tr key={i}>
-                  <td style={{ border: BD, height: '1.4em', padding: '1px 3px', width: '60%' }} />
-                  <td style={{ border: BD, padding: '1px 3px', width: '20%' }} />
-                  <td style={{ border: BD, padding: '1px 3px', width: '20%' }} />
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        ))}
-      </div>
+      {/* Skills table — 2 or 3 columns depending on skill count */}
+      {(() => {
+        const ueBonus   = Math.max(0, (sb.stats?.ugyesseg ?? 10) - 10)
+        const amSkills  = kepzettsegek.filter(k => k.tipus === 'alap_mester')
+        const pctSkills = kepzettsegek.filter(k => k.tipus === 'szazalekos')
+        const total     = kepzettsegek.length
+
+        const NUM_COLS = total > 28 ? 3 : 2
+        const ROWS     = Math.max(total > 28 ? 13 : 14, Math.ceil((total + 2) / NUM_COLS))
+        const TOTAL    = ROWS * NUM_COLS
+
+        const slots = Array(TOTAL).fill(null)
+        amSkills.forEach((s, i)  => { if (i < TOTAL) slots[i] = s })
+        pctSkills.forEach((s, i) => {
+          const idx = TOTAL - 1 - i
+          if (idx >= 0 && slots[idx] === null) slots[idx] = s
+        })
+        const colSlices = Array.from({ length: NUM_COLS }, (_, ci) =>
+          slots.slice(ci * ROWS, (ci + 1) * ROWS)
+        )
+
+        const nameFontSize = NUM_COLS === 3 ? '0.6rem' : '0.68rem'
+        const gridCols     = NUM_COLS === 3 ? '1fr 1fr 1fr' : '1fr 1fr'
+
+        return (
+          <div style={{ display: 'grid', gridTemplateColumns: gridCols, gap: 3, marginBottom: 4 }}>
+            {colSlices.map((col, ci) => (
+              <table key={ci} style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.68rem', ...SF }}>
+                <thead>
+                  <tr>
+                    {['Képzettség', 'Kp', 'Fok'].map(h => (
+                      <th key={h} style={{
+                        border: BD, padding: '1px 3px', ...SFB, fontSize: '0.58rem',
+                        textAlign: 'center', background: '#f5f0eb',
+                      }}>{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {col.map((s, i) => {
+                    const pct = s?.tipus === 'szazalekos' ? (s.szazalek ?? 0) + ueBonus : null
+                    const fok = s ? (s.tipus === 'szazalekos' ? `${pct}%` : s.fok) : ''
+                    return (
+                      <tr key={i}>
+                        <td style={{ border: BD, height: '1.35em', padding: '1px 3px', width: '58%', fontSize: nameFontSize, ...SF }}>
+                          {s?.nev ?? ''}
+                        </td>
+                        <td style={{ border: BD, padding: '1px 3px', width: '20%', textAlign: 'center', fontSize: '0.62rem' }} />
+                        <td style={{ border: BD, padding: '1px 3px', width: '22%', textAlign: 'center', fontSize: '0.58rem', ...SF }}>
+                          {fok}
+                        </td>
+                      </tr>
+                    )
+                  })}
+                </tbody>
+              </table>
+            ))}
+          </div>
+        )
+      })()}
 
       {/* Kincsek */}
       <div style={{ border: BD, marginBottom: 4 }}>
@@ -364,8 +400,8 @@ function Page2({ char, sb, combat, karakter }) {
               </tr>
             </thead>
             <tbody>
-              {Array.from({ length: 14 }, (_, i) => {
-                const item = col === 0 ? felszereles[i] : felszereles[14 + i]
+              {Array.from({ length: equipRows }, (_, i) => {
+                const item = col === 0 ? felszereles[i] : felszereles[equipRows + i]
                 return (
                   <tr key={i}>
                     <td style={{ border: BD, height: '1.4em', padding: '1px 3px', width: '55%', fontSize: '0.72rem', ...SF }}>
@@ -444,9 +480,10 @@ export default function CharacterSheet() {
   if (error)   return <div style={{ padding: 40, color: 'red' }}>Hiba: {error}</div>
   if (!karakter) return null
 
-  const char   = karakter.character || {}
-  const sb     = karakter.stat_block || {}
-  const combat = sb.combat || {}
+  const char         = karakter.character || {}
+  const sb           = karakter.stat_block || {}
+  const combat       = sb.combat || {}
+  const kepzettsegek = karakter.kepzettsegek || []
 
   const pageStyle = {
     background: '#fff',
@@ -504,7 +541,7 @@ export default function CharacterSheet() {
 
           {/* Page 2 */}
           <div className="sheet-page" style={pageStyle}>
-            <Page2 char={char} sb={sb} combat={combat} karakter={karakter} />
+            <Page2 char={char} sb={sb} combat={combat} karakter={karakter} kepzettsegek={kepzettsegek} />
           </div>
         </div>
       </div>

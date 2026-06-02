@@ -17,9 +17,9 @@ from itertools import product as iproduct
 from pathlib import Path
 from typing import Any
 
-from engine.magus.db import DB_PATH, get_connection, init_db
+from engine.magus.core.db import DB_PATH, get_connection, init_db
 
-ROOT         = Path(__file__).parent.parent.parent
+ROOT         = Path(__file__).parent.parent.parent.parent
 CLASSES_FILE = ROOT / "world" / "magus" / "classes.json"
 
 

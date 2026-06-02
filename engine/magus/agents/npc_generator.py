@@ -17,9 +17,14 @@ from typing import Any
 
 import anthropic
 
-from engine.magus.stats_helpers import build_stat_block, format_stat_block
+from engine.magus.npc.stats_helpers import format_stat_block
+from engine.magus.core.properties import generate_npc_properties
+from engine.magus.core.combat import calculate_combat_stats
+from engine.magus.core.logger import get_logger, log_claude_call
 
-ROOT    = Path(__file__).parent.parent.parent
+logger = get_logger("npc_generator")
+
+ROOT    = Path(__file__).parent.parent.parent.parent
 MODEL   = "claude-sonnet-4-6"
 
 
@@ -222,6 +227,7 @@ def _generate_npc_single_call(
     )
 
     # Turn 1 — concept
+    logger.info("NPC gen turn 1 — concept | role_hint={hint}", hint=role_hint)
     r1 = client.messages.create(
         model=MODEL,
         max_tokens=512,
@@ -229,6 +235,13 @@ def _generate_npc_single_call(
         tools=[_CONCEPT_TOOL, _CHARACTER_TOOL],
         tool_choice={"type": "tool", "name": "define_npc_concept"},
         messages=[{"role": "user", "content": user_msg}],
+    )
+    log_claude_call(
+        stage="npc_concept",
+        model=MODEL,
+        system_blocks=system_blocks,
+        messages=[{"role": "user", "content": user_msg}],
+        response=r1,
     )
 
     concept = None
@@ -242,42 +255,98 @@ def _generate_npc_single_call(
     if concept is None:
         raise RuntimeError("NPC concept generation returned no tool call")
 
-    # Code: calculate stats
-    stat_block = build_stat_block(
-        race_name    = concept["race"],
-        class_name   = concept["class_name"],
-        level        = concept["level"],
-        total_points = concept["point_pool"],
-        races_data   = races_data,
-        classes_data = classes_data,
+    logger.info(
+        "Concept decided — race={race} class={cls} level={lvl} importance={imp}",
+        race=concept.get("race"),
+        cls=concept.get("class_name"),
+        lvl=concept.get("level"),
+        imp=concept.get("importance"),
     )
+
+    # Code: roll properties with proper MAGUS dice formulas (class-specific, DB-based)
+    _importance_to_njk = {"minor": "atlagos", "moderate": "kiemelt", "major": "elit"}
+    njk_tipus = _importance_to_njk.get(concept.get("importance", "minor"), "atlagos")
+
+    props_result = generate_npc_properties(
+        kaszt_nev = concept["class_name"],
+        njk_tipus = njk_tipus,
+    )
+    logger.info(
+        "Props rolled — ossz={ossz} (dobott={rolled} | igazítva={adj} | lépések={steps})",
+        ossz=props_result["ossz_pont"],
+        rolled=props_result["rolled_total"],
+        adj=props_result["adjusted"],
+        steps=props_result["adj_steps"],
+    )
+
+    # Build stat_block in the shape format_stat_block + save_from_npc_result expects
+    stat_block: dict = {
+        "race":         concept["race"],
+        "class":        concept["class_name"],
+        "level":        concept["level"],
+        "total_points": props_result["ossz_pont"],
+        "stats":        props_result["tulajdonsagok"],
+        "combat":       {},
+    }
+
+    # Compute combat values from DB
+    try:
+        combat_full = calculate_combat_stats(
+            kaszt_nev = concept["class_name"],
+            props     = props_result["tulajdonsagok"],
+            szint     = concept["level"],
+        )
+        stat_block["combat"] = {
+            "ke":          combat_full["ke"],
+            "te":          combat_full["te"],
+            "ve":          combat_full["ve"],
+            "ce":          combat_full["ce"],
+            "ep":          combat_full["ep"],
+            "fp":          combat_full["fp"],
+            "fp_formula":  combat_full["fp_formula_str"],
+            "kp":          combat_full["kp"],
+            "kp_per_szint": combat_full["alap_kp_per_szint"],
+            "hm":          combat_full["szabad_hm_ossz"],
+        }
+    except ValueError as e:
+        logger.warning("Ismeretlen kaszt a DB-ben: {kaszt} — {e}", kaszt=concept["class_name"], e=e)
+
     stat_summary = format_stat_block(stat_block)
 
     # Turn 2 — character (continuing the same conversation)
+    turn2_messages = [
+        {"role": "user", "content": user_msg},
+        {"role": "assistant", "content": r1.content},
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "tool_result",
+                    "tool_use_id": concept_tool_use_id,
+                    "content": (
+                        f"Alapadatok elfogadva. Kiszámított statisztikák:\n{stat_summary}\n\n"
+                        "Most alkoss meg egy hiteles MAGUS-stílusú karaktert ezekre a számokra alapozva. "
+                        "A statisztikák tükröződjenek a személyiségben."
+                    ),
+                }
+            ],
+        },
+    ]
+
+    logger.info("NPC gen turn 2 — character")
     r2 = client.messages.create(
         model=MODEL,
         max_tokens=800,
         system=system_blocks,
         tools=[_CONCEPT_TOOL, _CHARACTER_TOOL],
         tool_choice={"type": "tool", "name": "create_npc_character"},
-        messages=[
-            {"role": "user", "content": user_msg},
-            {"role": "assistant", "content": r1.content},
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "tool_result",
-                        "tool_use_id": concept_tool_use_id,
-                        "content": (
-                            f"Alapadatok elfogadva. Kiszámított statisztikák:\n{stat_summary}\n\n"
-                            "Most alkoss meg egy hiteles MAGUS-stílusú karaktert ezekre a számokra alapozva. "
-                            "A statisztikák tükröződjenek a személyiségben."
-                        ),
-                    }
-                ],
-            },
-        ],
+        messages=turn2_messages,
+    )
+    log_claude_call(
+        stage="npc_character",
+        model=MODEL,
+        messages=turn2_messages,
+        response=r2,
     )
 
     character = None
@@ -288,6 +357,8 @@ def _generate_npc_single_call(
 
     if character is None:
         raise RuntimeError("NPC character generation returned no tool call")
+
+    logger.info("NPC character generated — name={name}", name=character.get("name"))
 
     return concept, stat_block, character
 

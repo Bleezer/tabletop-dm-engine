@@ -3,7 +3,7 @@ Text formatters for MAGUS character sheets.
 """
 from __future__ import annotations
 
-from engine.magus.properties import TULAJDONSAGOK, TULAJDONSAG_NEVEK
+from engine.magus.core.properties import TULAJDONSAGOK, TULAJDONSAG_NEVEK
 
 
 def format_result(result: dict, verbose: bool = False) -> str:

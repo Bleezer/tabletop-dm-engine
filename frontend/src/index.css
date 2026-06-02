@@ -4,46 +4,56 @@
 
 /* ─── Magus Theme ─────────────────────────────────────────────────── */
 [data-theme="magus"] {
-  --th-bg:          #0d0804;
-  --th-surface:     #1c0f08;
-  --th-surface2:    #2a1a0c;
-  --th-border:      #4a2812;
-  --th-text:        #e8d4b2;
-  --th-muted:       #8a6845;
-  --th-accent:      #8b1a1a;
-  --th-accent-lt:   #b52020;
-  --th-accent-glow: rgba(139, 26, 26, 0.35);
-  --th-paper:       #c8a97e;
-  --th-paper-dk:    #b49060;
-  --th-ink:         #1e0c05;
-  --th-ink-muted:   #5a3015;
-  --th-gold:        #c9950e;
-  --th-gold-lt:     #e8b020;
-  --th-gold-glow:   rgba(201, 149, 14, 0.4);
-  --font-display:   'Cinzel', Georgia, serif;
-  --font-body:      'Crimson Pro', Georgia, serif;
+  --th-bg:            #0b0b0d;
+  --th-surface:       #141114;
+  --th-surface2:      #1b1718;
+  --th-bg-muted:      #221d1d;
+  --th-border:        #3a2f2f;
+  --th-border-strong: #6b4b2e;
+  --th-text:          #e7dcc8;
+  --th-muted:         #b8aa94;
+  --th-faint:         #7d7164;
+  --th-danger:        #c46a5a;
+  --th-accent:        #7a1e1e;
+  --th-accent-lt:     #a83232;
+  --th-accent-glow:   rgba(122, 30, 30, 0.35);
+  --th-paper:         #d6c29a;
+  --th-paper-dk:      #c0a87a;
+  --th-ink:           #1a110a;
+  --th-ink-muted:     #4a3520;
+  --th-gold:          #b08a4a;
+  --th-gold-lt:       #c9a060;
+  --th-gold-glow:     rgba(176, 138, 74, 0.3);
+  --font-display:     'Cinzel', Georgia, serif;
+  --font-body:        'Inter', 'Source Sans 3', system-ui, sans-serif;
+  --font-lore:        'Crimson Pro', Georgia, serif;
 }
 
 /* ─── Star Wars Theme ─────────────────────────────────────────────── */
 [data-theme="starwars"] {
-  --th-bg:          #000510;
-  --th-surface:     #05091a;
-  --th-surface2:    #0a1025;
-  --th-border:      #1a3060;
-  --th-text:        #e0f0ff;
-  --th-muted:       #5080a0;
-  --th-accent:      #ffe400;
-  --th-accent-lt:   #fff060;
-  --th-accent-glow: rgba(255, 228, 0, 0.3);
-  --th-paper:       #0d1a35;
-  --th-paper-dk:    #0a1528;
-  --th-ink:         #b0d0f0;
-  --th-ink-muted:   #607090;
-  --th-gold:        #ffe400;
-  --th-gold-lt:     #ffed60;
-  --th-gold-glow:   rgba(255, 228, 0, 0.4);
-  --font-display:   'Orbitron', sans-serif;
-  --font-body:      'Exo 2', sans-serif;
+  --th-bg:            #000510;
+  --th-surface:       #05091a;
+  --th-surface2:      #0a1025;
+  --th-bg-muted:      #0d1530;
+  --th-border:        #1a3060;
+  --th-border-strong: #2a4a90;
+  --th-text:          #e0f0ff;
+  --th-muted:         #5080a0;
+  --th-faint:         #304860;
+  --th-danger:        #ff6b6b;
+  --th-accent:        #ffe400;
+  --th-accent-lt:     #fff060;
+  --th-accent-glow:   rgba(255, 228, 0, 0.3);
+  --th-paper:         #0d1a35;
+  --th-paper-dk:      #0a1528;
+  --th-ink:           #b0d0f0;
+  --th-ink-muted:     #607090;
+  --th-gold:          #ffe400;
+  --th-gold-lt:       #ffed60;
+  --th-gold-glow:     rgba(255, 228, 0, 0.4);
+  --font-display:     'Orbitron', sans-serif;
+  --font-body:        'Exo 2', sans-serif;
+  --font-lore:        'Exo 2', sans-serif;
 }
 
 /* ─── Base ────────────────────────────────────────────────────────── */
@@ -56,8 +66,8 @@ body {
   background-color: var(--th-bg);
   color: var(--th-text);
   font-family: var(--font-body);
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 1.65;
   min-height: 100vh;
 }
 
@@ -78,7 +88,7 @@ body {
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--th-muted);
+  background: var(--th-border-strong);
 }
 
 /* ─── Typography ──────────────────────────────────────────────────── */
@@ -88,22 +98,34 @@ h1, h2, h3, h4 {
   letter-spacing: 0.05em;
 }
 
-/* ─── Paper Card ──────────────────────────────────────────────────── */
+/* ─── Paper Card (parchment) ──────────────────────────────────────── */
 .paper-card {
   background: var(--th-paper);
   color: var(--th-ink);
   border: 1px solid var(--th-paper-dk);
-  border-radius: 2px;
+  border-radius: 3px;
   position: relative;
 }
 
 [data-theme="magus"] .paper-card {
   background-image:
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E"),
-    linear-gradient(135deg, var(--th-paper) 0%, var(--th-paper-dk) 100%);
+    linear-gradient(160deg, #d9c89f 0%, #c8b080 50%, #d2bc90 100%);
   box-shadow:
-    inset 0 0 30px rgba(101, 58, 10, 0.15),
-    0 4px 12px rgba(0, 0, 0, 0.5);
+    inset 0 0 40px rgba(80, 45, 10, 0.12),
+    0 4px 16px rgba(0, 0, 0, 0.6);
+}
+
+/* ─── Dark Archive Panel ──────────────────────────────────────────── */
+.archive-panel {
+  background: linear-gradient(180deg, var(--th-surface2) 0%, var(--th-surface) 100%);
+  border: 1px solid var(--th-border);
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.archive-panel-gold {
+  border-top: 2px solid var(--th-gold);
 }
 
 /* ─── Rune Divider ────────────────────────────────────────────────── */
@@ -112,21 +134,30 @@ h1, h2, h3, h4 {
   align-items: center;
   gap: 0.75rem;
   color: var(--th-gold);
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 1rem 0;
+  opacity: 0.7;
 }
 .rune-divider::before,
 .rune-divider::after {
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(to right, transparent, var(--th-border), transparent);
+  background: linear-gradient(to right, transparent, var(--th-border-strong), transparent);
 }
 
-/* ─── DM Notes ────────────────────────────────────────────────────── */
+/* ─── DM Notes / Secret block ─────────────────────────────────────── */
 .dm-notes-block {
-  border-left: 3px solid var(--th-accent);
-  background: rgba(139, 26, 26, 0.08);
+  border-left: 3px solid var(--th-accent-lt);
+  background: rgba(122, 30, 30, 0.1);
+  border-radius: 0 3px 3px 0;
+}
+
+.secret-block {
+  border-left: 3px solid var(--th-accent-lt);
+  background: rgba(122, 30, 30, 0.12);
+  border-radius: 0 3px 3px 0;
+  padding: 0.65rem 0.85rem;
 }
 
 /* ─── Stat grid ───────────────────────────────────────────────────── */
@@ -148,13 +179,13 @@ h1, h2, h3, h4 {
 .sidebar-link {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  padding: 0.55rem 1rem;
-  border-radius: 3px;
+  gap: 0.65rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
   color: var(--th-muted);
   font-family: var(--font-display);
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.15s ease;
@@ -166,12 +197,12 @@ h1, h2, h3, h4 {
 }
 .sidebar-link:hover {
   color: var(--th-text);
-  background: rgba(255,255,255,0.05);
+  background: rgba(176, 138, 74, 0.06);
 }
 .sidebar-link.active {
   color: var(--th-gold);
-  background: rgba(139, 26, 26, 0.2);
-  border-left: 2px solid var(--th-accent);
+  background: rgba(122, 30, 30, 0.18);
+  border-left: 2px solid var(--th-gold);
   padding-left: calc(1rem - 2px);
 }
 
@@ -182,28 +213,41 @@ h1, h2, h3, h4 {
   color: var(--th-text);
   border: 1px solid var(--th-border);
   border-radius: 3px;
-  padding: 0.6rem 0.8rem;
+  padding: 0.6rem 0.85rem;
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 0.95rem;
   outline: none;
-  transition: border-color 0.15s;
+  transition: border-color 0.15s, box-shadow 0.15s;
 }
 .th-input::placeholder {
-  color: var(--th-muted);
+  color: var(--th-faint);
   font-style: italic;
 }
 .th-input:focus {
-  border-color: var(--th-accent);
-  box-shadow: 0 0 0 2px var(--th-accent-glow);
+  border-color: var(--th-gold);
+  box-shadow: 0 0 0 2px rgba(176, 138, 74, 0.2);
+}
+
+/* ─── Badge ───────────────────────────────────────────────────────── */
+.dm-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 2px;
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid;
 }
 
 /* ─── Animations ──────────────────────────────────────────────────── */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
+  from { opacity: 0; transform: translateY(6px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 .fade-in {
-  animation: fadeIn 0.3s ease forwards;
+  animation: fadeIn 0.25s ease forwards;
 }
 
 @keyframes pulse-glow {
