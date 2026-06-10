@@ -228,6 +228,32 @@ h1, h2, h3, h4 {
   box-shadow: 0 0 0 2px rgba(176, 138, 74, 0.2);
 }
 
+/* ─── Archetype Manager animations ───────────────────────────────── */
+@keyframes arch-float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-3px); }
+}
+@keyframes arch-pulse-dot {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50%       { opacity: 1;   transform: scale(1.35); }
+}
+@keyframes arch-pulse-glow {
+  0%, 100% { opacity: 0.5; box-shadow: 0 0 4px var(--th-gold-glow); }
+  50%       { opacity: 1;   box-shadow: 0 0 10px var(--th-gold-glow); }
+}
+@keyframes arch-pulse-border {
+  0%, 100% { box-shadow: 0 0 4px var(--th-gold-glow); }
+  50%       { box-shadow: 0 0 12px var(--th-gold-glow); }
+}
+@keyframes arch-seal-rotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+@keyframes arch-dirty-in {
+  from { opacity: 0; transform: translateX(-8px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
 /* ─── Badge ───────────────────────────────────────────────────────── */
 .dm-badge {
   display: inline-flex;
