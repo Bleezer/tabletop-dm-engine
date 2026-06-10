@@ -77,6 +77,15 @@ function NpcResult({ npc }) {
   const conc = npc.concept ?? {}
   const importance = conc.importance ?? 'minor'
 
+  const vitals = [
+    ['KÉ', sb.combat?.ke],
+    ['TÉ', sb.combat?.te],
+    ['VÉ', sb.combat?.ve],
+    ['CÉ', sb.combat?.ce],
+    ['ÉP', sb.combat?.ep],
+    ['FP', sb.combat?.fp],
+  ].filter(([, v]) => v != null)
+
   return (
     <div className="fade-in" style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
       {/* Dossier header */}
@@ -98,6 +107,7 @@ function NpcResult({ npc }) {
               color: 'var(--th-gold)',
               margin: '0 0 0.2rem',
               textTransform: 'uppercase',
+              textShadow: '0 0 20px var(--th-gold-glow)',
             }}
           >
             {char.name ?? 'Névtelen'}
@@ -124,10 +134,58 @@ function NpcResult({ npc }) {
         </div>
       </div>
 
+      {vitals.length > 0 && (
+        <div
+          style={{
+            display: 'flex',
+            border: '1px solid var(--th-border)',
+            borderRadius: '4px',
+            overflow: 'hidden',
+            background: 'linear-gradient(180deg, var(--th-surface2), var(--th-surface))',
+          }}
+        >
+          {vitals.map(([label, val], i) => (
+            <div
+              key={label}
+              style={{
+                flex: 1,
+                textAlign: 'center',
+                padding: '0.5rem 0.25rem',
+                borderRight: i < vitals.length - 1 ? '1px solid var(--th-border)' : 'none',
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: 'var(--font-display)',
+                  fontSize: '1.05rem',
+                  fontWeight: 700,
+                  color: 'var(--th-gold)',
+                  lineHeight: 1.2,
+                }}
+              >
+                {val}
+              </div>
+              <div
+                style={{
+                  fontSize: '0.55rem',
+                  fontFamily: 'var(--font-display)',
+                  letterSpacing: '0.1em',
+                  textTransform: 'uppercase',
+                  color: 'var(--th-faint)',
+                  marginTop: '0.15rem',
+                }}
+              >
+                {label}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem' }}>
         {/* Left: character dossier */}
         <div
-          className="paper-card"
+          className="archive-panel"
           style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column' }}
         >
           {/* Badges */}
@@ -203,74 +261,6 @@ function NpcResult({ npc }) {
 
         {/* Right: stats */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-          {/* Combat values */}
-          <div
-            style={{
-              background: 'linear-gradient(180deg, var(--th-surface2), var(--th-surface))',
-              border: '1px solid var(--th-border)',
-              borderTop: '2px solid var(--th-border-strong)',
-              borderRadius: '3px',
-              padding: '0.9rem 1rem',
-            }}
-          >
-            <p
-              style={{
-                fontFamily: 'var(--font-display)',
-                fontSize: '0.65rem',
-                letterSpacing: '0.15em',
-                textTransform: 'uppercase',
-                color: 'var(--th-faint)',
-                margin: '0 0 0.7rem',
-              }}
-            >
-              Harci értékek
-            </p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.4rem' }}>
-              {[
-                ['ÉP', sb.combat?.ep],
-                ['KÉ', sb.combat?.ke],
-                ['TÉ', sb.combat?.te],
-                ['VÉ', sb.combat?.ve],
-                ['CÉ', sb.combat?.ce],
-                ['HM', sb.combat?.hm],
-              ]
-                .filter(([, v]) => v != null)
-                .map(([label, val]) => (
-                  <div
-                    key={label}
-                    style={{
-                      textAlign: 'center',
-                      padding: '0.4rem 0.2rem',
-                      background: 'rgba(0,0,0,0.2)',
-                      borderRadius: '2px',
-                    }}
-                  >
-                    <div
-                      style={{
-                        fontSize: '0.6rem',
-                        fontFamily: 'var(--font-display)',
-                        letterSpacing: '0.08em',
-                        color: 'var(--th-faint)',
-                        textTransform: 'uppercase',
-                      }}
-                    >
-                      {label}
-                    </div>
-                    <div
-                      style={{
-                        fontSize: '1.05rem',
-                        fontWeight: 700,
-                        color: 'var(--th-gold)',
-                        lineHeight: 1.2,
-                      }}
-                    >
-                      {val}
-                    </div>
-                  </div>
-                ))}
-            </div>
-          </div>
-
           {/* Attributes */}
           {sb.stats && (
             <div
