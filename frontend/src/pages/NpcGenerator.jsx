@@ -418,10 +418,8 @@ export default function NpcGenerator() {
       <div style={{ padding: '1.5rem 2rem', flex: 1 }}>
         {/* Input panel */}
         <div
+          className="archive-panel archive-panel-gold"
           style={{
-            background: 'linear-gradient(180deg, var(--th-surface2) 0%, var(--th-surface) 100%)',
-            border: '1px solid var(--th-border)',
-            borderRadius: '4px',
             padding: '1.25rem',
             marginBottom: '1.5rem',
             display: 'flex',
@@ -458,24 +456,26 @@ export default function NpcGenerator() {
                   key={r}
                   onClick={() => setRoleHint(r)}
                   style={{
-                    background: 'var(--th-surface)',
-                    border: '1px solid var(--th-border)',
+                    background: 'transparent',
+                    border: '1px solid var(--th-border-strong)',
                     borderRadius: '2px',
                     color: 'var(--th-faint)',
-                    fontSize: '0.7rem',
-                    padding: '2px 8px',
+                    fontSize: '0.72rem',
+                    padding: '2px 10px',
                     cursor: 'pointer',
                     fontFamily: 'var(--font-lore)',
                     fontStyle: 'italic',
-                    transition: 'border-color 0.1s, color 0.1s',
+                    transition: 'border-color 0.15s, color 0.15s, background 0.15s',
                   }}
                   onMouseEnter={e => {
-                    e.currentTarget.style.color = 'var(--th-muted)'
-                    e.currentTarget.style.borderColor = 'var(--th-border-strong)'
+                    e.currentTarget.style.color = 'var(--th-gold)'
+                    e.currentTarget.style.borderColor = 'var(--th-gold)'
+                    e.currentTarget.style.background = 'rgba(176,138,74,0.08)'
                   }}
                   onMouseLeave={e => {
                     e.currentTarget.style.color = 'var(--th-faint)'
-                    e.currentTarget.style.borderColor = 'var(--th-border)'
+                    e.currentTarget.style.borderColor = 'var(--th-border-strong)'
+                    e.currentTarget.style.background = 'transparent'
                   }}
                 >
                   {r}
@@ -517,9 +517,22 @@ export default function NpcGenerator() {
             onClick={handleGenerate}
             disabled={loading || !roleHint.trim()}
           >
+            {!loading && (
+              <span
+                style={{
+                  display: 'inline-block',
+                  marginRight: '0.5rem',
+                  animation: 'arch-seal-rotate 8s linear infinite',
+                }}
+              >
+                ✦
+              </span>
+            )}
             NPC generálása
           </Button>
         </div>
+
+        <RuneDivider symbol="⬥" />
 
         {loading && <Spinner label="NPC generálása..." size={36} />}
 
