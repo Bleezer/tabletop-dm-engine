@@ -41,6 +41,9 @@ frontend.log
 # Claude Code settings (local only)
 .claude/
 
+# Brainstorming visual companion sessions
+.superpowers/
+
 # IDE
 .vscode/
 .idea/
