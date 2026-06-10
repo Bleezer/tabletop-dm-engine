@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Header from '../components/layout/Header'
 import Button from '../components/ui/Button'
 import Spinner from '../components/ui/Spinner'
 import Badge, { ImportanceBadge, AttitudeBadge } from '../components/ui/Badge'
@@ -31,7 +30,7 @@ function DossierField({ label, children }) {
       <p
         style={{
           fontSize: '0.9rem',
-          color: 'var(--th-ink)',
+          color: 'var(--th-text)',
           fontFamily: 'var(--font-lore)',
           lineHeight: 1.6,
           margin: 0,
@@ -51,13 +50,13 @@ function StatRow({ label, value }) {
         display: 'flex',
         justifyContent: 'space-between',
         padding: '0.2rem 0',
-        borderBottom: '1px solid rgba(0,0,0,0.1)',
+        borderBottom: '1px solid var(--th-border)',
       }}
     >
       <span
         style={{
           fontSize: '0.68rem',
-          color: 'var(--th-ink-muted)',
+          color: 'var(--th-muted)',
           fontFamily: 'var(--font-display)',
           letterSpacing: '0.06em',
           textTransform: 'uppercase',
@@ -65,7 +64,7 @@ function StatRow({ label, value }) {
       >
         {label}
       </span>
-      <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--th-ink)' }}>{value}</span>
+      <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--th-gold-lt)' }}>{value}</span>
     </div>
   )
 }
@@ -147,12 +146,12 @@ function NpcResult({ npc }) {
             <p
               style={{
                 fontSize: '0.88rem',
-                color: 'var(--th-ink-muted)',
+                color: 'var(--th-muted)',
                 fontFamily: 'var(--font-lore)',
                 fontStyle: 'italic',
                 margin: '0 0 0.75rem',
                 paddingLeft: '0.75rem',
-                borderLeft: '2px solid var(--th-paper-dk)',
+                borderLeft: '2px solid var(--th-border-strong)',
               }}
             >
               „{char.speech_style}"
@@ -349,10 +348,72 @@ export default function NpcGenerator() {
 
   return (
     <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
-      <Header
-        title="NPC Generálás"
-        subtitle="Önálló karakter létrehozása — faj, kaszt és szint automatikus meghatározással"
-      />
+      <header
+        style={{
+          padding: '1.25rem 2rem 1rem',
+          borderBottom: '1px solid var(--th-border)',
+          background: 'var(--th-surface)',
+          position: 'relative',
+        }}
+      >
+        <p
+          style={{
+            fontFamily: 'var(--font-display)',
+            fontSize: '0.62rem',
+            letterSpacing: '0.22em',
+            textTransform: 'uppercase',
+            color: 'var(--th-faint)',
+            margin: '0 0 0.15rem',
+          }}
+        >
+          MAGUS · Mesélői Eszközök
+        </p>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <h2
+            style={{
+              fontFamily: 'var(--font-display)',
+              fontSize: '1rem',
+              letterSpacing: '0.14em',
+              textTransform: 'uppercase',
+              color: 'var(--th-gold)',
+              margin: 0,
+            }}
+          >
+            NPC Generálás
+          </h2>
+          <span
+            style={{
+              fontSize: '1.1rem',
+              color: 'var(--th-gold)',
+              animation: 'arch-float 4s ease-in-out infinite',
+            }}
+          >
+            †
+          </span>
+        </div>
+        <p
+          style={{
+            margin: '0.2rem 0 0',
+            fontSize: '0.85rem',
+            color: 'var(--th-faint)',
+            fontFamily: 'var(--font-lore)',
+            fontStyle: 'italic',
+          }}
+        >
+          Önálló karakter létrehozása — faj, kaszt és szint automatikus meghatározással
+        </p>
+        <div
+          style={{
+            position: 'absolute',
+            bottom: '-1px',
+            left: '2rem',
+            width: '25%',
+            height: '2px',
+            background: 'var(--th-gold)',
+            animation: 'arch-pulse-glow 2.5s ease-in-out infinite',
+          }}
+        />
+      </header>
 
       <div style={{ padding: '1.5rem 2rem', flex: 1 }}>
         {/* Input panel */}
