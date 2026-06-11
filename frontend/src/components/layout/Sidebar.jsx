@@ -3,10 +3,11 @@ import { useTheme, THEMES } from '../../context/ThemeContext'
 import { useSaved } from '../../context/SavedResultsContext'
 
 const NAV = [
-  { to: '/',         icon: '◈', label: 'Főoldal' },
-  { to: '/location', icon: '⌖', label: 'Helyszín' },
-  { to: '/npc',      icon: '†', label: 'NPC' },
-  { to: '/saved',    icon: '≡', label: 'Mentések' },
+  { to: '/',              icon: '◈', label: 'Főoldal' },
+  { to: '/location',      icon: '⌖', label: 'Helyszín' },
+  { to: '/npc',           icon: '†', label: 'NPC' },
+  { to: '/archetipusok',  icon: '⚙', label: 'Archetípusok' },
+  { to: '/saved',         icon: '≡', label: 'Mentések' },
 ]
 
 export default function Sidebar() {

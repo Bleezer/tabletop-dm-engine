@@ -6,16 +6,21 @@ You are a senior product designer and frontend UI stylist. Your task is to resty
 
 The website already exists. Do not redesign the product logic. Do not remove functionality. Your job is to create and apply a coherent visual style system.
 
-The app contains tools such as:
+The app currently contains these pages (routes):
 
-* character generator
-* NPC generator
-* location generator
-* faction / house generator
-* adventure hooks
-* campaign notes
-* timeline / event tools
-* secret GM information panels
+* **Dashboard** (`/`) — overview and quick actions
+* **NPC Generator** (`/npc`) — AI-powered NPC creation with MAGUS stats
+* **Location Generator** (`/location`) — AI-generated scene descriptions with NPCs
+* **Saved Results** (`/saved`) — saved NPCs and locations from past sessions
+* **Character Sheet** (`/karakterek/:id`) — printable, full-page character dossier
+* **Archetype Manager** (`/archetipusok`) — skill set templates for character creation
+
+Planned / future tools (not yet implemented):
+
+* faction / noble house generator
+* adventure hook generator
+* campaign notes / chronicle
+* timeline / event tracker
 
 The style must support practical use during tabletop RPG preparation and play.
 

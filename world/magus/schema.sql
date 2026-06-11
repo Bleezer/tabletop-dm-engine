@@ -137,6 +137,27 @@ CREATE TABLE IF NOT EXISTS kaszt_xp_kuszob (
 );
 
 -- ---------------------------------------------------------------------------
+-- Archetypes (archetípusok) — class-independent skill priority lists
+-- ---------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS archetipusok (
+    id          INTEGER PRIMARY KEY,
+    nev         TEXT    NOT NULL UNIQUE,
+    leiras      TEXT,
+    ikon        TEXT    NOT NULL DEFAULT '⚔',
+    letrehozva  TEXT    NOT NULL DEFAULT (datetime('now')),
+    frissitve   TEXT    NOT NULL DEFAULT (datetime('now'))
+);
+
+-- Skills belonging to an archetype, ordered by priority
+CREATE TABLE IF NOT EXISTS archetipus_kepzettsegek (
+    id              INTEGER PRIMARY KEY,
+    archetipus_id   INTEGER NOT NULL REFERENCES archetipusok(id) ON DELETE CASCADE,
+    kepzettseg_id   INTEGER NOT NULL REFERENCES kepzettsegek(id),
+    prioritas       INTEGER NOT NULL DEFAULT 0,
+    cel_fok         TEXT    NOT NULL DEFAULT 'alap'
+);
+
+-- ---------------------------------------------------------------------------
 -- Generated characters (PCs and NPCs)
 -- Core generation data is stored as JSON; narrative fields are nullable and
 -- can be filled in later (manually or via the Claude API pipeline).

@@ -7,6 +7,7 @@ import LocationGenerator from './pages/LocationGenerator'
 import NpcGenerator from './pages/NpcGenerator'
 import SavedResults from './pages/SavedResults'
 import CharacterSheet from './pages/CharacterSheet'
+import ArchetypeManager from './pages/ArchetypeManager'
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
               <Route path="location" element={<LocationGenerator />} />
               <Route path="npc" element={<NpcGenerator />} />
               <Route path="saved" element={<SavedResults />} />
+              <Route path="archetipusok" element={<ArchetypeManager />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Route>
           </Routes>

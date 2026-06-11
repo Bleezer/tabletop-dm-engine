@@ -67,3 +67,37 @@ export function updateKarakter(id, fields) {
 export function deleteKarakter(id) {
   return del(`/karakterek/${id}`)
 }
+
+export function listKepzettsegek() {
+  return get('/kepzettsegek')
+}
+
+export function listArchetipusok() {
+  return get('/archetipusok')
+}
+
+export function getArchetipus(id) {
+  return get(`/archetipusok/${id}`)
+}
+
+export function createArchetipus(body) {
+  return post('/archetipusok', body)
+}
+
+export function updateArchetipus(id, body) {
+  return fetch(`${API_BASE}/archetipusok/${id}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  }).then(async res => {
+    if (!res.ok) {
+      const detail = await res.text().catch(() => res.statusText)
+      throw new Error(`API ${res.status}: ${detail}`)
+    }
+    return res.json()
+  })
+}
+
+export function deleteArchetipus(id) {
+  return del(`/archetipusok/${id}`)
+}

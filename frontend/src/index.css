@@ -228,6 +228,16 @@ h1, h2, h3, h4 {
   box-shadow: 0 0 0 2px rgba(176, 138, 74, 0.2);
 }
 
+/* ─── Select dropdown options ────────────────────────────────────── */
+/* Native <option>/<optgroup> popups ignore inherited dark styling and
+   default to a light system background — force dark bg + light text
+   so the expanded list stays readable. */
+select option,
+select optgroup {
+  background-color: var(--th-surface2);
+  color: var(--th-text);
+}
+
 /* ─── Archetype Manager animations ───────────────────────────────── */
 @keyframes arch-float {
   0%, 100% { transform: translateY(0px); }

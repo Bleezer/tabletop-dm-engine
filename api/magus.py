@@ -1,12 +1,19 @@
 """
 FastAPI router for MAGUS DM engine endpoints.
 
-POST   /api/magus/location         — generate location + NPCs
-POST   /api/magus/npc              — generate NPC (auto-saved to DB, returns id)
-GET    /api/magus/karakterek       — list saved characters
-GET    /api/magus/karakterek/{id}  — get single character
-PATCH  /api/magus/karakterek/{id}  — update fields (nev, elotortenete, celok, …)
-DELETE /api/magus/karakterek/{id}  — delete character
+POST   /api/magus/location              — generate location + NPCs
+POST   /api/magus/npc                   — generate NPC (auto-saved to DB, returns id)
+GET    /api/magus/karakterek            — list saved characters
+GET    /api/magus/karakterek/{id}       — get single character
+PATCH  /api/magus/karakterek/{id}       — update fields (nev, elotortenete, celok, …)
+DELETE /api/magus/karakterek/{id}       — delete character
+
+GET    /api/magus/kepzettsegek          — all skills (for dropdowns)
+GET    /api/magus/archetipusok          — list all archetypes
+POST   /api/magus/archetipusok          — create archetype
+GET    /api/magus/archetipusok/{id}     — get archetype with skill list
+PUT    /api/magus/archetipusok/{id}     — replace archetype
+DELETE /api/magus/archetipusok/{id}     — delete archetype
 """
 
 from __future__ import annotations
@@ -25,6 +32,14 @@ from engine.magus.core.karakter import (
     update_karakter,
     delete_karakter,
     get_kepzettsegek,
+)
+from engine.magus.core.archetipus import (
+    list_archetipusok,
+    get_archetipus,
+    create_archetipus,
+    update_archetipus,
+    delete_archetipus,
+    list_kepzettsegek,
 )
 
 import anthropic
@@ -51,6 +66,18 @@ class LocationRequest(BaseModel):
 class NpcRequest(BaseModel):
     location_context: str = ""
     role_hint: str
+
+
+class ArchetipusKepzettsegItem(BaseModel):
+    kepzettseg_id: int
+    cel_fok: str = "alap"
+
+
+class ArchetipusBody(BaseModel):
+    nev: str
+    leiras: str | None = None
+    ikon: str = '⚔'
+    kepzettsegek: list[ArchetipusKepzettsegItem] = []
 
 
 class KarakterPatch(BaseModel):
@@ -156,3 +183,83 @@ async def delete_endpoint(karakter_id: int) -> dict:
     if not deleted:
         raise HTTPException(status_code=404, detail=f"Karakter nem található: {karakter_id}")
     return {"deleted": karakter_id}
+
+
+# ---------------------------------------------------------------------------
+# Skills list (for dropdown population)
+# ---------------------------------------------------------------------------
+
+@router.get("/kepzettsegek")
+async def kepzettsegek_endpoint() -> list[dict]:
+    try:
+        return list_kepzettsegek()
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
+# ---------------------------------------------------------------------------
+# Archetype CRUD
+# ---------------------------------------------------------------------------
+
+@router.get("/archetipusok")
+async def list_archetipusok_endpoint() -> list[dict]:
+    try:
+        return list_archetipusok()
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
+@router.post("/archetipusok")
+async def create_archetipus_endpoint(body: ArchetipusBody) -> dict:
+    if not body.nev.strip():
+        raise HTTPException(status_code=422, detail="nev nem lehet üres")
+    try:
+        new_id = create_archetipus(
+            body.nev.strip(),
+            body.leiras,
+            [k.model_dump() for k in body.kepzettsegek],
+            ikon=body.ikon,
+        )
+        return get_archetipus(new_id)
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
+@router.get("/archetipusok/{archetipus_id}")
+async def get_archetipus_endpoint(archetipus_id: int) -> dict:
+    try:
+        return get_archetipus(archetipus_id)
+    except ValueError:
+        raise HTTPException(status_code=404, detail=f"Archetípus nem található: {archetipus_id}")
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
+@router.put("/archetipusok/{archetipus_id}")
+async def update_archetipus_endpoint(archetipus_id: int, body: ArchetipusBody) -> dict:
+    if not body.nev.strip():
+        raise HTTPException(status_code=422, detail="nev nem lehet üres")
+    try:
+        update_archetipus(
+            archetipus_id,
+            body.nev.strip(),
+            body.leiras,
+            [k.model_dump() for k in body.kepzettsegek],
+            ikon=body.ikon,
+        )
+        return get_archetipus(archetipus_id)
+    except ValueError:
+        raise HTTPException(status_code=404, detail=f"Archetípus nem található: {archetipus_id}")
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
+@router.delete("/archetipusok/{archetipus_id}")
+async def delete_archetipus_endpoint(archetipus_id: int) -> dict:
+    try:
+        deleted = delete_archetipus(archetipus_id)
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+    if not deleted:
+        raise HTTPException(status_code=404, detail=f"Archetípus nem található: {archetipus_id}")
+    return {"deleted": archetipus_id}
