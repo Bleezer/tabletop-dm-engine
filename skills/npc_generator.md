@@ -12,6 +12,19 @@ Az NPC fizikai megjelenését mindig kösd össze a kiszámított statisztikákk
 - **Alacsony Asztrál (8-)**: Emócionálisan ingadozó, hirtelen érzelmi reakciókat adó személyiség, bizonytalan
 - **Magas Ügyesség (15+)**: Kecses mozgás, alig hallható léptek, gyors reflexek, fürge kezek
 - **Kaszt és szint nyomai**: Egy magas szintű harcos viseli a csaták emlékeit; egy mágus ruháján mágikus szimbólumok vagy égési nyomok; egy tolvaj észrevétlenül olvad be a háttérbe
+- **Szint és kor összefüggése** (`age_description`): szint 1–3 → fiatal, tapasztalatlan; szint 4–7 → középkorú, tapasztalt; szint 8–11 → idős/érett, mester; szint 12+ → veterán, legendás múlttal. Az `age_description` tükrözze ezt (pl. "fiatal", "középkorú", "idős mestere a mesterségének").
+
+## Idegenekhez való viszonyulás
+
+Az `attitude_to_strangers` mező értékei: **barátságos / semleges / gyanakvó / ellenséges**
+
+Ez az NPC ALAPÁLLAPOTÁT jelzi az ismeretlen kalandozókkal szemben — a konkrét helyzetben ez változhat, de ez az első találkozás kiindulópontja:
+- **barátságos**: nyitott, segítőkész, szívesen szóba áll
+- **semleges**: üzletszerű, nem barátságos, de nem is ellenséges; az érdeke dönti el
+- **gyanakvó**: megfontolt, visszafogott, teszteli az idegeneket mielőtt megbízna bennük
+- **ellenséges**: aktívan ellenszenves, esetleg fenyegető; kell valami ok, hogy együttműködjön
+
+A motiváció, háttér és szerep logikusan indokolja ezt az értéket — ne legyen véletlenszerű.
 
 ## Személyiség
 
